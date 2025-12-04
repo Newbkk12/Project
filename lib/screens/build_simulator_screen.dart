@@ -1,3 +1,5 @@
+// หน้า Build Simulator ที่ปรับแต่งได้ตามขนาดหน้าจอ หน้าหลักของแอปพลิเคชัน
+
 import 'package:flutter/material.dart';
 
 import '../widgets/build_page/character_stats_section.dart';
@@ -77,8 +79,9 @@ class BuildSimulatorScreen extends StatelessWidget {
                 const VerticalDivider(
                   thickness: 1,
                   width: 1,
-                  color: Colors.white10,
+                  color: Color.fromARGB(26, 240, 237, 237),
                 ),
+                Padding(padding: const EdgeInsets.only(left: 27)),
               ],
 
               // เนื้อหาหลัก
@@ -98,9 +101,6 @@ class BuildSimulatorScreen extends StatelessWidget {
   }
 
   Widget _buildMainContent({required bool isMobile, required double width}) {
-    // สำคัญมาก: อย่าใช้ Padding(all: 24) แบบเดิมเด็ดขาด!
-    // เปลี่ยนเป็น SafeArea + Padding เฉพาะด้านขวา/ล่าง แทน
-
     return SafeArea(
       left:
           false, // สำคัญ! อย่าให้ SafeArea ทับซ้าย → ปล่อยให้ Rail อยู่เต็มพื้นที่
@@ -111,6 +111,7 @@ class BuildSimulatorScreen extends StatelessWidget {
           top: 24,
           right: 24,
           bottom: 24,
+          left: isMobile ? 24 : 0,
         ),
         child: Container(
           width: double.infinity,

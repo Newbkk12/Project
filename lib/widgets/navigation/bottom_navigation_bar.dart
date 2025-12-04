@@ -1,3 +1,5 @@
+//แถบการนำทางด้านล่างที่กำหนดเองสำหรับแอปพลิเคชัน
+
 import 'package:flutter/material.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {

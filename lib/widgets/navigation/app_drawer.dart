@@ -1,3 +1,5 @@
+//หน้าเมนูด้านข้าง (Drawer) สำหรับการนำทางในแอปพลิเคชัน
+
 import 'package:flutter/material.dart';
 
 class AppDrawer extends StatelessWidget {

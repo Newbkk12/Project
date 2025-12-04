@@ -1,4 +1,4 @@
-// widgets/navigation/custom_navigation_rail.dart
+// แถบนำทางด้านข้างที่กำหนดเองสำหรับหน้าเว็บแอป
 import 'package:flutter/material.dart';
 
 class CustomNavigationRail extends StatefulWidget {
@@ -23,7 +23,7 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
       onDestinationSelected: (i) => setState(() => _selectedIndex = i),
       extended: _isExtended,
       minWidth: 72,
-      minExtendedWidth: 220,
+      minExtendedWidth: 180,
 
       // ฟอนต์ + ไอคอน เปลี่ยนตามสถานะ
       selectedIconTheme: IconThemeData(
