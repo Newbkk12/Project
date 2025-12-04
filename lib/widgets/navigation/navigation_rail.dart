@@ -22,18 +22,10 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
       selectedIndex: _selectedIndex,
       onDestinationSelected: (i) => setState(() => _selectedIndex = i),
       extended: _isExtended,
-      minWidth: 72,
-      minExtendedWidth: 180,
+      minWidth: 60,
+      minExtendedWidth: 155,
 
-      // ฟอนต์ + ไอคอน เปลี่ยนตามสถานะ
-      selectedIconTheme: IconThemeData(
-        color: Colors.cyanAccent,
-        size: _isExtended ? 28 : 24,
-      ),
-      unselectedIconTheme: IconThemeData(
-        color: Colors.white70,
-        size: _isExtended ? 26 : 24,
-      ),
+      // ฟอนต์ เปลี่ยนตามสถานะ
       selectedLabelTextStyle: TextStyle(
         color: Colors.cyanAccent,
         fontWeight: FontWeight.bold,
