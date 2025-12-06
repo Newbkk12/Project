@@ -79,7 +79,7 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
 
       // ฟอนต์ เปลี่ยนตามสถานะ
       selectedLabelTextStyle: TextStyle(
-        color: Colors.cyanAccent,
+        color: const Color(0xFF10A37F),
         fontWeight: FontWeight.bold,
         fontSize: _isExtended ? 15 : 12,
       ),
@@ -88,7 +88,7 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
         fontSize: _isExtended ? 14 : 11,
       ),
 
-      indicatorColor: const Color.fromRGBO(24, 255, 255, 0.3),
+      indicatorColor: const Color(0xFF10A37F).withValues(alpha: 0.3),
       useIndicator: true,
 
       // ────────────────────────────────
@@ -96,18 +96,18 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
       // ────────────────────────────────
       destinations: const [
         NavigationRailDestination(
-          icon: Icon(Icons.build_outlined),
-          selectedIcon: Icon(Icons.build),
+          icon: Icon(Icons.build_outlined, color: Colors.white70),
+          selectedIcon: Icon(Icons.build, color: Color(0xFF10A37F)),
           label: Text("Build"),
         ),
         NavigationRailDestination(
-          icon: Icon(Icons.folder_open_outlined),
-          selectedIcon: Icon(Icons.folder_open),
+          icon: Icon(Icons.folder_open_outlined, color: Colors.white70),
+          selectedIcon: Icon(Icons.folder_open, color: Color(0xFF10A37F)),
           label: Text("Database"),
         ),
         NavigationRailDestination(
-          icon: Icon(Icons.settings_outlined),
-          selectedIcon: Icon(Icons.settings),
+          icon: Icon(Icons.settings_outlined, color: Colors.white70),
+          selectedIcon: Icon(Icons.settings, color: Color(0xFF10A37F)),
           label: Text("Settings"),
         ),
       ],

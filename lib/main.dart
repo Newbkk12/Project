@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'screens/build_simulator_screen.dart';
@@ -13,19 +14,37 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Toram Item Build Simulation',
-      theme: ThemeData.dark().copyWith(
+      title: 'Toram Build Simulator',
+      scrollBehavior: NoGlowScrollBehavior(), // เพิ่มบรรทัดนี้แค่บรรทัดเดียว
+      theme: ThemeData(
+        fontFamily: 'Kanit',
         scaffoldBackgroundColor: const Color(0xFF192127),
-        textTheme: GoogleFonts.sarabunTextTheme(
-          ThemeData.dark().textTheme,
-        ).apply(
-          fontFamily: GoogleFonts.sarabun().fontFamily,
-        ),
-        primaryTextTheme: GoogleFonts.sarabunTextTheme(
-          ThemeData.dark().primaryTextTheme,
-        ),
+        textTheme: GoogleFonts.sarabunTextTheme(ThemeData.dark().textTheme),
       ),
       home: const BuildSimulatorScreen(),
     );
   }
+}
+
+// เพิ่ม class นี้ไว้ใน main.dart หรือไฟล์ utils ก็ได้
+class NoGlowScrollBehavior extends MaterialScrollBehavior {
+  // ปิด glow ทั้งหมด (ขาว/น้ำเงิน/ทุกสี)
+  @override
+  Widget buildOverscrollIndicator(
+      BuildContext context, Widget child, ScrollableDetails details) {
+    return child;
+  }
+
+  // ปิดการเด้งย้วยแบบ iOS (ถ้าอยากให้ scroll แน่น ๆ แบบ Android)
+  @override
+  ScrollPhysics getScrollPhysics(BuildContext context) {
+    return const ClampingScrollPhysics();
+  }
+
+  // รองรับทั้ง mouse และ touch
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+      };
 }
