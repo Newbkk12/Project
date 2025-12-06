@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/character_stats.dart';
 
-class CharacterStatsCard extends StatelessWidget {
+class CharacterStatsCard extends StatefulWidget {
   final CharacterStats character;
   final VoidCallback onStatsChanged;
 
@@ -11,6 +11,11 @@ class CharacterStatsCard extends StatelessWidget {
     required this.onStatsChanged,
   });
 
+  @override
+  State<CharacterStatsCard> createState() => _CharacterStatsCardState();
+}
+
+class _CharacterStatsCardState extends State<CharacterStatsCard> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,42 +31,62 @@ class CharacterStatsCard extends StatelessWidget {
         children: [
           _statSlider(
             label: 'STR',
-            value: character.str,
+            value: widget.character.str,
             onChanged: (v) {
-              character.str = v;
-              onStatsChanged();
+              setState(() {
+                widget.character.str = v;
+              });
+            },
+            onChangeEnd: () {
+              widget.onStatsChanged();
             },
           ),
           _statSlider(
             label: 'INT',
-            value: character.intStat,
+            value: widget.character.intStat,
             onChanged: (v) {
-              character.intStat = v;
-              onStatsChanged();
+              setState(() {
+                widget.character.intStat = v;
+              });
+            },
+            onChangeEnd: () {
+              widget.onStatsChanged();
             },
           ),
           _statSlider(
             label: 'VIT',
-            value: character.vit,
+            value: widget.character.vit,
             onChanged: (v) {
-              character.vit = v;
-              onStatsChanged();
+              setState(() {
+                widget.character.vit = v;
+              });
+            },
+            onChangeEnd: () {
+              widget.onStatsChanged();
             },
           ),
           _statSlider(
             label: 'AGI',
-            value: character.agi,
+            value: widget.character.agi,
             onChanged: (v) {
-              character.agi = v;
-              onStatsChanged();
+              setState(() {
+                widget.character.agi = v;
+              });
+            },
+            onChangeEnd: () {
+              widget.onStatsChanged();
             },
           ),
           _statSlider(
             label: 'DEX',
-            value: character.dex,
+            value: widget.character.dex,
             onChanged: (v) {
-              character.dex = v;
-              onStatsChanged();
+              setState(() {
+                widget.character.dex = v;
+              });
+            },
+            onChangeEnd: () {
+              widget.onStatsChanged();
             },
           ),
           const SizedBox(height: 12),
@@ -82,9 +107,9 @@ class CharacterStatsCard extends StatelessWidget {
             child: DropdownButtonHideUnderline(
               child: DropdownButton<String>(
                 dropdownColor: const Color(0xFF343541),
-                value: character.specialType.isEmpty
+                value: widget.character.specialType.isEmpty
                     ? null
-                    : character.specialType,
+                    : widget.character.specialType,
                 hint: const Text(
                   '-- ไม่มี Special Stat --',
                   style: TextStyle(fontSize: 12, color: Colors.white54),
@@ -102,24 +127,30 @@ class CharacterStatsCard extends StatelessWidget {
                   ),
                 ],
                 onChanged: (val) {
-                  character.specialType = val ?? '';
-                  if (character.specialType.isEmpty) {
-                    character.specialValue = 1;
-                  }
-                  onStatsChanged();
+                  setState(() {
+                    widget.character.specialType = val ?? '';
+                    if (widget.character.specialType.isEmpty) {
+                      widget.character.specialValue = 1;
+                    }
+                  });
+                  widget.onStatsChanged();
                 },
               ),
             ),
           ),
           const SizedBox(height: 8),
-          if (character.specialType.isNotEmpty)
+          if (widget.character.specialType.isNotEmpty)
             _statSlider(
               label: 'Special Value',
-              value: character.specialValue,
+              value: widget.character.specialValue,
               max: 255,
               onChanged: (v) {
-                character.specialValue = v;
-                onStatsChanged();
+                setState(() {
+                  widget.character.specialValue = v;
+                });
+              },
+              onChangeEnd: () {
+                widget.onStatsChanged();
               },
             ),
           const SizedBox(height: 10),
@@ -136,15 +167,15 @@ class CharacterStatsCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Total Stats: ${character.totalUsed}',
+                  'Total Stats: ${widget.character.totalUsed}',
                   style: const TextStyle(fontSize: 12),
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  'Remaining Points: ${character.remainingPoints}',
+                  'Remaining Points: ${widget.character.remainingPoints}',
                   style: TextStyle(
                     fontSize: 12,
-                    color: character.remainingPoints == 0
+                    color: widget.character.remainingPoints == 0
                         ? Colors.redAccent
                         : Colors.greenAccent,
                   ),
@@ -162,7 +193,12 @@ class CharacterStatsCard extends StatelessWidget {
     required int value,
     int max = 510,
     required ValueChanged<int> onChanged,
+    required VoidCallback onChangeEnd,
   }) {
+    final TextEditingController textController = TextEditingController(
+      text: value.toString(),
+    );
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
       child: Column(
@@ -179,24 +215,61 @@ class CharacterStatsCard extends StatelessWidget {
           const SizedBox(height: 4),
           Row(
             children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 6,
-                ),
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(
-                    colors: [Color(0xFF10A37F), Color(0xFF0d8a6b)],
-                  ),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  value.toString(),
+              SizedBox(
+                width: 70,
+                child: TextField(
+                  controller: textController,
+                  keyboardType: TextInputType.number,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w700,
                     fontSize: 12,
                   ),
+                  decoration: InputDecoration(
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 6,
+                    ),
+                    filled: true,
+                    fillColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: const BorderSide(
+                        color: Color(0xFF10A37F),
+                        width: 1,
+                      ),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: const BorderSide(
+                        color: Color(0xFF10A37F),
+                        width: 1,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: const BorderSide(
+                        color: Color(0xFF10A37F),
+                        width: 2,
+                      ),
+                    ),
+                  ),
+                  onChanged: (text) {
+                    final newValue = int.tryParse(text);
+                    if (newValue != null && newValue >= 1 && newValue <= max) {
+                      onChanged(newValue);
+                    }
+                  },
+                  onSubmitted: (text) {
+                    final newValue = int.tryParse(text);
+                    if (newValue != null && newValue >= 1 && newValue <= max) {
+                      onChanged(newValue);
+                      onChangeEnd();
+                    } else {
+                      textController.text = value.toString();
+                    }
+                  },
                 ),
               ),
               const SizedBox(width: 12),
@@ -218,7 +291,14 @@ class CharacterStatsCard extends StatelessWidget {
                     max: max.toDouble(),
                     divisions: max - 1,
                     value: value.toDouble().clamp(1, max.toDouble()),
-                    onChanged: (val) => onChanged(val.toInt()),
+                    onChanged: (val) {
+                      final intVal = val.toInt();
+                      onChanged(intVal);
+                      textController.text = intVal.toString();
+                    },
+                    onChangeEnd: (val) {
+                      onChangeEnd();
+                    },
                   ),
                 ),
               ),

@@ -1,10 +1,16 @@
 //แถบการนำทางด้านล่างที่กำหนดเองสำหรับแอปพลิเคชัน
 
 import 'package:flutter/material.dart';
+import '../../screens/build_simulator_screen.dart';
 import '../../screens/database_screen.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
-  const CustomBottomNavigationBar({super.key});
+  final int? initialIndex;
+
+  const CustomBottomNavigationBar({
+    super.key,
+    this.initialIndex,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,12 +21,33 @@ class CustomBottomNavigationBar extends StatelessWidget {
       unselectedItemColor: Colors.white70,
       selectedIconTheme: const IconThemeData(size: 28),
       unselectedIconTheme: const IconThemeData(size: 24),
-      currentIndex: 0,
+      currentIndex: initialIndex ?? 0,
       onTap: (i) {
-        if (i == 1) {
-          // Navigate to Database
-          Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => const DatabaseScreen()),
+        if (i == 0) {
+          // Navigate to Build Simulator with smooth transition
+          Navigator.of(context).pushReplacement(
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) =>
+                  const BuildSimulatorScreen(),
+              transitionsBuilder:
+                  (context, animation, secondaryAnimation, child) {
+                return FadeTransition(opacity: animation, child: child);
+              },
+              transitionDuration: const Duration(milliseconds: 200),
+            ),
+          );
+        } else if (i == 1) {
+          // Navigate to Database with smooth transition
+          Navigator.of(context).pushReplacement(
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) =>
+                  const DatabaseScreen(),
+              transitionsBuilder:
+                  (context, animation, secondaryAnimation, child) {
+                return FadeTransition(opacity: animation, child: child);
+              },
+              transitionDuration: const Duration(milliseconds: 200),
+            ),
           );
         }
       },

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/equipment_data.dart';
+import '../widgets/navigation/navigation_rail.dart';
+import '../widgets/navigation/bottom_navigation_bar.dart';
 
 class DatabaseScreen extends StatefulWidget {
   const DatabaseScreen({super.key});
@@ -12,6 +14,8 @@ class _DatabaseScreenState extends State<DatabaseScreen> {
   String _selectedCategory = 'All';
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
+  final GlobalKey<CustomNavigationRailState> _navRailKey =
+      GlobalKey<CustomNavigationRailState>();
 
   final List<String> _categories = [
     'All',
@@ -85,161 +89,216 @@ class _DatabaseScreenState extends State<DatabaseScreen> {
   Widget build(BuildContext context) {
     final filteredItems = _getFilteredItems();
 
-    return Scaffold(
-      backgroundColor: const Color(0xFF192127),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF10A37F),
-        elevation: 4,
-        title: const Text(
-          'Toram Online Database',
-          style: TextStyle(
-            fontFamily: 'Orbitron',
-            fontSize: 18,
-            fontWeight: FontWeight.w700,
-            color: Colors.white,
-          ),
-        ),
-      ),
-      body: Column(
-        children: [
-          // Search and Filter Section
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: const Color(0xFF1E1E1E),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.2),
-                  blurRadius: 4,
-                  offset: const Offset(0, 2),
-                ),
-              ],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final isWide = constraints.maxWidth >= 1024;
+
+        Widget body;
+        if (isWide) {
+          // Desktop: NavigationRail on left
+          body = Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              CustomNavigationRail(key: _navRailKey, initialIndex: 1),
+              Expanded(
+                child: _buildDatabaseContent(filteredItems),
+              ),
+            ],
+          );
+        } else {
+          // Mobile: only show content
+          body = _buildDatabaseContent(filteredItems);
+        }
+
+        return Scaffold(
+          backgroundColor: const Color(0xFF192127),
+          appBar: _buildHeader(isWide),
+          body: body,
+          bottomNavigationBar:
+              isWide ? null : const CustomBottomNavigationBar(initialIndex: 1),
+        );
+      },
+    );
+  }
+
+  PreferredSizeWidget _buildHeader(bool isWide) {
+    return AppBar(
+      backgroundColor: const Color(0xFF10A37F),
+      elevation: 4,
+      titleSpacing: 0,
+      automaticallyImplyLeading: false,
+      title: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Row(
+          children: [
+            if (isWide)
+              IconButton(
+                icon: const Icon(Icons.menu, color: Colors.white),
+                onPressed: () {
+                  _navRailKey.currentState?.toggleExtended();
+                },
+                tooltip: 'Menu',
+              ),
+            if (isWide) const SizedBox(width: 8),
+            const Image(
+              image: AssetImage('assets/icon/Logo.png'),
+              width: 32,
+              height: 32,
             ),
-            child: Column(
-              children: [
-                // Search bar
-                TextField(
-                  controller: _searchController,
-                  style: const TextStyle(color: Colors.white),
-                  decoration: InputDecoration(
-                    hintText: 'Search items...',
-                    hintStyle: const TextStyle(color: Colors.white54),
-                    prefixIcon:
-                        const Icon(Icons.search, color: Color(0xFF10A37F)),
-                    suffixIcon: _searchQuery.isNotEmpty
-                        ? IconButton(
-                            icon:
-                                const Icon(Icons.clear, color: Colors.white54),
-                            onPressed: () {
-                              setState(() {
-                                _searchController.clear();
-                                _searchQuery = '';
-                              });
-                            },
-                          )
-                        : null,
-                    filled: true,
-                    fillColor: const Color(0xFF313440),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(12),
-                      borderSide: BorderSide.none,
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(12),
-                      borderSide:
-                          const BorderSide(color: Color(0xFF10A37F), width: 2),
-                    ),
-                  ),
-                  onChanged: (value) {
-                    setState(() {
-                      _searchQuery = value;
-                    });
-                  },
-                ),
-                const SizedBox(height: 12),
-                // Category filter
-                SizedBox(
-                  height: 40,
-                  child: ListView.builder(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: _categories.length,
-                    itemBuilder: (context, index) {
-                      final category = _categories[index];
-                      final isSelected = category == _selectedCategory;
-                      return Padding(
-                        padding: const EdgeInsets.only(right: 8),
-                        child: FilterChip(
-                          label: Text(category),
-                          selected: isSelected,
-                          onSelected: (selected) {
-                            setState(() {
-                              _selectedCategory = category;
-                            });
-                          },
-                          backgroundColor: const Color(0xFF313440),
-                          selectedColor: const Color(0xFF10A37F),
-                          labelStyle: TextStyle(
-                            color: isSelected ? Colors.white : Colors.white70,
-                            fontWeight: isSelected
-                                ? FontWeight.bold
-                                : FontWeight.normal,
-                          ),
-                          checkmarkColor: Colors.white,
-                        ),
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ),
-          ),
-          // Results count
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            alignment: Alignment.centerLeft,
-            child: Text(
-              '${filteredItems.length} items found',
-              style: const TextStyle(
-                color: Colors.white70,
-                fontSize: 14,
+            const SizedBox(width: 8),
+            const Text(
+              'Toram Online Database',
+              style: TextStyle(
+                fontFamily: 'Orbitron',
+                fontSize: 18,
+                fontWeight: FontWeight.w700,
+                color: Colors.white,
               ),
             ),
-          ),
-          // Items list
-          Expanded(
-            child: filteredItems.isEmpty
-                ? Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.search_off,
-                          size: 64,
-                          color: Colors.white.withValues(alpha: 0.3),
-                        ),
-                        const SizedBox(height: 16),
-                        const Text(
-                          'No items found',
-                          style: TextStyle(
-                            color: Colors.white54,
-                            fontSize: 16,
-                          ),
-                        ),
-                      ],
-                    ),
-                  )
-                : ListView.builder(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                    itemCount: filteredItems.length,
-                    itemBuilder: (context, index) {
-                      final item = filteredItems[index];
-                      return _buildItemCard(item);
-                    },
-                  ),
-          ),
-        ],
+          ],
+        ),
       ),
+    );
+  }
+
+  Widget _buildDatabaseContent(List<EquipmentItem> filteredItems) {
+    return Column(
+      children: [
+        // Search and Filter Section
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: const Color(0xFF1E1E1E),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.2),
+                blurRadius: 4,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: Column(
+            children: [
+              // Search bar
+              TextField(
+                controller: _searchController,
+                style: const TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  hintText: 'Search items...',
+                  hintStyle: const TextStyle(color: Colors.white54),
+                  prefixIcon:
+                      const Icon(Icons.search, color: Color(0xFF10A37F)),
+                  suffixIcon: _searchQuery.isNotEmpty
+                      ? IconButton(
+                          icon: const Icon(Icons.clear, color: Colors.white54),
+                          onPressed: () {
+                            setState(() {
+                              _searchController.clear();
+                              _searchQuery = '';
+                            });
+                          },
+                        )
+                      : null,
+                  filled: true,
+                  fillColor: const Color(0xFF313440),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: BorderSide.none,
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide:
+                        const BorderSide(color: Color(0xFF10A37F), width: 2),
+                  ),
+                ),
+                onChanged: (value) {
+                  setState(() {
+                    _searchQuery = value;
+                  });
+                },
+              ),
+              const SizedBox(height: 12),
+              // Category filter
+              SizedBox(
+                height: 40,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: _categories.length,
+                  itemBuilder: (context, index) {
+                    final category = _categories[index];
+                    final isSelected = category == _selectedCategory;
+                    return Padding(
+                      padding: const EdgeInsets.only(right: 8),
+                      child: FilterChip(
+                        label: Text(category),
+                        selected: isSelected,
+                        onSelected: (selected) {
+                          setState(() {
+                            _selectedCategory = category;
+                          });
+                        },
+                        backgroundColor: const Color(0xFF313440),
+                        selectedColor: const Color(0xFF10A37F),
+                        labelStyle: TextStyle(
+                          color: isSelected ? Colors.white : Colors.white70,
+                          fontWeight:
+                              isSelected ? FontWeight.bold : FontWeight.normal,
+                        ),
+                        checkmarkColor: Colors.white,
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        ),
+        // Results count
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          alignment: Alignment.centerLeft,
+          child: Text(
+            '${filteredItems.length} items found',
+            style: const TextStyle(
+              color: Colors.white70,
+              fontSize: 14,
+            ),
+          ),
+        ),
+        // Items list
+        Expanded(
+          child: filteredItems.isEmpty
+              ? Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.search_off,
+                        size: 64,
+                        color: Colors.white.withValues(alpha: 0.3),
+                      ),
+                      const SizedBox(height: 16),
+                      const Text(
+                        'No items found',
+                        style: TextStyle(
+                          color: Colors.white54,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ],
+                  ),
+                )
+              : ListView.builder(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  itemCount: filteredItems.length,
+                  itemBuilder: (context, index) {
+                    final item = filteredItems[index];
+                    return _buildItemCard(item);
+                  },
+                ),
+        ),
+      ],
     );
   }
 

@@ -583,7 +583,7 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
           body = Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CustomNavigationRail(key: _navRailKey),
+              CustomNavigationRail(key: _navRailKey, initialIndex: 0),
               Expanded(
                 flex: 2,
                 child: SingleChildScrollView(
@@ -621,7 +621,7 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
           endDrawer: isWide ? null : _buildMobileDrawer(),
           body: body,
           bottomNavigationBar:
-              isWide ? null : const CustomBottomNavigationBar(),
+              isWide ? null : const CustomBottomNavigationBar(initialIndex: 0),
         );
       },
     );
@@ -803,8 +803,8 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
               final isWide = constraints.maxWidth >= 900;
               if (isWide) {
                 return Wrap(
-                  spacing: 5,
-                  runSpacing: 5,
+                  spacing: 20,
+                  runSpacing: 20,
                   children: [
                     SizedBox(
                       width: (constraints.maxWidth - 20) / 2,

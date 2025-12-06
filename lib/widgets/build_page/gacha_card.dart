@@ -66,7 +66,8 @@ class GachaCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
+        border:
+            Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
       ),
       padding: const EdgeInsets.all(20),
       child: Column(
@@ -185,7 +186,8 @@ class GachaCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.05),
         borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
+        border:
+            Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
       ),
       padding: const EdgeInsets.all(15),
       child: Column(
@@ -199,7 +201,7 @@ class GachaCard extends StatelessWidget {
                 title,
                 style: const TextStyle(
                   fontSize: 14,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w700,
                   color: Color(0xFF10A37F),
                 ),
               ),
@@ -311,7 +313,8 @@ class GachaRow extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.white.withValues(alpha: 0.08),
             borderRadius: BorderRadius.circular(6),
-            border: Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.3)),
+            border: Border.all(
+                color: const Color(0xFF10A37F).withValues(alpha: 0.3)),
           ),
           child: DropdownButtonHideUnderline(
             child: DropdownButton<String>(
