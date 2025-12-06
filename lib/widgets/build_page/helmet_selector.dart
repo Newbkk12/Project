@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/equipment_data.dart';
+import '../../providers/theme_provider.dart';
 
 /// HelmetSelector - Widget for selecting and configuring helmet
 ///
@@ -32,6 +33,8 @@ class HelmetSelector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
     final items = EquipmentData.itemsByType(EquipmentType.helmet);
     final selectedItem = EquipmentData.findItem(selectedId);
 
@@ -45,23 +48,24 @@ class HelmetSelector extends StatelessWidget {
           value: selectedId,
           items: items,
           onChanged: onEquipChanged,
+          context: context,
         ),
 
         if (selectedItem != null) ...[
           const SizedBox(height: 16),
 
           // Enhancement Slider
-          _buildEnhancementSlider(),
+          _buildEnhancementSlider(context),
 
           const SizedBox(height: 16),
 
           // Stats Display
-          _buildStatsDisplay(selectedItem),
+          _buildStatsDisplay(selectedItem, context),
 
           const SizedBox(height: 16),
 
           // Crystal Slots
-          _buildCrystalSlots(),
+          _buildCrystalSlots(context),
         ],
       ],
     );
@@ -73,7 +77,11 @@ class HelmetSelector extends StatelessWidget {
     required String? value,
     required List<EquipmentItem> items,
     required ValueChanged<String?> onChanged,
+    required BuildContext context,
   }) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -83,10 +91,10 @@ class HelmetSelector extends StatelessWidget {
             const SizedBox(width: 8),
             Text(
               label,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.w600,
-                color: Color(0xFF10A37F),
+                color: theme.primaryColor,
               ),
             ),
           ],
@@ -98,19 +106,21 @@ class HelmetSelector extends StatelessWidget {
             color: Colors.white.withValues(alpha: 0.05),
             borderRadius: BorderRadius.circular(8),
             border: Border.all(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+              color: theme.primaryColor.withValues(alpha: 0.3),
             ),
           ),
           child: DropdownButton<String>(
             value: value,
-            hint: const Text(
+            hint: Text(
               'Choose helmet...',
-              style: TextStyle(fontSize: 12, color: Colors.white54),
+              style: TextStyle(
+                  fontSize: 12,
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6)),
             ),
             isExpanded: true,
             underline: const SizedBox.shrink(),
-            dropdownColor: const Color(0xFF2A2A2A),
-            style: const TextStyle(fontSize: 12, color: Colors.white),
+            dropdownColor: customColors?.cardBackground ?? theme.cardColor,
+            style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurface),
             items: [
               const DropdownMenuItem<String>(
                 value: null,
@@ -130,7 +140,9 @@ class HelmetSelector extends StatelessWidget {
     );
   }
 
-  Widget _buildEnhancementSlider() {
+  Widget _buildEnhancementSlider(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -141,20 +153,20 @@ class HelmetSelector extends StatelessWidget {
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(width: 6),
-            const Text(
+            Text(
               'Enhancement: ',
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w500,
-                color: Colors.white70,
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               ),
             ),
             Text(
               '+$enhance',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF10A37F),
+                color: theme.primaryColor,
               ),
             ),
           ],
@@ -162,10 +174,10 @@ class HelmetSelector extends StatelessWidget {
         const SizedBox(height: 4),
         SliderTheme(
           data: SliderThemeData(
-            activeTrackColor: const Color(0xFF10A37F),
-            inactiveTrackColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
-            thumbColor: const Color(0xFF10A37F),
-            overlayColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
+            activeTrackColor: theme.primaryColor,
+            inactiveTrackColor: theme.primaryColor.withValues(alpha: 0.2),
+            thumbColor: theme.primaryColor,
+            overlayColor: theme.primaryColor.withValues(alpha: 0.2),
             trackHeight: 3,
           ),
           child: Slider(
@@ -180,7 +192,8 @@ class HelmetSelector extends StatelessWidget {
     );
   }
 
-  Widget _buildStatsDisplay(EquipmentItem item) {
+  Widget _buildStatsDisplay(EquipmentItem item, BuildContext context) {
+    final theme = Theme.of(context);
     final factor = 0.1 * enhance;
 
     int calcWithEnh(int base) {
@@ -220,9 +233,11 @@ class HelmetSelector extends StatelessWidget {
     if (item.mp > 0) stats.add(MapEntry('MP', calcWithEnh(item.mp)));
 
     if (stats.isEmpty) {
-      return const Text(
+      return Text(
         'No stats',
-        style: TextStyle(fontSize: 11, color: Colors.white38),
+        style: TextStyle(
+            fontSize: 11,
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.4)),
       );
     }
 
@@ -233,17 +248,17 @@ class HelmetSelector extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
           decoration: BoxDecoration(
-            color: const Color(0xFF10A37F).withValues(alpha: 0.15),
+            color: theme.primaryColor.withValues(alpha: 0.15),
             borderRadius: BorderRadius.circular(6),
             border: Border.all(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+              color: theme.primaryColor.withValues(alpha: 0.3),
             ),
           ),
           child: Text(
             '${entry.key}: ${entry.value}',
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 10,
-              color: Color(0xFF10A37F),
+              color: theme.primaryColor,
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -252,30 +267,33 @@ class HelmetSelector extends StatelessWidget {
     );
   }
 
-  Widget _buildCrystalSlots() {
+  Widget _buildCrystalSlots(BuildContext context) {
+    final theme = Theme.of(context);
     final crystals = EquipmentData.crystalBonuses;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
-          children: const [
-            Text('💛', style: TextStyle(fontSize: 16)),
-            SizedBox(width: 6),
+          children: [
+            const Text('💛', style: TextStyle(fontSize: 16)),
+            const SizedBox(width: 6),
             Text(
               'Crystal Slots',
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w600,
-                color: Color(0xFF10A37F),
+                color: theme.primaryColor,
               ),
             ),
           ],
         ),
         const SizedBox(height: 8),
-        _buildCrystalDropdown('Slot 1', crystal1, onCrystal1Changed, crystals),
+        _buildCrystalDropdown(
+            'Slot 1', crystal1, onCrystal1Changed, crystals, context),
         const SizedBox(height: 8),
-        _buildCrystalDropdown('Slot 2', crystal2, onCrystal2Changed, crystals),
+        _buildCrystalDropdown(
+            'Slot 2', crystal2, onCrystal2Changed, crystals, context),
       ],
     );
   }
@@ -285,34 +303,43 @@ class HelmetSelector extends StatelessWidget {
     String? value,
     ValueChanged<String?> onChanged,
     List<CrystalBonus> crystals,
+    BuildContext context,
   ) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.03),
         borderRadius: BorderRadius.circular(6),
         border: Border.all(
-          color: const Color(0xFF10A37F).withValues(alpha: 0.2),
+          color: theme.primaryColor.withValues(alpha: 0.2),
         ),
       ),
       child: Row(
         children: [
           Text(
             label,
-            style: const TextStyle(fontSize: 11, color: Colors.white60),
+            style: TextStyle(
+                fontSize: 11,
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6)),
           ),
           const SizedBox(width: 8),
           Expanded(
             child: DropdownButton<String>(
               value: value,
-              hint: const Text(
+              hint: Text(
                 'Empty',
-                style: TextStyle(fontSize: 11, color: Colors.white38),
+                style: TextStyle(
+                    fontSize: 11,
+                    color: theme.colorScheme.onSurface.withValues(alpha: 0.4)),
               ),
               isExpanded: true,
               underline: const SizedBox.shrink(),
-              dropdownColor: const Color(0xFF2A2A2A),
-              style: const TextStyle(fontSize: 11, color: Colors.white),
+              dropdownColor: customColors?.cardBackground ?? theme.cardColor,
+              style:
+                  TextStyle(fontSize: 11, color: theme.colorScheme.onSurface),
               items: [
                 const DropdownMenuItem<String>(
                   value: null,

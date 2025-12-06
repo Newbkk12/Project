@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/equipment_data.dart';
+import '../../providers/theme_provider.dart';
 
 /// SubWeaponSelector - Widget for selecting and configuring sub weapon
 ///
@@ -24,6 +25,8 @@ class SubWeaponSelector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
     final items = EquipmentData.itemsByType(EquipmentType.subWeapon);
     final selectedItem = EquipmentData.findItem(selectedId);
 
@@ -37,18 +40,19 @@ class SubWeaponSelector extends StatelessWidget {
           value: selectedId,
           items: items,
           onChanged: onEquipChanged,
+          context: context,
         ),
 
         if (selectedItem != null) ...[
           const SizedBox(height: 16),
 
           // Enhancement Slider
-          _buildEnhancementSlider(),
+          _buildEnhancementSlider(context),
 
           const SizedBox(height: 16),
 
           // Stats Display
-          _buildStatsDisplay(selectedItem),
+          _buildStatsDisplay(selectedItem, context),
         ],
       ],
     );
@@ -60,7 +64,11 @@ class SubWeaponSelector extends StatelessWidget {
     required String? value,
     required List<EquipmentItem> items,
     required ValueChanged<String?> onChanged,
+    required BuildContext context,
   }) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -70,10 +78,10 @@ class SubWeaponSelector extends StatelessWidget {
             const SizedBox(width: 8),
             Text(
               label,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.w600,
-                color: Color(0xFF10A37F),
+                color: theme.primaryColor,
               ),
             ),
           ],
@@ -85,19 +93,21 @@ class SubWeaponSelector extends StatelessWidget {
             color: Colors.white.withValues(alpha: 0.05),
             borderRadius: BorderRadius.circular(8),
             border: Border.all(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+              color: theme.primaryColor.withValues(alpha: 0.3),
             ),
           ),
           child: DropdownButton<String>(
             value: value,
-            hint: const Text(
+            hint: Text(
               'Choose sub weapon...',
-              style: TextStyle(fontSize: 12, color: Colors.white54),
+              style: TextStyle(
+                  fontSize: 12,
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6)),
             ),
             isExpanded: true,
             underline: const SizedBox.shrink(),
-            dropdownColor: const Color(0xFF2A2A2A),
-            style: const TextStyle(fontSize: 12, color: Colors.white),
+            dropdownColor: customColors?.cardBackground ?? theme.cardColor,
+            style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurface),
             items: [
               const DropdownMenuItem<String>(
                 value: null,
@@ -117,7 +127,9 @@ class SubWeaponSelector extends StatelessWidget {
     );
   }
 
-  Widget _buildEnhancementSlider() {
+  Widget _buildEnhancementSlider(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -128,20 +140,20 @@ class SubWeaponSelector extends StatelessWidget {
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(width: 6),
-            const Text(
+            Text(
               'Enhancement: ',
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w500,
-                color: Colors.white70,
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               ),
             ),
             Text(
               '+$enhance',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF10A37F),
+                color: theme.primaryColor,
               ),
             ),
           ],
@@ -149,10 +161,10 @@ class SubWeaponSelector extends StatelessWidget {
         const SizedBox(height: 4),
         SliderTheme(
           data: SliderThemeData(
-            activeTrackColor: const Color(0xFF10A37F),
-            inactiveTrackColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
-            thumbColor: const Color(0xFF10A37F),
-            overlayColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
+            activeTrackColor: theme.primaryColor,
+            inactiveTrackColor: theme.primaryColor.withValues(alpha: 0.2),
+            thumbColor: theme.primaryColor,
+            overlayColor: theme.primaryColor.withValues(alpha: 0.2),
             trackHeight: 3,
           ),
           child: Slider(
@@ -167,7 +179,8 @@ class SubWeaponSelector extends StatelessWidget {
     );
   }
 
-  Widget _buildStatsDisplay(EquipmentItem item) {
+  Widget _buildStatsDisplay(EquipmentItem item, BuildContext context) {
+    final theme = Theme.of(context);
     final factor = 0.1 * enhance;
 
     int calcWithEnh(int base) {
@@ -207,9 +220,11 @@ class SubWeaponSelector extends StatelessWidget {
     if (item.mp > 0) stats.add(MapEntry('MP', calcWithEnh(item.mp)));
 
     if (stats.isEmpty) {
-      return const Text(
+      return Text(
         'No stats',
-        style: TextStyle(fontSize: 11, color: Colors.white38),
+        style: TextStyle(
+            fontSize: 11,
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.4)),
       );
     }
 
@@ -220,17 +235,17 @@ class SubWeaponSelector extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
           decoration: BoxDecoration(
-            color: const Color(0xFF10A37F).withValues(alpha: 0.15),
+            color: theme.primaryColor.withValues(alpha: 0.15),
             borderRadius: BorderRadius.circular(6),
             border: Border.all(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+              color: theme.primaryColor.withValues(alpha: 0.3),
             ),
           ),
           child: Text(
             '${entry.key}: ${entry.value}',
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 10,
-              color: Color(0xFF10A37F),
+              color: theme.primaryColor,
               fontWeight: FontWeight.w600,
             ),
           ),

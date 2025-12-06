@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import '../../screens/build_simulator_screen.dart';
 import '../../screens/database_screen.dart';
+import '../../screens/login_screen.dart';
+import '../../screens/settings_screen.dart';
+import '../../providers/theme_provider.dart';
 
 class CustomNavigationRail extends StatefulWidget {
   final Function(int)? onDestinationSelected;
@@ -63,14 +66,31 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
             transitionDuration: const Duration(milliseconds: 200),
           ),
         );
+      } else if (index == 2) {
+        // Navigate to Settings
+        Navigator.of(context).pushReplacement(
+          PageRouteBuilder(
+            pageBuilder: (context, animation, secondaryAnimation) =>
+                const SettingsScreen(),
+            transitionsBuilder:
+                (context, animation, secondaryAnimation, child) {
+              return FadeTransition(opacity: animation, child: child);
+            },
+            transitionDuration: const Duration(milliseconds: 200),
+          ),
+        );
       }
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return NavigationRail(
-      backgroundColor: const Color(0xFF313440),
+      backgroundColor:
+          customColors?.navigationBackground ?? const Color(0xFF313440),
       selectedIndex: _selectedIndex,
       onDestinationSelected: _handleDestinationSelected,
       extended: _isExtended,
@@ -79,36 +99,47 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
 
       // ฟอนต์ เปลี่ยนตามสถานะ
       selectedLabelTextStyle: TextStyle(
-        color: const Color(0xFF10A37F),
+        color: theme.primaryColor,
         fontWeight: FontWeight.bold,
         fontSize: _isExtended ? 15 : 12,
       ),
       unselectedLabelTextStyle: TextStyle(
-        color: Colors.white70,
+        color: theme.brightness == Brightness.dark
+            ? Colors.white70
+            : Colors.black54,
         fontSize: _isExtended ? 14 : 11,
       ),
 
-      indicatorColor: const Color(0xFF10A37F).withValues(alpha: 0.3),
+      indicatorColor: theme.primaryColor.withValues(alpha: 0.3),
       useIndicator: true,
 
       // ────────────────────────────────
       // เมนูหลัก
       // ────────────────────────────────
-      destinations: const [
+      destinations: [
         NavigationRailDestination(
-          icon: Icon(Icons.build_outlined, color: Colors.white70),
-          selectedIcon: Icon(Icons.build, color: Color(0xFF10A37F)),
-          label: Text("Build"),
+          icon: Icon(Icons.build_outlined,
+              color: theme.brightness == Brightness.dark
+                  ? Colors.white70
+                  : Colors.black54),
+          selectedIcon: Icon(Icons.build, color: theme.primaryColor),
+          label: const Text("Build"),
         ),
         NavigationRailDestination(
-          icon: Icon(Icons.folder_open_outlined, color: Colors.white70),
-          selectedIcon: Icon(Icons.folder_open, color: Color(0xFF10A37F)),
-          label: Text("Database"),
+          icon: Icon(Icons.folder_open_outlined,
+              color: theme.brightness == Brightness.dark
+                  ? Colors.white70
+                  : Colors.black54),
+          selectedIcon: Icon(Icons.folder_open, color: theme.primaryColor),
+          label: const Text("Database"),
         ),
         NavigationRailDestination(
-          icon: Icon(Icons.settings_outlined, color: Colors.white70),
-          selectedIcon: Icon(Icons.settings, color: Color(0xFF10A37F)),
-          label: Text("Settings"),
+          icon: Icon(Icons.settings_outlined,
+              color: theme.brightness == Brightness.dark
+                  ? Colors.white70
+                  : Colors.black54),
+          selectedIcon: Icon(Icons.settings, color: theme.primaryColor),
+          label: const Text("Settings"),
         ),
       ],
 
@@ -121,15 +152,22 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
           child: Padding(
             padding: const EdgeInsets.only(bottom: 16),
             child: IconButton(
-              icon: const Icon(Icons.account_circle,
-                  color: Colors.white70, size: 28),
+              icon: Icon(Icons.account_circle,
+                  color: theme.brightness == Brightness.dark
+                      ? Colors.white70
+                      : Colors.black54,
+                  size: 28),
               tooltip: 'Login',
               onPressed: () {
-                // TODO: Navigate to login screen
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text('Login feature coming soon!'),
-                    duration: Duration(seconds: 2),
+                Navigator.of(context).push(
+                  PageRouteBuilder(
+                    pageBuilder: (context, animation, secondaryAnimation) =>
+                        const LoginScreen(),
+                    transitionsBuilder:
+                        (context, animation, secondaryAnimation, child) {
+                      return FadeTransition(opacity: animation, child: child);
+                    },
+                    transitionDuration: const Duration(milliseconds: 200),
                   ),
                 );
               },

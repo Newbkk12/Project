@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/equipment_data.dart';
+import '../../providers/theme_provider.dart';
 
 class GachaCard extends StatelessWidget {
   final String? gacha1Stat1;
@@ -45,6 +46,8 @@ class GachaCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
     final gachaItems = <DropdownMenuItem<String>>[];
     gachaItems.add(
       const DropdownMenuItem(
@@ -66,8 +69,7 @@ class GachaCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
-        border:
-            Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
+        border: Border.all(color: theme.primaryColor.withValues(alpha: 0.2)),
       ),
       padding: const EdgeInsets.all(20),
       child: Column(
@@ -91,6 +93,7 @@ class GachaCard extends StatelessWidget {
                         onGacha1Stat3Changed,
                         _buildSummary(gacha1Stat1, gacha1Stat2, gacha1Stat3),
                         gachaItems,
+                        theme,
                       ),
                     ),
                     const SizedBox(width: 16),
@@ -105,6 +108,7 @@ class GachaCard extends StatelessWidget {
                         onGacha2Stat3Changed,
                         _buildSummary(gacha2Stat1, gacha2Stat2, gacha2Stat3),
                         gachaItems,
+                        theme,
                       ),
                     ),
                     const SizedBox(width: 16),
@@ -119,6 +123,7 @@ class GachaCard extends StatelessWidget {
                         onGacha3Stat3Changed,
                         _buildSummary(gacha3Stat1, gacha3Stat2, gacha3Stat3),
                         gachaItems,
+                        theme,
                       ),
                     ),
                   ],
@@ -137,6 +142,7 @@ class GachaCard extends StatelessWidget {
                     onGacha1Stat3Changed,
                     _buildSummary(gacha1Stat1, gacha1Stat2, gacha1Stat3),
                     gachaItems,
+                    theme,
                   ),
                   const SizedBox(height: 12),
                   _gachaSlot(
@@ -149,6 +155,7 @@ class GachaCard extends StatelessWidget {
                     onGacha2Stat3Changed,
                     _buildSummary(gacha2Stat1, gacha2Stat2, gacha2Stat3),
                     gachaItems,
+                    theme,
                   ),
                   const SizedBox(height: 12),
                   _gachaSlot(
@@ -161,6 +168,7 @@ class GachaCard extends StatelessWidget {
                     onGacha3Stat3Changed,
                     _buildSummary(gacha3Stat1, gacha3Stat2, gacha3Stat3),
                     gachaItems,
+                    theme,
                   ),
                 ],
               );
@@ -181,13 +189,13 @@ class GachaCard extends StatelessWidget {
     ValueChanged<String?> onS3,
     List<String> summaryTexts,
     List<DropdownMenuItem<String>> gachaItems,
+    ThemeData theme,
   ) {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.05),
         borderRadius: BorderRadius.circular(10),
-        border:
-            Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
+        border: Border.all(color: theme.primaryColor.withValues(alpha: 0.2)),
       ),
       padding: const EdgeInsets.all(15),
       child: Column(
@@ -199,10 +207,10 @@ class GachaCard extends StatelessWidget {
               const SizedBox(width: 6),
               Text(
                 title,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.w700,
-                  color: Color(0xFF10A37F),
+                  color: theme.primaryColor,
                 ),
               ),
             ],
@@ -213,6 +221,7 @@ class GachaCard extends StatelessWidget {
             value: s1,
             items: gachaItems,
             onChanged: onS1,
+            theme: theme,
           ),
           const SizedBox(height: 8),
           GachaRow(
@@ -220,6 +229,7 @@ class GachaCard extends StatelessWidget {
             value: s2,
             items: gachaItems,
             onChanged: onS2,
+            theme: theme,
           ),
           const SizedBox(height: 8),
           GachaRow(
@@ -227,26 +237,27 @@ class GachaCard extends StatelessWidget {
             value: s3,
             items: gachaItems,
             onChanged: onS3,
+            theme: theme,
           ),
           const SizedBox(height: 10),
           Container(
             decoration: BoxDecoration(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.08),
+              color: theme.primaryColor.withValues(alpha: 0.08),
               borderRadius: BorderRadius.circular(6),
               border: Border.all(
-                color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+                color: theme.primaryColor.withValues(alpha: 0.3),
               ),
             ),
             padding: const EdgeInsets.all(8),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
+                Text(
                   'Selected Stats:',
                   style: TextStyle(
                     fontSize: 11,
                     fontWeight: FontWeight.w600,
-                    color: Color(0xFF10A37F),
+                    color: theme.primaryColor,
                   ),
                 ),
                 const SizedBox(height: 4),
@@ -254,7 +265,10 @@ class GachaCard extends StatelessWidget {
                   summaryTexts.isEmpty
                       ? 'No stats selected'
                       : summaryTexts.join(' • '),
-                  style: const TextStyle(fontSize: 11, color: Colors.white70),
+                  style: TextStyle(
+                      fontSize: 11,
+                      color:
+                          theme.colorScheme.onSurface.withValues(alpha: 0.7)),
                 ),
               ],
             ),
@@ -285,6 +299,7 @@ class GachaRow extends StatelessWidget {
   final String? value;
   final List<DropdownMenuItem<String>> items;
   final ValueChanged<String?> onChanged;
+  final ThemeData theme;
 
   const GachaRow({
     super.key,
@@ -292,18 +307,21 @@ class GachaRow extends StatelessWidget {
     required this.value,
     required this.items,
     required this.onChanged,
+    required this.theme,
   });
 
   @override
   Widget build(BuildContext context) {
+    final customColors = theme.extension<CustomColors>();
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           label,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 11,
-            color: Colors.white70,
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
             fontWeight: FontWeight.w500,
           ),
         ),
@@ -313,12 +331,12 @@ class GachaRow extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.white.withValues(alpha: 0.08),
             borderRadius: BorderRadius.circular(6),
-            border: Border.all(
-                color: const Color(0xFF10A37F).withValues(alpha: 0.3)),
+            border:
+                Border.all(color: theme.primaryColor.withValues(alpha: 0.3)),
           ),
           child: DropdownButtonHideUnderline(
             child: DropdownButton<String>(
-              dropdownColor: const Color(0xFF343541),
+              dropdownColor: customColors?.cardBackground ?? theme.cardColor,
               value: value ?? '',
               items: items,
               onChanged: (val) {

@@ -1,10 +1,16 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'screens/build_simulator_screen.dart';
+import 'providers/theme_provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -12,16 +18,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Toram Build Simulator',
-      scrollBehavior: NoGlowScrollBehavior(), // เพิ่มบรรทัดนี้แค่บรรทัดเดียว
-      theme: ThemeData(
-        fontFamily: 'Kanit',
-        scaffoldBackgroundColor: const Color(0xFF192127),
-        textTheme: GoogleFonts.sarabunTextTheme(ThemeData.dark().textTheme),
-      ),
-      home: const BuildSimulatorScreen(),
+    return Consumer<ThemeProvider>(
+      builder: (context, themeProvider, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Toram Build Simulator',
+          scrollBehavior: NoGlowScrollBehavior(),
+          theme: themeProvider.getThemeData(),
+          home: const BuildSimulatorScreen(),
+        );
+      },
     );
   }
 }

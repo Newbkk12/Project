@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import '../../screens/build_simulator_screen.dart';
 import '../../screens/database_screen.dart';
+import '../../screens/settings_screen.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
   final int? initialIndex;
@@ -14,11 +15,14 @@ class CustomBottomNavigationBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
-      backgroundColor: const Color(0xFF313440),
-      selectedItemColor: Colors.cyanAccent,
-      unselectedItemColor: Colors.white70,
+      backgroundColor: theme.bottomNavigationBarTheme.backgroundColor,
+      selectedItemColor: theme.primaryColor,
+      unselectedItemColor:
+          theme.brightness == Brightness.dark ? Colors.white70 : Colors.black54,
       selectedIconTheme: const IconThemeData(size: 28),
       unselectedIconTheme: const IconThemeData(size: 24),
       currentIndex: initialIndex ?? 0,
@@ -42,6 +46,19 @@ class CustomBottomNavigationBar extends StatelessWidget {
             PageRouteBuilder(
               pageBuilder: (context, animation, secondaryAnimation) =>
                   const DatabaseScreen(),
+              transitionsBuilder:
+                  (context, animation, secondaryAnimation, child) {
+                return FadeTransition(opacity: animation, child: child);
+              },
+              transitionDuration: const Duration(milliseconds: 200),
+            ),
+          );
+        } else if (i == 2) {
+          // Navigate to Settings with smooth transition
+          Navigator.of(context).pushReplacement(
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) =>
+                  const SettingsScreen(),
               transitionsBuilder:
                   (context, animation, secondaryAnimation, child) {
                 return FadeTransition(opacity: animation, child: child);

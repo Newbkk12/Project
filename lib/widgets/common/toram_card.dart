@@ -1,5 +1,6 @@
 // lib/widgets/common/toram_card.dart
 import 'package:flutter/material.dart';
+import '../../providers/theme_provider.dart';
 
 class ToramCard extends StatelessWidget {
   final String title;
@@ -17,17 +18,20 @@ class ToramCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.symmetric(vertical: 8),
       decoration: BoxDecoration(
-        color: const Color(0xFF1E2A44),
+        color: customColors?.cardBackground ?? theme.cardColor,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-            color: const Color.fromRGBO(24, 255, 255, 0.3), width: 1),
+            color: theme.primaryColor.withValues(alpha: 0.3), width: 1),
         boxShadow: [
           BoxShadow(
-            color: const Color.fromRGBO(24, 255, 255, 0.15),
+            color: theme.primaryColor.withValues(alpha: 0.15),
             blurRadius: 12,
             offset: const Offset(0, 4),
           ),
@@ -40,14 +44,14 @@ class ToramCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                Icon(icon, color: Colors.cyanAccent, size: 28),
+                Icon(icon, color: theme.primaryColor, size: 28),
                 const SizedBox(width: 12),
                 Text(
                   title,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: theme.colorScheme.onSurface,
                   ),
                 ),
               ],

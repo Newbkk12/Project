@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/character_stats.dart';
+import '../../providers/theme_provider.dart';
 
 class CharacterStatsCard extends StatefulWidget {
   final CharacterStats character;
@@ -18,12 +19,14 @@ class CharacterStatsCard extends StatefulWidget {
 class _CharacterStatsCardState extends State<CharacterStatsCard> {
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Container(
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
-        border:
-            Border.all(color: const Color(0xFF10A37F).withValues(alpha: 0.2)),
+        border: Border.all(color: theme.primaryColor.withValues(alpha: 0.2)),
       ),
       padding: const EdgeInsets.all(20),
       child: Column(
@@ -40,6 +43,7 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
             onChangeEnd: () {
               widget.onStatsChanged();
             },
+            theme: theme,
           ),
           _statSlider(
             label: 'INT',
@@ -52,6 +56,7 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
             onChangeEnd: () {
               widget.onStatsChanged();
             },
+            theme: theme,
           ),
           _statSlider(
             label: 'VIT',
@@ -64,6 +69,7 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
             onChangeEnd: () {
               widget.onStatsChanged();
             },
+            theme: theme,
           ),
           _statSlider(
             label: 'AGI',
@@ -76,6 +82,7 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
             onChangeEnd: () {
               widget.onStatsChanged();
             },
+            theme: theme,
           ),
           _statSlider(
             label: 'DEX',
@@ -88,11 +95,14 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
             onChangeEnd: () {
               widget.onStatsChanged();
             },
+            theme: theme,
           ),
           const SizedBox(height: 12),
-          const Text(
+          Text(
             'Special Stat Type',
-            style: TextStyle(fontSize: 12, color: Colors.white70),
+            style: TextStyle(
+                fontSize: 12,
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.7)),
           ),
           const SizedBox(height: 4),
           Container(
@@ -101,18 +111,21 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
               color: Colors.white.withValues(alpha: 0.08),
               borderRadius: BorderRadius.circular(8),
               border: Border.all(
-                color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+                color: theme.primaryColor.withValues(alpha: 0.3),
               ),
             ),
             child: DropdownButtonHideUnderline(
               child: DropdownButton<String>(
-                dropdownColor: const Color(0xFF343541),
+                dropdownColor: customColors?.cardBackground ?? theme.cardColor,
                 value: widget.character.specialType.isEmpty
                     ? null
                     : widget.character.specialType,
-                hint: const Text(
+                hint: Text(
                   '-- ไม่มี Special Stat --',
-                  style: TextStyle(fontSize: 12, color: Colors.white54),
+                  style: TextStyle(
+                      fontSize: 12,
+                      color:
+                          theme.colorScheme.onSurface.withValues(alpha: 0.6)),
                 ),
                 items: const [
                   DropdownMenuItem(value: 'CRT', child: Text('CRT (Critical)')),
@@ -152,14 +165,15 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
               onChangeEnd: () {
                 widget.onStatsChanged();
               },
+              theme: theme,
             ),
           const SizedBox(height: 10),
           Container(
             decoration: BoxDecoration(
-              color: const Color(0xFF10A37F).withValues(alpha: 0.1),
+              color: theme.primaryColor.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(10),
               border: Border.all(
-                color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+                color: theme.primaryColor.withValues(alpha: 0.3),
               ),
             ),
             padding: const EdgeInsets.all(10),
@@ -194,6 +208,7 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
     int max = 510,
     required ValueChanged<int> onChanged,
     required VoidCallback onChangeEnd,
+    required ThemeData theme,
   }) {
     final TextEditingController textController = TextEditingController(
       text: value.toString(),
@@ -206,9 +221,9 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
         children: [
           Text(
             label,
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 12,
-              color: Colors.white70,
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -221,8 +236,8 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
                   controller: textController,
                   keyboardType: TextInputType.number,
                   textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: theme.colorScheme.onSurface,
                     fontWeight: FontWeight.w700,
                     fontSize: 12,
                   ),
@@ -232,25 +247,25 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
                       vertical: 6,
                     ),
                     filled: true,
-                    fillColor: const Color(0xFF10A37F).withValues(alpha: 0.2),
+                    fillColor: theme.primaryColor.withValues(alpha: 0.2),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
-                      borderSide: const BorderSide(
-                        color: Color(0xFF10A37F),
+                      borderSide: BorderSide(
+                        color: theme.primaryColor,
                         width: 1,
                       ),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
-                      borderSide: const BorderSide(
-                        color: Color(0xFF10A37F),
+                      borderSide: BorderSide(
+                        color: theme.primaryColor,
                         width: 1,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
-                      borderSide: const BorderSide(
-                        color: Color(0xFF10A37F),
+                      borderSide: BorderSide(
+                        color: theme.primaryColor,
                         width: 2,
                       ),
                     ),
@@ -280,11 +295,11 @@ class _CharacterStatsCardState extends State<CharacterStatsCard> {
                       enabledThumbRadius: 8,
                     ),
                     trackHeight: 4,
-                    activeTrackColor: const Color(0xFF10A37F),
-                    inactiveTrackColor: Colors.white24,
-                    thumbColor: const Color(0xFF10A37F),
-                    overlayColor:
-                        const Color(0xFF10A37F).withValues(alpha: 0.2),
+                    activeTrackColor: theme.primaryColor,
+                    inactiveTrackColor:
+                        theme.colorScheme.onSurface.withValues(alpha: 0.2),
+                    thumbColor: theme.primaryColor,
+                    overlayColor: theme.primaryColor.withValues(alpha: 0.2),
                   ),
                   child: Slider(
                     min: 1,

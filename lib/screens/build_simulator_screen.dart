@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 // Local models & data
 import '../models/character_stats.dart';
 import '../models/equipment_data.dart';
+import '../providers/theme_provider.dart';
 
 // Widgets
 import '../widgets/common/toram_card.dart';
@@ -628,8 +629,10 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
   }
 
   PreferredSizeWidget _buildHeader() {
+    final theme = Theme.of(context);
+
     return AppBar(
-      backgroundColor: const Color(0xFF10A37F),
+      backgroundColor: theme.primaryColor,
       elevation: 4,
       titleSpacing: 0,
       automaticallyImplyLeading: false,
@@ -675,8 +678,11 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
   }
 
   Widget _buildMobileDrawer() {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
     return Drawer(
-      backgroundColor: const Color(0xFF1E1E1E),
+      backgroundColor: customColors?.cardBackground ?? theme.cardColor,
       child: SafeArea(
         child: Column(
           children: [
@@ -684,10 +690,10 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: const Color(0xFF10A37F).withValues(alpha: 0.1),
+                color: theme.primaryColor.withValues(alpha: 0.1),
                 border: Border(
                   bottom: BorderSide(
-                    color: const Color(0xFF10A37F).withValues(alpha: 0.3),
+                    color: theme.primaryColor.withValues(alpha: 0.3),
                   ),
                 ),
               ),
