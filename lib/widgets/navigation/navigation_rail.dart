@@ -36,7 +36,7 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
         fontSize: _isExtended ? 14 : 11,
       ),
 
-      indicatorColor: Colors.cyanAccent.withOpacity(0.3),
+      indicatorColor: const Color.fromRGBO(24, 255, 255, 0.3),
       useIndicator: true,
 
       // ────────────────────────────────
@@ -100,14 +100,14 @@ class CustomNavigationRailState extends State<CustomNavigationRail> {
         ),
         NavigationRailDestination(
           icon: Tooltip(
-            message: "Load Build",
+            message: "Database",
             child: Icon(Icons.folder_open_outlined),
           ),
           selectedIcon: Tooltip(
-            message: "Load Build",
+            message: "Database",
             child: Icon(Icons.folder_open),
           ),
-          label: Text("Load Build"),
+          label: Text("Database"),
         ),
         NavigationRailDestination(
           icon: Tooltip(

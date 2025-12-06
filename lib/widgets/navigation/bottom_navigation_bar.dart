@@ -17,7 +17,8 @@ class CustomBottomNavigationBar extends StatelessWidget {
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: "Build"),
         BottomNavigationBarItem(icon: Icon(Icons.save), label: "Save"),
-        BottomNavigationBarItem(icon: Icon(Icons.folder_open), label: "Load"),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.folder_open), label: "Database"),
         BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
       ],
     );

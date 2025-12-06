@@ -1,19 +1,20 @@
-// หน้า Build Simulator ที่ปรับแต่งได้ตามขนาดหน้าจอ หน้าหลักของแอปพลิเคชัน
-
 import 'package:flutter/material.dart';
 
-import '../widgets/build_page/character_stats_section.dart';
-import '../widgets/build_page/weapon_config_section.dart';
-import '../widgets/build_page/stats_summary_section.dart';
-import '../widgets/build_page/special_stats_section.dart';
-import '../widgets/navigation/navigation_rail.dart';
-import '../widgets/navigation/bottom_navigation_bar.dart';
-import '../widgets/navigation/app_drawer.dart';
+import 'package:toram_build_simulator/widgets/build_page/character_stats_section.dart';
+import 'package:toram_build_simulator/widgets/build_page/weapon_config_section.dart';
+import 'package:toram_build_simulator/widgets/build_page/stats_summary_section.dart';
+import 'package:toram_build_simulator/widgets/build_page/special_stats_section.dart';
+import 'package:toram_build_simulator/widgets/navigation/navigation_rail.dart';
+import 'package:toram_build_simulator/widgets/navigation/bottom_navigation_bar.dart';
+import 'package:toram_build_simulator/widgets/navigation/app_drawer.dart';
+
+/// =================================================================
+/// BuildSimulatorScreen (เดิมทั้งหมด ไม่มีลบ)
+/// =================================================================
 
 class BuildSimulatorScreen extends StatelessWidget {
   const BuildSimulatorScreen({super.key});
 
-  // กำหนด breakpoint ชัดเจน
   static const double _mobileMaxWidth = 700;
   static const double _tabletMinWidth = 700;
 
@@ -34,11 +35,8 @@ class BuildSimulatorScreen extends StatelessWidget {
             backgroundColor: const Color(0xFF119D7C),
             title: Row(
               children: [
-                const Icon(
-                  Icons.auto_awesome,
-                  color: Colors.cyanAccent,
-                  size: 32,
-                ),
+                const Icon(Icons.auto_awesome,
+                    color: Colors.cyanAccent, size: 32),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Text(
@@ -49,7 +47,6 @@ class BuildSimulatorScreen extends StatelessWidget {
                 ),
               ],
             ),
-            // แสดง hamburger: ซ้ายสำหรับเดสก์ท็อป, ขวาสำหรับมือถือ
             leading: isDesktop
                 ? IconButton(
                     icon: const Icon(Icons.menu),
@@ -62,18 +59,13 @@ class BuildSimulatorScreen extends StatelessWidget {
                       icon: const Icon(Icons.menu),
                       onPressed: () =>
                           scaffoldKey.currentState?.openEndDrawer(),
-                    ),
+                    )
                   ]
                 : null,
           ),
-
-          // มือถือ: มี Drawer (3 ขีดขวา) | เดสก์ท็อป: ไม่มี
           endDrawer: isMobile ? const AppDrawer() : null,
-
-          // ตัว body แยกตามขนาดหน้าจอ
           body: Row(
             children: [
-              // เดสก์ท็อป/แท็บเล็ต: แสดง NavigationRail ด้านซ้าย
               if (isDesktop) ...[
                 CustomNavigationRail(key: navRailKey),
                 const VerticalDivider(
@@ -81,20 +73,15 @@ class BuildSimulatorScreen extends StatelessWidget {
                   width: 1,
                   color: Color.fromARGB(26, 240, 237, 237),
                 ),
-                Padding(padding: const EdgeInsets.only(left: 27)),
+                const Padding(padding: EdgeInsets.only(left: 27)),
               ],
-
-              // เนื้อหาหลัก
               Expanded(
                 child: _buildMainContent(isMobile: isMobile, width: width),
               ),
             ],
           ),
-
-          // มือถือ: แสดง BottomNavigationBar | เดสก์ท็อป: ไม่มี
-          bottomNavigationBar: isMobile
-              ? const CustomBottomNavigationBar()
-              : null,
+          bottomNavigationBar:
+              isMobile ? const CustomBottomNavigationBar() : null,
         );
       },
     );
@@ -102,12 +89,9 @@ class BuildSimulatorScreen extends StatelessWidget {
 
   Widget _buildMainContent({required bool isMobile, required double width}) {
     return SafeArea(
-      left:
-          false, // สำคัญ! อย่าให้ SafeArea ทับซ้าย → ปล่อยให้ Rail อยู่เต็มพื้นที่
+      left: false,
       child: Padding(
-        // ใช้ padding เฉพาะด้านที่ไม่ทับ Rail (ซ้าย)
         padding: EdgeInsets.only(
-          //left: isDesktop ? 0 : 24, // เดสก์ท็อป = 0 (ไม่ทับ Rail), มือถือ = 24
           top: 24,
           right: 24,
           bottom: 24,
@@ -117,7 +101,7 @@ class BuildSimulatorScreen extends StatelessWidget {
           width: double.infinity,
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: const Color(0xFF383B68).withOpacity(0.24),
+            color: const Color.fromRGBO(56, 59, 104, 0.24),
             borderRadius: BorderRadius.circular(20),
           ),
           child: Column(
@@ -144,7 +128,6 @@ class BuildSimulatorScreen extends StatelessWidget {
     );
   }
 
-  // Layout สำหรับมือถือ (เรียงจากบนลงล่าง)
   Widget _buildMobileLayout() {
     return Column(
       children: const [
@@ -161,7 +144,6 @@ class BuildSimulatorScreen extends StatelessWidget {
     );
   }
 
-  // Layout สำหรับเดสก์ท็อป (3 คอลัมน์)
   Widget _buildDesktopLayout() {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -190,30 +172,97 @@ class BuildSimulatorScreen extends StatelessWidget {
         const SizedBox(width: 32),
         Expanded(
           flex: 6,
-          child: Column(children: [_EquipmentPlaceholder(), const Spacer()]),
+          child: Column(
+            children: const [
+              _EquipmentPlaceholder(),
+              Spacer(),
+            ],
+          ),
         ),
       ],
     );
   }
+}
 
-  // Widget ตัวอย่างสำหรับ Equipment Slot (แชร์ทั้ง 2 layout)
-  static Widget _EquipmentPlaceholder() {
+/// ------------------------------------------------------
+/// Equipment Placeholder ตัวแรก (คงไว้)
+//  BuildSimulatorScreen + YourWidget จะใช้ตัวนี้ร่วมกัน
+/// ------------------------------------------------------
+class _EquipmentPlaceholder extends StatelessWidget {
+  const _EquipmentPlaceholder({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final out = {
+      'ATK': '-',
+      'MATK': '-',
+      'HP': '-',
+      'CritRate': '-',
+    };
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.05),
+        color: const Color.fromRGBO(255, 255, 255, 0.05),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.cyanAccent.withOpacity(0.3)),
+        border: Border.all(color: const Color.fromRGBO(24, 255, 255, 0.3)),
       ),
-      child: const Column(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(Icons.build, size: 56, color: Colors.cyanAccent),
-          SizedBox(height: 16),
+          // Title
           Text(
-            "Equipment Slot\n(Armor / AddGear / Ring / etc.)",
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 18, color: Colors.white70),
+            "Stats Summary",
+            style: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.white70,
+            ),
+          ),
+
+          const SizedBox(height: 16),
+
+          // Rows
+          Row(children: [
+            const Expanded(
+                child: Text('ATK', style: TextStyle(color: Colors.white70))),
+            Text(out['ATK'].toString(),
+                style: const TextStyle(color: Colors.white)),
+          ]),
+          const SizedBox(height: 6),
+
+          Row(children: [
+            const Expanded(
+                child: Text('MATK', style: TextStyle(color: Colors.white70))),
+            Text(out['MATK'].toString(),
+                style: const TextStyle(color: Colors.white)),
+          ]),
+          const SizedBox(height: 6),
+
+          Row(children: [
+            const Expanded(
+                child: Text('HP', style: TextStyle(color: Colors.white70))),
+            Text(out['HP'].toString(),
+                style: const TextStyle(color: Colors.white)),
+          ]),
+          const SizedBox(height: 6),
+
+          Row(children: [
+            const Expanded(
+                child:
+                    Text('Crit Rate', style: TextStyle(color: Colors.white70))),
+            Text(out['CritRate'].toString(),
+                style: const TextStyle(color: Colors.white)),
+          ]),
+
+          const SizedBox(height: 20),
+
+          // Export Button
+          ElevatedButton.icon(
+            onPressed: null,
+            icon: const Icon(Icons.share),
+            label: const Text('Export JSON'),
           ),
         ],
       ),
