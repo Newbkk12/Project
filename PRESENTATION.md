@@ -212,7 +212,7 @@ lib/
 
 ### Development Metrics
 - **Lines of Code**: ~3,000+ lines
-- **Development Time**: [ระบุเวลาที่ใช้พัฒนา]
+- **Development Time**: UX/UI V0.5 (Check git history for exact timeline: `git log --reverse --format="%ai" | head -1` to `git log -1 --format="%ai"`)
 - **Platforms Supported**: 6+ (Web, Android, iOS, Windows, macOS, Linux)
 - **UI Components**: 20+ custom widgets
 
