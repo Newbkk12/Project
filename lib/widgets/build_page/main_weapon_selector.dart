@@ -33,9 +33,6 @@ class MainWeaponSelector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final customColors = theme.extension<CustomColors>();
-    final items = EquipmentData.itemsByType(EquipmentType.mainWeapon);
     final selectedItem = EquipmentData.findItem(selectedId);
 
     return Column(
@@ -46,7 +43,6 @@ class MainWeaponSelector extends StatelessWidget {
           icon: '⚔️',
           label: 'Select Main Weapon',
           value: selectedId,
-          items: items,
           onChanged: onEquipChanged,
           context: context,
         ),
@@ -75,12 +71,12 @@ class MainWeaponSelector extends StatelessWidget {
     required String icon,
     required String label,
     required String? value,
-    required List<EquipmentItem> items,
     required ValueChanged<String?> onChanged,
     required BuildContext context,
   }) {
     final theme = Theme.of(context);
-    final customColors = theme.extension<CustomColors>();
+    final items = EquipmentData.itemsByType(EquipmentType.mainWeapon);
+    final selectedItem = items.where((item) => item.id == value).firstOrNull;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -100,43 +96,58 @@ class MainWeaponSelector extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 8),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-          decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: 0.05),
-            borderRadius: BorderRadius.circular(8),
-            border: Border.all(
-              color: theme.primaryColor.withValues(alpha: 0.3),
-            ),
-          ),
-          child: DropdownButton<String>(
-            value: value,
-            hint: Text(
-              'Choose weapon...',
-              style: TextStyle(
-                  fontSize: 12,
-                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6)),
-            ),
-            isExpanded: true,
-            underline: const SizedBox.shrink(),
-            dropdownColor: customColors?.cardBackground ?? theme.cardColor,
-            style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurface),
-            items: [
-              const DropdownMenuItem<String>(
-                value: null,
-                child: Text('None'),
+        InkWell(
+          onTap: () => _showItemPicker(context, items, value, onChanged, label),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.05),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(
+                color: theme.primaryColor.withValues(alpha: 0.3),
               ),
-              ...items.map((item) {
-                return DropdownMenuItem<String>(
-                  value: item.id,
-                  child: Text(item.name),
-                );
-              }),
-            ],
-            onChanged: onChanged,
+            ),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    selectedItem?.name ?? 'Choose weapon...',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: selectedItem != null
+                          ? theme.colorScheme.onSurface
+                          : theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                    ),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                Icon(
+                  Icons.arrow_drop_down,
+                  color: theme.primaryColor,
+                ),
+              ],
+            ),
           ),
         ),
       ],
+    );
+  }
+
+  void _showItemPicker(
+    BuildContext context,
+    List<EquipmentItem> items,
+    String? currentValue,
+    ValueChanged<String?> onChanged,
+    String label,
+  ) {
+    showDialog(
+      context: context,
+      builder: (context) => _ItemPickerDialog(
+        items: items,
+        currentValue: currentValue,
+        onChanged: onChanged,
+        label: label,
+      ),
     );
   }
 
@@ -330,10 +341,10 @@ class MainWeaponSelector extends StatelessWidget {
             child: DropdownButton<String>(
               value: value,
               hint: Text(
-                'Empty',
+                'None',
                 style: TextStyle(
                     fontSize: 11,
-                    color: theme.colorScheme.onSurface.withValues(alpha: 0.4)),
+                    color: theme.colorScheme.onSurface.withValues(alpha: 0.5)),
               ),
               isExpanded: true,
               underline: const SizedBox.shrink(),
@@ -345,10 +356,10 @@ class MainWeaponSelector extends StatelessWidget {
                   value: null,
                   child: Text('None'),
                 ),
-                ...crystals.map((crystal) {
+                ...crystals.map((c) {
                   return DropdownMenuItem<String>(
-                    value: crystal.id,
-                    child: Text(crystal.id),
+                    value: c.id,
+                    child: Text(c.id),
                   );
                 }),
               ],
@@ -356,6 +367,182 @@ class MainWeaponSelector extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ItemPickerDialog extends StatefulWidget {
+  final List<EquipmentItem> items;
+  final String? currentValue;
+  final ValueChanged<String?> onChanged;
+  final String label;
+
+  const _ItemPickerDialog({
+    required this.items,
+    required this.currentValue,
+    required this.onChanged,
+    required this.label,
+  });
+
+  @override
+  State<_ItemPickerDialog> createState() => _ItemPickerDialogState();
+}
+
+class _ItemPickerDialogState extends State<_ItemPickerDialog> {
+  late List<EquipmentItem> filteredItems;
+  final TextEditingController searchController = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    filteredItems = widget.items;
+  }
+
+  @override
+  void dispose() {
+    searchController.dispose();
+    super.dispose();
+  }
+
+  void _filterItems(String query) {
+    setState(() {
+      if (query.isEmpty) {
+        filteredItems = widget.items;
+      } else {
+        filteredItems = widget.items
+            .where(
+                (item) => item.name.toLowerCase().contains(query.toLowerCase()))
+            .toList();
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final customColors = theme.extension<CustomColors>();
+
+    return Dialog(
+      backgroundColor: customColors?.cardBackground ?? theme.cardColor,
+      child: Container(
+        width: MediaQuery.of(context).size.width * 0.9,
+        height: MediaQuery.of(context).size.height * 0.7,
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Header
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    widget.label,
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: theme.primaryColor,
+                    ),
+                  ),
+                ),
+                IconButton(
+                  icon: const Icon(Icons.close),
+                  onPressed: () => Navigator.pop(context),
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+
+            // Search field
+            TextField(
+              controller: searchController,
+              onChanged: _filterItems,
+              style: TextStyle(
+                color: theme.colorScheme.onSurface,
+                fontSize: 14,
+              ),
+              decoration: InputDecoration(
+                hintText: 'ค้นหาชื่อไอเทม...',
+                hintStyle: TextStyle(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+                ),
+                prefixIcon: Icon(
+                  Icons.search,
+                  color: theme.primaryColor,
+                ),
+                filled: true,
+                fillColor: Colors.white.withValues(alpha: 0.05),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8),
+                  borderSide: BorderSide(
+                    color: theme.primaryColor.withValues(alpha: 0.3),
+                  ),
+                ),
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8),
+                  borderSide: BorderSide(
+                    color: theme.primaryColor.withValues(alpha: 0.3),
+                  ),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8),
+                  borderSide: BorderSide(
+                    color: theme.primaryColor,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Items list
+            Expanded(
+              child: ListView.builder(
+                itemCount: filteredItems.length + 1,
+                itemBuilder: (context, index) {
+                  if (index == 0) {
+                    return ListTile(
+                      dense: true,
+                      title: const Text(
+                        'None',
+                        style: TextStyle(
+                          fontSize: 13,
+                        ),
+                      ),
+                      selected: widget.currentValue == null,
+                      selectedTileColor:
+                          theme.primaryColor.withValues(alpha: 0.2),
+                      onTap: () {
+                        widget.onChanged(null);
+                        Navigator.pop(context);
+                      },
+                    );
+                  }
+
+                  final item = filteredItems[index - 1];
+                  final isSelected = widget.currentValue == item.id;
+
+                  return ListTile(
+                    dense: true,
+                    title: Text(
+                      item.name,
+                      style: const TextStyle(
+                        fontSize: 13,
+                      ),
+                    ),
+                    selected: isSelected,
+                    selectedTileColor:
+                        theme.primaryColor.withValues(alpha: 0.2),
+                    onTap: () {
+                      widget.onChanged(item.id);
+                      Navigator.pop(context);
+                    },
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

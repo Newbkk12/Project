@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import '../services/local_storage.dart';
+import '../services/auth_service.dart';
 import 'build_simulator_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -15,6 +16,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController _passwordController = TextEditingController();
   final TextEditingController _confirmPasswordController =
       TextEditingController();
+  final AuthService _authService = AuthService();
 
   bool _passwordVisible = false;
   bool _confirmPasswordVisible = false;
@@ -121,7 +123,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     });
   }
 
-  void _handleRegistration() {
+  void _handleRegistration() async {
     // Final validation
     _validateEmail();
     _validatePassword();
@@ -134,32 +136,34 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
     setState(() => _isLoading = true);
 
-    Future.delayed(const Duration(seconds: 3), () {
-      final formData = {
-        'email': _emailController.text,
-        'newsletter': _agreeNewsletter,
-        'registrationTime': DateTime.now().toIso8601String(),
-      };
+    final result = await _authService.register(
+      email: _emailController.text,
+      password: _passwordController.text,
+      confirmPassword: _confirmPasswordController.text,
+    );
 
-      setLocalStorageItem('toramRegistration', jsonEncode(formData));
+    setState(() => _isLoading = false);
 
-      setState(() => _isLoading = false);
+    if (result['success']) {
+      // Save newsletter preference
+      if (_agreeNewsletter) {
+        final formData = {
+          'email': _emailController.text,
+          'newsletter': _agreeNewsletter,
+          'registrationTime': DateTime.now().toIso8601String(),
+        };
+        setLocalStorageItem('toramRegistration', jsonEncode(formData));
+      }
+
       _showSnackBar(
           'สมัครสมาชิกสำเร็จ! กำลังเข้าสู่ระบบ...', const Color(0xFF10A37F));
 
-      // Auto login after registration
-      Future.delayed(const Duration(seconds: 2), () {
-        final loginData = {
-          'email': formData['email'],
-          'loginTime': DateTime.now().toIso8601String(),
-          'rememberMe': true,
-          'userType': 'registered',
-        };
-
-        setLocalStorageItem('toramLogin', jsonEncode(loginData));
+      Future.delayed(const Duration(milliseconds: 1500), () {
         _navigateToApp();
       });
-    });
+    } else {
+      _showSnackBar(result['message'], Colors.red);
+    }
   }
 
   void _navigateToApp() {

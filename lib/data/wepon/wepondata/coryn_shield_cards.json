@@ -1,0 +1,9270 @@
+[
+  {
+    "title": "1st Anniv Shield [Shield]",
+    "props": {
+      "Sell": "20 Spina",
+      "Process": "12 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "VIT %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "8"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box I",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 1,
+    "type": "Shield"
+  },
+  {
+    "title": "2nd Anniv Shield [Shield]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "VIT %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "8"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box II",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 2,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "12 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "VIT %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "8"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box III",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 3,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "VIT %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "8"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box IV",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 4,
+    "type": "Shield"
+  },
+  {
+    "title": "Buckler [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Shell Mask (Lv 4)",
+        "dye": "",
+        "map": "Land Under Development"
+      },
+      {
+        "monster": "Shell Mask (Lv 5)",
+        "dye": "",
+        "map": "Land Under Development"
+      }
+    ],
+    "id": 5,
+    "type": "Shield"
+  },
+  {
+    "title": "Buckler [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 6,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 7,
+    "type": "Shield"
+  },
+  {
+    "title": "Cake Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "250"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 8,
+    "type": "Shield"
+  },
+  {
+    "title": "Huge Heavy Shield [Shield]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "5 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "32"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Excavated Golem (Lv 16)",
+        "dye": "",
+        "map": "Underground Ruins: Deepest Part"
+      },
+      {
+        "monster": "Excavated Golem (Lv 6)",
+        "dye": "",
+        "map": "Underground Ruins: Deepest Part"
+      },
+      {
+        "monster": "Excavated Golem (Lv 26)",
+        "dye": "",
+        "map": "Underground Ruins: Deepest Part"
+      },
+      {
+        "monster": "Excavated Golem (Lv 36)",
+        "dye": "",
+        "map": "Underground Ruins: Deepest Part"
+      },
+      {
+        "monster": "Excavated Golem (Lv 56)",
+        "dye": "",
+        "map": "Underground Ruins: Deepest Part"
+      }
+    ],
+    "id": 9,
+    "type": "Shield"
+  },
+  {
+    "title": "Light Shield [Shield]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "5 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Helm Colon (Lv 11)",
+        "dye": "",
+        "map": "Strum Road"
+      },
+      {
+        "monster": "Helm Colon (Lv 13)",
+        "dye": "",
+        "map": "Strum Road"
+      },
+      {
+        "monster": "Helm Colon (Lv 16)",
+        "dye": "",
+        "map": "Marbaro Forest"
+      },
+      {
+        "monster": "Helm Colon (Lv 18)",
+        "dye": "",
+        "map": "Marbaro Forest"
+      }
+    ],
+    "id": 10,
+    "type": "Shield"
+  },
+  {
+    "title": "Light Shield [Shield]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "5 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "AGI",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 11,
+    "type": "Shield"
+  },
+  {
+    "title": "Maton Shield [Shield]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "1000"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Maton Sword (Lv 133)",
+        "dye": "",
+        "map": "Buried Tower: Entrance"
+      },
+      {
+        "monster": "Maton Sword (Lv 143)",
+        "dye": "",
+        "map": "Buried Tower: Entrance"
+      },
+      {
+        "monster": "Maton Sword (Lv 153)",
+        "dye": "",
+        "map": "Buried Tower: Entrance"
+      },
+      {
+        "monster": "Maton Sword (Lv 163)",
+        "dye": "",
+        "map": "Buried Tower: Entrance"
+      },
+      {
+        "monster": "Maton Sword (Lv 183)",
+        "dye": "",
+        "map": "Buried Tower: Entrance"
+      }
+    ],
+    "id": 12,
+    "type": "Shield"
+  },
+  {
+    "title": "Mirror Shield [Shield]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "5"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Stone Mercenary (Lv 60)",
+        "dye": "",
+        "map": "Zoktzda Ruins : Abnormal Space"
+      }
+    ],
+    "id": 13,
+    "type": "Shield"
+  },
+  {
+    "title": "Shampy Doll [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1500"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      },
+      {
+        "name": "Barrier Cooldown %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Shampy (Lv 135)",
+        "dye": "",
+        "map": "Turnus Mine: Hall"
+      },
+      {
+        "monster": "Shampy (Lv 145)",
+        "dye": "",
+        "map": "Turnus Mine: Hall"
+      },
+      {
+        "monster": "Shampy (Lv 155)",
+        "dye": "",
+        "map": "Turnus Mine: Hall"
+      },
+      {
+        "monster": "Shampy (Lv 165)",
+        "dye": "",
+        "map": "Turnus Mine: Hall"
+      },
+      {
+        "monster": "Shampy (Lv 185)",
+        "dye": "",
+        "map": "Turnus Mine: Hall"
+      }
+    ],
+    "id": 14,
+    "type": "Shield"
+  },
+  {
+    "title": "Shampy Doll [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      },
+      {
+        "name": "Barrier Cooldown %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 15,
+    "type": "Shield"
+  },
+  {
+    "title": "Spirit Shield Navida [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Event only: MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "ASPD",
+        "amount": "1000"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 16,
+    "type": "Shield"
+  },
+  {
+    "title": "Zoe's Magic Book [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP %",
+        "amount": "-20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "100"
+      },
+      {
+        "name": "MATK DOWN (STR %)",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zoe (Lv 100)",
+        "dye": "",
+        "map": "Halloween Mansion Basement"
+      },
+      {
+        "monster": "Zoe (Lv 125)",
+        "dye": "",
+        "map": "Halloween Mansion Basement"
+      },
+      {
+        "monster": "Zoe (Lv 150)",
+        "dye": "",
+        "map": "Halloween Mansion Basement"
+      }
+    ],
+    "id": 17,
+    "type": "Shield"
+  },
+  {
+    "title": "Coryn Memorial Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "30"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 18,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 19,
+    "type": "Shield"
+  },
+  {
+    "title": "Hagoita [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2000"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 20,
+    "type": "Shield"
+  },
+  {
+    "title": "Hero Shield (Pom) [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Hero Potum (10M DL) (Lv 150)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum Party (12M DL) (Lv 180)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (12M DL) (Lv 190)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (12M DL) (Lv 200)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (12M DL) (Lv 220)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (13M DL) (Lv 190)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (13M DL) (Lv 200)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (13M DL) (Lv 210)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (13M DL) (Lv 220)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum Party (12M DL) (Lv 170)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      },
+      {
+        "monster": "Hero Potum (11M DL) (Lv 220)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (10M DL) (Lv 160)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (10M DL) (Lv 170)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (10M DL) (Lv 180)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (10M DL) (Lv 200)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (11M DL) (Lv 160)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (11M DL) (Lv 170)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (11M DL) (Lv 180)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum (11M DL) (Lv 190)",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      },
+      {
+        "monster": "Hero Potum Party (13M DL) (Lv 240)",
+        "dye": "",
+        "map": "Archfiend's Throne"
+      }
+    ],
+    "id": 21,
+    "type": "Shield"
+  },
+  {
+    "title": "Iron Shield [Shield]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water Ghost (Lv 31)",
+        "dye": "",
+        "map": "Nehelo Swamp"
+      }
+    ],
+    "id": 22,
+    "type": "Shield"
+  },
+  {
+    "title": "Iron Shield [Shield]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 23,
+    "type": "Shield"
+  },
+  {
+    "title": "Juno Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 24,
+    "type": "Shield"
+  },
+  {
+    "title": "Kite Shield [Shield]",
+    "props": {
+      "Sell": "20 Spina",
+      "Process": "10 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "22"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Guardian Statue (Lv 22)",
+        "dye": "",
+        "map": "Ruined Temple: Area 2"
+      },
+      {
+        "monster": "Guardian Statue (Lv 22)",
+        "dye": "",
+        "map": "Ruined Temple: Area 3"
+      },
+      {
+        "monster": "Guardian Statue (Lv 23)",
+        "dye": "",
+        "map": "Ruined Temple: Area 3"
+      }
+    ],
+    "id": 25,
+    "type": "Shield"
+  },
+  {
+    "title": "Kite Shield [Shield]",
+    "props": {
+      "Sell": "20 Spina",
+      "Process": "10 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "90"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "22"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 26,
+    "type": "Shield"
+  },
+  {
+    "title": "Shell Shield [Shield]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "2"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "24"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tortuga (Lv 40)",
+        "dye": "",
+        "map": "Icule Lake"
+      }
+    ],
+    "id": 27,
+    "type": "Shield"
+  },
+  {
+    "title": "Hard Buckler [Shield]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "17"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "17"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ratia (Lv 42)",
+        "dye": "",
+        "map": "Korda Basin"
+      }
+    ],
+    "id": 28,
+    "type": "Shield"
+  },
+  {
+    "title": "Hard Buckler [Shield]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "17"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "17"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 29,
+    "type": "Shield"
+  },
+  {
+    "title": "Relic Shield [Shield]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "3"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "1"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "22"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ruin Golem (Lv 45)",
+        "dye": "",
+        "map": "Zoktzda ruins : Reversed Hall"
+      },
+      {
+        "monster": "Ruin Golem (Lv 35)",
+        "dye": "",
+        "map": "Zoktzda ruins : Reversed Hall"
+      },
+      {
+        "monster": "Ruin Golem (Lv 55)",
+        "dye": "",
+        "map": "Zoktzda ruins : Reversed Hall"
+      },
+      {
+        "monster": "Ruin Golem (Lv 65)",
+        "dye": "",
+        "map": "Zoktzda ruins : Reversed Hall"
+      },
+      {
+        "monster": "Ruin Golem (Lv 85)",
+        "dye": "",
+        "map": "Zoktzda ruins : Reversed Hall"
+      }
+    ],
+    "id": 30,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 31,
+    "type": "Shield"
+  },
+  {
+    "title": "Ooze Shield [Shield]",
+    "props": {
+      "Sell": "45 Spina",
+      "Process": "22 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "4"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "23"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ooze (Lv 52)",
+        "dye": "",
+        "map": "Lutaros Cavern: Deepest Part"
+      },
+      {
+        "monster": "Ooze (Lv 42)",
+        "dye": "",
+        "map": "Lutaros Cavern: Deepest Part"
+      },
+      {
+        "monster": "Ooze (Lv 62)",
+        "dye": "",
+        "map": "Lutaros Cavern: Deepest Part"
+      },
+      {
+        "monster": "Ooze (Lv 72)",
+        "dye": "",
+        "map": "Lutaros Cavern: Deepest Part"
+      },
+      {
+        "monster": "Ooze (Lv 92)",
+        "dye": "",
+        "map": "Lutaros Cavern: Deepest Part"
+      }
+    ],
+    "id": 32,
+    "type": "Shield"
+  },
+  {
+    "title": "Ooze Shield [Shield]",
+    "props": {
+      "Sell": "45 Spina",
+      "Process": "22 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "4"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "2"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "23"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 33,
+    "type": "Shield"
+  },
+  {
+    "title": "Ooze Shield [Shield]",
+    "props": {
+      "Sell": "45 Spina",
+      "Process": "22 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "4"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "2"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "23"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ooze (Megiston 2016) (Lv 100)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 34,
+    "type": "Shield"
+  },
+  {
+    "title": "1st Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "27"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 35,
+    "type": "Shield"
+  },
+  {
+    "title": "2nd Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "27"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 36,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "27"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 37,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "27"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 38,
+    "type": "Shield"
+  },
+  {
+    "title": "Porcupine Quills Shield [Shield]",
+    "props": {
+      "Sell": "170 Spina",
+      "Process": "85 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "2"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "-25"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tuscog (Lv 159)",
+        "dye": "",
+        "map": "Eryldan Street: Near the Forest of Ein"
+      },
+      {
+        "monster": "Tuscog (Lv 169)",
+        "dye": "",
+        "map": "Eryldan Street: Near the Forest of Ein"
+      },
+      {
+        "monster": "Tuscog (Lv 179)",
+        "dye": "",
+        "map": "Eryldan Street: Near the Forest of Ein"
+      },
+      {
+        "monster": "Tuscog (Lv 189)",
+        "dye": "",
+        "map": "Eryldan Street: Near the Forest of Ein"
+      },
+      {
+        "monster": "Tuscog (Lv 209)",
+        "dye": "",
+        "map": "Eryldan Street: Near the Forest of Ein"
+      },
+      {
+        "monster": "Tuscog (Megiston 2021) (Lv 200)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 39,
+    "type": "Shield"
+  },
+  {
+    "title": "Porcupine Quills Shield [Shield]",
+    "props": {
+      "Sell": "170 Spina",
+      "Process": "85 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "1"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "1"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "-25"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 40,
+    "type": "Shield"
+  },
+  {
+    "title": "Red Steel Buckler [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "Dodge",
+        "amount": "50"
+      },
+      {
+        "name": "ASPD",
+        "amount": "300"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Red Steel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 41,
+    "type": "Shield"
+  },
+  {
+    "title": "Scale Shield [Shield]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 42,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 43,
+    "type": "Shield"
+  },
+  {
+    "title": "Scale Shield [Shield]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Planet Head (Green) (Lv 62)",
+        "dye": "",
+        "map": "Gate to Another World: Area 1"
+      },
+      {
+        "monster": "Planet Head (Green) (Lv 64)",
+        "dye": "",
+        "map": "Gate to Another World: Area 2"
+      }
+    ],
+    "id": 44,
+    "type": "Shield"
+  },
+  {
+    "title": "Sugar Cookie [Shield]",
+    "props": {
+      "Sell": "390 Spina",
+      "Process": "190 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "5"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "25"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "45"
+      },
+      {
+        "name": "Reduce Dmg (Floor) %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 45,
+    "type": "Shield"
+  },
+  {
+    "title": "Relief Shield [Shield]",
+    "props": {
+      "Sell": "55 Spina",
+      "Process": "27 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "6"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "300"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Demon's Gate (Lv 60)",
+        "dye": "",
+        "map": "Saham Crater"
+      },
+      {
+        "monster": "Demon's Gate (Lv 50)",
+        "dye": "",
+        "map": "Saham Crater"
+      },
+      {
+        "monster": "Demon's Gate (Lv 70)",
+        "dye": "",
+        "map": "Saham Crater"
+      },
+      {
+        "monster": "Demon's Gate (Lv 80)",
+        "dye": "",
+        "map": "Saham Crater"
+      },
+      {
+        "monster": "Demon's Gate (Lv 100)",
+        "dye": "",
+        "map": "Saham Crater"
+      }
+    ],
+    "id": 46,
+    "type": "Shield"
+  },
+  {
+    "title": "Relief Shield [Shield]",
+    "props": {
+      "Sell": "55 Spina",
+      "Process": "27 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 47,
+    "type": "Shield"
+  },
+  {
+    "title": "Albero Shield [Shield]",
+    "props": {
+      "Sell": "60 Spina",
+      "Process": "30 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "7"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "200"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "18"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "18"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Jelfy (Lv 69)",
+        "dye": "",
+        "map": "Teaus Hill"
+      },
+      {
+        "monster": "Jelfy (Lv 67)",
+        "dye": "",
+        "map": "Teaus Hill"
+      },
+      {
+        "monster": "Jelfy (Lv 70)",
+        "dye": "",
+        "map": "Teaus Hill: Marshland"
+      }
+    ],
+    "id": 48,
+    "type": "Shield"
+  },
+  {
+    "title": "Albero Shield [Shield]",
+    "props": {
+      "Sell": "60 Spina",
+      "Process": "30 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "7"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "300"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "18"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "18"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 49,
+    "type": "Shield"
+  },
+  {
+    "title": "Marble Shield [Shield]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "12"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pillar Golem (Lv 70)",
+        "dye": "",
+        "map": "Lost Town: Magic Barrier"
+      },
+      {
+        "monster": "Pillar Golem (Lv 60)",
+        "dye": "",
+        "map": "Lost Town: Magic Barrier"
+      },
+      {
+        "monster": "Pillar Golem (Lv 80)",
+        "dye": "",
+        "map": "Lost Town: Magic Barrier"
+      },
+      {
+        "monster": "Pillar Golem (Lv 90)",
+        "dye": "",
+        "map": "Lost Town: Magic Barrier"
+      },
+      {
+        "monster": "Pillar Golem (Lv 110)",
+        "dye": "",
+        "map": "Lost Town: Magic Barrier"
+      }
+    ],
+    "id": 50,
+    "type": "Shield"
+  },
+  {
+    "title": "Marble Shield [Shield]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "6"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 51,
+    "type": "Shield"
+  },
+  {
+    "title": "Marble Shield [Shield]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "24"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pillar Golem (Megiston 2018) (Lv 140)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 52,
+    "type": "Shield"
+  },
+  {
+    "title": "Shell Buckler [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "9"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "7"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 53,
+    "type": "Shield"
+  },
+  {
+    "title": "Shell Buckler [Shield]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "9"
+      },
+      {
+        "name": "VIT %",
+        "amount": "1"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "7"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Chandler (Lv 67)",
+        "dye": "",
+        "map": "Calle mort"
+      }
+    ],
+    "id": 54,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 55,
+    "type": "Shield"
+  },
+  {
+    "title": "1st Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 56,
+    "type": "Shield"
+  },
+  {
+    "title": "2nd Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 57,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "37 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 58,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "9"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 59,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "3"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box V",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 60,
+    "type": "Shield"
+  },
+  {
+    "title": "Coffin Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "MATK",
+        "amount": "30"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 61,
+    "type": "Shield"
+  },
+  {
+    "title": "Cross Shield [Shield]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "19"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "19"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corroded Knight (Lv 72)",
+        "dye": "",
+        "map": "Dark Wasteland"
+      }
+    ],
+    "id": 62,
+    "type": "Shield"
+  },
+  {
+    "title": "Cross Shield [Shield]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "6"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "19"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "19"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 63,
+    "type": "Shield"
+  },
+  {
+    "title": "Black Shield of Delusion [Shield]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "11"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "32"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Black Knight of Delusion (Lv 88)",
+        "dye": "",
+        "map": "Abyss of No Return: Deepest Area"
+      },
+      {
+        "monster": "Black Knight of Delusion (Lv 78)",
+        "dye": "",
+        "map": "Abyss of No Return: Deepest Area"
+      },
+      {
+        "monster": "Black Knight of Delusion (Lv 98)",
+        "dye": "",
+        "map": "Abyss of No Return: Deepest Area"
+      },
+      {
+        "monster": "Black Knight of Delusion (Lv 108)",
+        "dye": "",
+        "map": "Abyss of No Return: Deepest Area"
+      },
+      {
+        "monster": "Black Knight of Delusion (Lv 128)",
+        "dye": "",
+        "map": "Abyss of No Return: Deepest Area"
+      }
+    ],
+    "id": 64,
+    "type": "Shield"
+  },
+  {
+    "title": "Black Shield Of Delusion [Shield]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "11"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "32"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 65,
+    "type": "Shield"
+  },
+  {
+    "title": "Vulcan Shield [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "11"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "6"
+      },
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "35"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ifrid (Lv 112)",
+        "dye": "",
+        "map": "Blazing Graben: Deepest Part"
+      },
+      {
+        "monster": "Ifrid (Lv 102)",
+        "dye": "",
+        "map": "Blazing Graben: Deepest Part"
+      },
+      {
+        "monster": "Ifrid (Lv 122)",
+        "dye": "",
+        "map": "Blazing Graben: Deepest Part"
+      },
+      {
+        "monster": "Ifrid (Lv 132)",
+        "dye": "",
+        "map": "Blazing Graben: Deepest Part"
+      },
+      {
+        "monster": "Ifrid (Lv 152)",
+        "dye": "",
+        "map": "Blazing Graben: Deepest Part"
+      }
+    ],
+    "id": 66,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 67,
+    "type": "Shield"
+  },
+  {
+    "title": "Vulcan Shield [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "11"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "16"
+      },
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "35"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 68,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "85 Spina",
+      "Process": "42 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "12"
+      },
+      {
+        "name": "VIT %",
+        "amount": "4"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box VI",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 69,
+    "type": "Shield"
+  },
+  {
+    "title": "Indigo Shield [Shield]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "14"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corroded Shielder (Lv 91)",
+        "dye": "",
+        "map": "Dark Manor: Area 1"
+      },
+      {
+        "monster": "Corroded Shielder (Lv 91)",
+        "dye": "",
+        "map": "Dark Manor: Area 2"
+      }
+    ],
+    "id": 70,
+    "type": "Shield"
+  },
+  {
+    "title": "Indigo Shield [Shield]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "14"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 71,
+    "type": "Shield"
+  },
+  {
+    "title": "2nd Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "16"
+      },
+      {
+        "name": "VIT %",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "33"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "11"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "12"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 72,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "47 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "16"
+      },
+      {
+        "name": "VIT %",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "33"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "11"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "12"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 73,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "16"
+      },
+      {
+        "name": "VIT %",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "33"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "11"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "12"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 74,
+    "type": "Shield"
+  },
+  {
+    "title": "Spike Shield [Shield]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "18"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "35"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "10"
+      },
+      {
+        "name": "Reflect %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 75,
+    "type": "Shield"
+  },
+  {
+    "title": "Spike Shield [Shield]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "18"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "35"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "10"
+      },
+      {
+        "name": "Reflect %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Demi Ork (Lv 98)",
+        "dye": "",
+        "map": "Sykea Deep Valley"
+      },
+      {
+        "monster": "Demi Ork (Lv 100)",
+        "dye": "",
+        "map": "Sykea Deep Valley"
+      }
+    ],
+    "id": 76,
+    "type": "Shield"
+  },
+  {
+    "title": "Dark General's Shield [Shield]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "VIT %",
+        "amount": "2"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Imitator (Lv 106)",
+        "dye": "",
+        "map": "Plastida: Deepest Part"
+      },
+      {
+        "monster": "Imitator (Lv 96)",
+        "dye": "",
+        "map": "Plastida: Deepest Part"
+      },
+      {
+        "monster": "Imitator (Lv 116)",
+        "dye": "",
+        "map": "Plastida: Deepest Part"
+      },
+      {
+        "monster": "Imitator (Lv 126)",
+        "dye": "",
+        "map": "Plastida: Deepest Part"
+      },
+      {
+        "monster": "Imitator (Lv 146)",
+        "dye": "",
+        "map": "Plastida: Deepest Part"
+      }
+    ],
+    "id": 77,
+    "type": "Shield"
+  },
+  {
+    "title": "Dark General's Shield [Shield]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 78,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 79,
+    "type": "Shield"
+  },
+  {
+    "title": "Phalanx (Shield) [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "1500"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1500"
+      },
+      {
+        "name": "Barrier Cooldown %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [],
+    "id": 80,
+    "type": "Shield"
+  },
+  {
+    "title": "2nd Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 81,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 82,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 83,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "5"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 84,
+    "type": "Shield"
+  },
+  {
+    "title": "Imperial Shield [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-5"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 85,
+    "type": "Shield"
+  },
+  {
+    "title": "Moonlight Shield [Shield]",
+    "props": {
+      "Sell": "155 Spina",
+      "Process": "77 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "22"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "25"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 86,
+    "type": "Shield"
+  },
+  {
+    "title": "Bullet Shield [Shield]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "19"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Bullet) %",
+        "amount": "10"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Death Media (Lv 112)",
+        "dye": "",
+        "map": "Ultimea City: Roof"
+      },
+      {
+        "monster": "Death Media (Lv 114)",
+        "dye": "",
+        "map": "Ultimea City: Roof"
+      },
+      {
+        "monster": "Death Media (Lv 125)",
+        "dye": "",
+        "map": "Suburb of Droma Square: Area 1"
+      }
+    ],
+    "id": 87,
+    "type": "Shield"
+  },
+  {
+    "title": "Bullet Shield [Shield]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "19"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Bullet) %",
+        "amount": "12"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "12"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 88,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "26"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 89,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "26"
+      },
+      {
+        "name": "VIT %",
+        "amount": "4"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "16"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "16"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Anniv Equipment Box VII",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 90,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 91,
+    "type": "Shield"
+  },
+  {
+    "title": "Imperial Shield [Shield]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "26"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-2"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Underground Nemico (Lv 109)",
+        "dye": "",
+        "map": "Ultimea Sewer: Southeast"
+      },
+      {
+        "monster": "Underground Nemico (Lv 111)",
+        "dye": "",
+        "map": "Ultimea Sewer: Southeast"
+      }
+    ],
+    "id": 92,
+    "type": "Shield"
+  },
+  {
+    "title": "Sapphire Shield [Shield]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "28"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "1000"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sapphire Roga (Lv 171)",
+        "dye": "",
+        "map": "Avant Plastida: Deepest Area"
+      },
+      {
+        "monster": "Sapphire Roga (Lv 181)",
+        "dye": "",
+        "map": "Avant Plastida: Deepest Area"
+      },
+      {
+        "monster": "Sapphire Roga (Lv 191)",
+        "dye": "",
+        "map": "Avant Plastida: Deepest Area"
+      },
+      {
+        "monster": "Sapphire Roga (Lv 201)",
+        "dye": "",
+        "map": "Avant Plastida: Deepest Area"
+      },
+      {
+        "monster": "Sapphire Roga (Lv 221)",
+        "dye": "",
+        "map": "Avant Plastida: Deepest Area"
+      }
+    ],
+    "id": 93,
+    "type": "Shield"
+  },
+  {
+    "title": "Sapphire Shield [Shield]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "28"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "1"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "100"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 94,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "18"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 95,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "18"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 96,
+    "type": "Shield"
+  },
+  {
+    "title": "Elfin Shield [Shield]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Molemet (Lv 117)",
+        "dye": "",
+        "map": "Tolbas GrassLand"
+      },
+      {
+        "monster": "Molemet (Lv 129)",
+        "dye": "",
+        "map": "Turnus Mine: Area 1"
+      },
+      {
+        "monster": "Molemet (Lv 131)",
+        "dye": "",
+        "map": "Turnus Mine: Area 2"
+      }
+    ],
+    "id": 97,
+    "type": "Shield"
+  },
+  {
+    "title": "Elfin Shield [Shield]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 98,
+    "type": "Shield"
+  },
+  {
+    "title": "Zahhak Shield [Shield]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "6"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "24"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "6"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zahhak Machina (Lv 120)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 130)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 140)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 150)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 170)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      }
+    ],
+    "id": 99,
+    "type": "Shield"
+  },
+  {
+    "title": "Zahhak Shield [Shield]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "24"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "2"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 100,
+    "type": "Shield"
+  },
+  {
+    "title": "Zahhak Shield [Shield]",
+    "props": {
+      "Sell": "131 Spina",
+      "Process": "66 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "26"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "26"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "9"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zahhak Machina (Megiston 2019) (Lv 165)",
+        "dye": "A 83 C",
+        "map": "Event"
+      }
+    ],
+    "id": 101,
+    "type": "Shield"
+  },
+  {
+    "title": "Esca Shield [Shield]",
+    "props": {
+      "Sell": "140 Spina",
+      "Process": "70 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "34"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "31"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Straight Line) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Hermit Doll (Lv 133)",
+        "dye": "",
+        "map": "Heresy Corridor"
+      }
+    ],
+    "id": 102,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 103,
+    "type": "Shield"
+  },
+  {
+    "title": "Esca Shield [Shield]",
+    "props": {
+      "Sell": "140 Spina",
+      "Process": "70 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "34"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "31"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Straight Line) %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 104,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "35"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception (2nd Part)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 105,
+    "type": "Shield"
+  },
+  {
+    "title": "3rd Anniv Shield VII [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "72 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "36"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "21"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 106,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield VII [Shield]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "36"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "21"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 107,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "36"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 108,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "39"
+      },
+      {
+        "name": "VIT %",
+        "amount": "6"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 109,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "39"
+      },
+      {
+        "name": "VIT %",
+        "amount": "6"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "18"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "18"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 110,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "39"
+      },
+      {
+        "name": "VIT %",
+        "amount": "6"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "18"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "18"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 111,
+    "type": "Shield"
+  },
+  {
+    "title": "Harmony Shield [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "39"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "26"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 112,
+    "type": "Shield"
+  },
+  {
+    "title": "Lil Empress Shield [Shield]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "40"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Coenubia (Lv 140)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 150)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 160)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 170)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 190)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      }
+    ],
+    "id": 113,
+    "type": "Shield"
+  },
+  {
+    "title": "Snow Bear Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "40"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "40"
+      },
+      {
+        "name": "Reduce Dmg (Charge) %",
+        "amount": "20"
+      },
+      {
+        "name": "Staff only: Aggro %",
+        "amount": "-50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Snow Bear Box",
+        "dye": "",
+        "map": "Snowball Mini Game Venue"
+      }
+    ],
+    "id": 114,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 115,
+    "type": "Shield"
+  },
+  {
+    "title": "Harmony Shield [Shield]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "41"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "26"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Roca (Lv 155)",
+        "dye": "",
+        "map": "Eryldan Street: Area 1"
+      },
+      {
+        "monster": "Roca (Lv 156)",
+        "dye": "",
+        "map": "Eryldan Street: Area 2"
+      },
+      {
+        "monster": "Roca (Lv 156)",
+        "dye": "",
+        "map": "Eryldan Street: Area 3"
+      }
+    ],
+    "id": 116,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield VIII [Shield]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "45"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "24"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 117,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "45"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "8"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "38"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "13"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 118,
+    "type": "Shield"
+  },
+  {
+    "title": "Holy Shield [Shield]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "45"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 119,
+    "type": "Shield"
+  },
+  {
+    "title": "Holy Shield [Shield]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "45"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "8"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sandsaur (Lv 165)",
+        "dye": "",
+        "map": "Inanis Wilderness"
+      },
+      {
+        "monster": "Sandsaur (Lv 163)",
+        "dye": "",
+        "map": "Inanis Wilderness"
+      }
+    ],
+    "id": 120,
+    "type": "Shield"
+  },
+  {
+    "title": "Juno Shield II [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "50"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Eidenliebe (Dark) (Lv 180)",
+        "dye": "",
+        "map": "Maia Diela"
+      }
+    ],
+    "id": 121,
+    "type": "Shield"
+  },
+  {
+    "title": "Swirly Whirly Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "50"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Liqueur Potum (Lv 123)",
+        "dye": "",
+        "map": "Creme Cliff (Valentine's Day Event)"
+      }
+    ],
+    "id": 122,
+    "type": "Shield"
+  },
+  {
+    "title": "Catafnia Shield [Shield]",
+    "props": {
+      "Sell": "170 Spina",
+      "Process": "85 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "51"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "34"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Guard Colon (Lv 173)",
+        "dye": "",
+        "map": "Rokoko City Ruins"
+      }
+    ],
+    "id": 123,
+    "type": "Shield"
+  },
+  {
+    "title": "Catafnia Shield [Shield]",
+    "props": {
+      "Sell": "170 Spina",
+      "Process": "85 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "51"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "34"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 124,
+    "type": "Shield"
+  },
+  {
+    "title": "4th Anniv Shield IX [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "VIT %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "27"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "8"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 125,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "9"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "9"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 126,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 127,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 128,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 129,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 130,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "VIT %",
+        "amount": "6"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 131,
+    "type": "Shield"
+  },
+  {
+    "title": "Seadevil Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "25"
+      },
+      {
+        "name": "Reduce Dmg (Meteor) %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Adaro (Lv 160)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (Lv 170)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (Lv 180)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (Lv 190)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (Lv 210)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      }
+    ],
+    "id": 132,
+    "type": "Shield"
+  },
+  {
+    "title": "Seadevil Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "50"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "50"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      },
+      {
+        "name": "Reduce Dmg (Meteor) %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Adaro (High Difficulty) (Lv 200)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (High Difficulty) (Lv 210)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (High Difficulty) (Lv 220)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (High Difficulty) (Lv 230)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      },
+      {
+        "monster": "Adaro (High Difficulty) (Lv 250)",
+        "dye": "",
+        "map": "Underwater Ruins: Deepest"
+      }
+    ],
+    "id": 133,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "54"
+      },
+      {
+        "name": "ATK %",
+        "amount": "2"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 134,
+    "type": "Shield"
+  },
+  {
+    "title": "Heart Cookie Shield [Shield]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "57"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 135,
+    "type": "Shield"
+  },
+  {
+    "title": "Reptilian Shield [Shield]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "57"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "2000"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Obsidian Lizard (Lv 177)",
+        "dye": "",
+        "map": "Noisy Woodland"
+      },
+      {
+        "monster": "Obsidian Lizard (Lv 180)",
+        "dye": "",
+        "map": "Noisy Woodland"
+      }
+    ],
+    "id": 136,
+    "type": "Shield"
+  },
+  {
+    "title": "Reptilian Shield [Shield]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "57"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1500"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 137,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "185 Spina",
+      "Process": "92 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "60"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 138,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 139,
+    "type": "Shield"
+  },
+  {
+    "title": "Laguna Shield [Shield]",
+    "props": {
+      "Sell": "190 Spina",
+      "Process": "95 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "63"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "12"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "16"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mogkey (Lv 187)",
+        "dye": "",
+        "map": "Eumano Glade"
+      },
+      {
+        "monster": "Mogkey (Lv 189)",
+        "dye": "",
+        "map": "Eumano Glade"
+      }
+    ],
+    "id": 140,
+    "type": "Shield"
+  },
+  {
+    "title": "Laguna Shield [Shield]",
+    "props": {
+      "Sell": "190 Spina",
+      "Process": "95 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "63"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "14"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "14"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "16"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 141,
+    "type": "Shield"
+  },
+  {
+    "title": "5th Anniv Shield VII [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "11"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "39"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 142,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 143,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "22"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "22"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 144,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "22"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "22"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 145,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield II [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "VIT %",
+        "amount": "7"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "11"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "22"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "22"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 146,
+    "type": "Shield"
+  },
+  {
+    "title": "Demon Empress Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "66"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "28"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "28"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Metacoenubia (Lv 185)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 195)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 205)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 215)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 235)",
+        "dye": "",
+        "map": "Neo Plastida"
+      }
+    ],
+    "id": 147,
+    "type": "Shield"
+  },
+  {
+    "title": "Luster Shield [Shield]",
+    "props": {
+      "Sell": "200 Spina",
+      "Process": "100 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "28"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "29"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 148,
+    "type": "Shield"
+  },
+  {
+    "title": "Luster Shield [Shield]",
+    "props": {
+      "Sell": "200 Spina",
+      "Process": "100 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "28"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "29"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Eyeloon (Lv 208)",
+        "dye": "",
+        "map": "Freight Corridor"
+      },
+      {
+        "monster": "Eyeloon (Lv 210)",
+        "dye": "",
+        "map": "Freight Corridor"
+      }
+    ],
+    "id": 149,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2000"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception (2nd Part)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 150,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 151,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2000"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception (2nd Part)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 152,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "40"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception (2nd Part)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 153,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "70"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "4000"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception (2nd Part)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 154,
+    "type": "Shield"
+  },
+  {
+    "title": "Gingerbread Man Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "72"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      },
+      {
+        "name": "Revive Time %",
+        "amount": "-20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 155,
+    "type": "Shield"
+  },
+  {
+    "title": "6th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "VIT %",
+        "amount": "8"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 156,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "VIT %",
+        "amount": "8"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "24"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 157,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "VIT %",
+        "amount": "8"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "24"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 158,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield III [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "VIT %",
+        "amount": "8"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "12"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "24"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 159,
+    "type": "Shield"
+  },
+  {
+    "title": "Aeria Shield [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "3"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "29"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "29"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Boma Owl (Lv 219)",
+        "dye": "",
+        "map": "Boma Konda: Entrance"
+      }
+    ],
+    "id": 160,
+    "type": "Shield"
+  },
+  {
+    "title": "Aeria Shield [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "4"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "29"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "29"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 161,
+    "type": "Shield"
+  },
+  {
+    "title": "Beastlord Shield [Shield]",
+    "props": {
+      "Sell": "205 Spina",
+      "Process": "102 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "76"
+      },
+      {
+        "name": "VIT %",
+        "amount": "8"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zega (Megiston 2021) (Lv 240)",
+        "dye": "",
+        "map": "Event"
+      },
+      {
+        "monster": "Zega (Megiston 2022) (Lv 260)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 162,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 163,
+    "type": "Shield"
+  },
+  {
+    "title": "Eradicator Shield [Shield]",
+    "props": {
+      "Sell": "220 Spina",
+      "Process": "110 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "84"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "17"
+      },
+      {
+        "name": "Reduce Dmg (Bullet) %",
+        "amount": "25"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Velum (Lv 213)",
+        "dye": "",
+        "map": "Arstida: Depth"
+      },
+      {
+        "monster": "Velum (Lv 223)",
+        "dye": "",
+        "map": "Arstida: Depth"
+      },
+      {
+        "monster": "Velum (Lv 233)",
+        "dye": "",
+        "map": "Arstida: Depth"
+      },
+      {
+        "monster": "Velum (Lv 243)",
+        "dye": "",
+        "map": "Arstida: Depth"
+      },
+      {
+        "monster": "Velum (Lv 263)",
+        "dye": "",
+        "map": "Arstida: Depth"
+      }
+    ],
+    "id": 164,
+    "type": "Shield"
+  },
+  {
+    "title": "Eradicator Shield [Shield]",
+    "props": {
+      "Sell": "220 Spina",
+      "Process": "110 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "84"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "17"
+      },
+      {
+        "name": "Reduce Dmg (Bullet) %",
+        "amount": "15"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 165,
+    "type": "Shield"
+  },
+  {
+    "title": "Luxurie Shield [Shield]",
+    "props": {
+      "Sell": "220 Spina",
+      "Process": "110 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "84"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "50"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Forbigosta (Lv 229)",
+        "dye": "",
+        "map": "Subma Cave"
+      },
+      {
+        "monster": "Forbigosta (Lv 231)",
+        "dye": "",
+        "map": "Subma Cave"
+      }
+    ],
+    "id": 166,
+    "type": "Shield"
+  },
+  {
+    "title": "Luxurie Shield [Shield]",
+    "props": {
+      "Sell": "220 Spina",
+      "Process": "110 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "84"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "50"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "9"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 167,
+    "type": "Shield"
+  },
+  {
+    "title": "Moonlight Shield II [Shield]",
+    "props": {
+      "Sell": "225 Spina",
+      "Process": "112 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "88"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "25"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1500"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      },
+      {
+        "name": "Staff only: Magic Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "1-Handed Sword only: Fire resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Bubble Angel (Lv 184)",
+        "dye": "",
+        "map": "Celesa's Tree Garden"
+      },
+      {
+        "monster": "Bubble Angel (Lv 180)",
+        "dye": "",
+        "map": "Celesa's Tree Garden"
+      },
+      {
+        "monster": "Roar (Lv 181)",
+        "dye": "",
+        "map": "Celesa's Tree Garden"
+      },
+      {
+        "monster": "Roar (Lv 183)",
+        "dye": "",
+        "map": "Celesa's Tree Garden"
+      },
+      {
+        "monster": "Sumari (Lv 182)",
+        "dye": "",
+        "map": "Celesa's Tree Garden"
+      }
+    ],
+    "id": 168,
+    "type": "Shield"
+  },
+  {
+    "title": "Peismataris [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "1000 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "90"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Mysterious Exchange (P. Avatar 2022)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 169,
+    "type": "Shield"
+  },
+  {
+    "title": "Watermelon Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "90"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "50"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "40"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "3000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 170,
+    "type": "Shield"
+  },
+  {
+    "title": "7th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "230 Spina",
+      "Process": "115 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "92"
+      },
+      {
+        "name": "VIT %",
+        "amount": "9"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "26"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 171,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "230 Spina",
+      "Process": "115 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "92"
+      },
+      {
+        "name": "VIT %",
+        "amount": "9"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "26"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 172,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield IV [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "92"
+      },
+      {
+        "name": "VIT %",
+        "amount": "9"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "13"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "41"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "26"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "26"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 173,
+    "type": "Shield"
+  },
+  {
+    "title": "Profound Shield [Shield]",
+    "props": {
+      "Sell": "230 Spina",
+      "Process": "115 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "92"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "14"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "18"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Trast (Lv 238)",
+        "dye": "",
+        "map": "Pipeline Corridor"
+      },
+      {
+        "monster": "Trast (Lv 240)",
+        "dye": "",
+        "map": "Pipeline Corridor"
+      }
+    ],
+    "id": 174,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 175,
+    "type": "Shield"
+  },
+  {
+    "title": "Profound Shield [Shield]",
+    "props": {
+      "Sell": "230 Spina",
+      "Process": "115 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "92"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 176,
+    "type": "Shield"
+  },
+  {
+    "title": "Lolliodd Magic Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "99"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "100"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "-75"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "25"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      },
+      {
+        "name": "Reduce Dmg (Floor) %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 177,
+    "type": "Shield"
+  },
+  {
+    "title": "Erde Shield [Shield]",
+    "props": {
+      "Sell": "240 Spina",
+      "Process": "120 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "21"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Romyzon (Lv 252)",
+        "dye": "",
+        "map": "Latum Wetlands"
+      },
+      {
+        "monster": "Romyzon (Lv 255)",
+        "dye": "",
+        "map": "Latum Wetlands"
+      }
+    ],
+    "id": 178,
+    "type": "Shield"
+  },
+  {
+    "title": "Evil Aristo Defense Shackles [Shield]",
+    "props": {
+      "Sell": "245 Spina",
+      "Process": "122 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "5"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "CSPD",
+        "amount": "500"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "50"
+      },
+      {
+        "name": "Staff only: Aggro %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Wicked Dragon Fazzino (Lv 234)",
+        "dye": "",
+        "map": "Propulsion System Room"
+      },
+      {
+        "monster": "Wicked Dragon Fazzino (Lv 244)",
+        "dye": "",
+        "map": "Propulsion System Room"
+      },
+      {
+        "monster": "Wicked Dragon Fazzino (Lv 254)",
+        "dye": "",
+        "map": "Propulsion System Room"
+      },
+      {
+        "monster": "Wicked Dragon Fazzino (Lv 264)",
+        "dye": "",
+        "map": "Propulsion System Room"
+      },
+      {
+        "monster": "Wicked Dragon Fazzino (Lv 284)",
+        "dye": "",
+        "map": "Propulsion System Room"
+      }
+    ],
+    "id": 179,
+    "type": "Shield"
+  },
+  {
+    "title": "Evil Aristo Defense Shackles [Shield]",
+    "props": {
+      "Sell": "245 Spina",
+      "Process": "122 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "CSPD",
+        "amount": "750"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 180,
+    "type": "Shield"
+  },
+  {
+    "title": "Mischievous Buckler [Shield]",
+    "props": {
+      "Sell": "245 Spina",
+      "Process": "122 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "104"
+      },
+      {
+        "name": "ASPD",
+        "amount": "400"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "66"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "6"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sibylares (Very Hard) (Lv 250)",
+        "dye": "",
+        "map": "Phasma Forest: Area 3"
+      }
+    ],
+    "id": 181,
+    "type": "Shield"
+  },
+  {
+    "title": "8th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "250 Spina",
+      "Process": "125 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "VIT %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "14"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "14"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "42"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "28"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "28"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 182,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield V [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "VIT %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "14"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "14"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "42"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "28"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "28"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 183,
+    "type": "Shield"
+  },
+  {
+    "title": "Peismataris [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "1000 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Mysterious Exchange (P. Avatar 2023)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 184,
+    "type": "Shield"
+  },
+  {
+    "title": "Seashell Shield [Shield]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "10 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "3000"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "20"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Paguro (Lv 172)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 1"
+      },
+      {
+        "monster": "Paguro (Lv 173)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 2"
+      },
+      {
+        "monster": "Paguro (Lv 174)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 3"
+      }
+    ],
+    "id": 185,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2500"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 186,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 187,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2500"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 188,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "60"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "20"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 189,
+    "type": "Shield"
+  },
+  {
+    "title": "Windgrace Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "100 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "108"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "5000"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "30"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "20"
+      },
+      {
+        "name": "Reduce Dmg (Player Epicenter) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)",
+        "dye": "",
+        "map": "HATSUNE MIKU Collab Venue"
+      }
+    ],
+    "id": 190,
+    "type": "Shield"
+  },
+  {
+    "title": "Don Shield [Shield]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "112"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "10000"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Light Armor only: Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Don Profundo (Lv 252)",
+        "dye": "",
+        "map": "Abandoned District: Ruins Summit"
+      },
+      {
+        "monster": "Don Profundo (Lv 262)",
+        "dye": "",
+        "map": "Abandoned District: Ruins Summit"
+      },
+      {
+        "monster": "Don Profundo (Lv 272)",
+        "dye": "",
+        "map": "Abandoned District: Ruins Summit"
+      },
+      {
+        "monster": "Don Profundo (Lv 282)",
+        "dye": "",
+        "map": "Abandoned District: Ruins Summit"
+      },
+      {
+        "monster": "Don Profundo (Lv 302)",
+        "dye": "",
+        "map": "Abandoned District: Ruins Summit"
+      }
+    ],
+    "id": 191,
+    "type": "Shield"
+  },
+  {
+    "title": "Don Shield [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "112"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "5000"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "36"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      },
+      {
+        "name": "Light Armor only: Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 192,
+    "type": "Shield"
+  },
+  {
+    "title": "Ghoulfish Buckler [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "120"
+      },
+      {
+        "name": "DEX %",
+        "amount": "3"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "6"
+      },
+      {
+        "name": "ASPD",
+        "amount": "600"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Staff only: Magic Resistance %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pisteus (Lv 183)",
+        "dye": "",
+        "map": "Ducia Coast: Depths"
+      },
+      {
+        "monster": "Pisteus (Lv 193)",
+        "dye": "",
+        "map": "Ducia Coast: Depths"
+      },
+      {
+        "monster": "Pisteus (Lv 203)",
+        "dye": "",
+        "map": "Ducia Coast: Depths"
+      },
+      {
+        "monster": "Pisteus (Lv 213)",
+        "dye": "",
+        "map": "Ducia Coast: Depths"
+      },
+      {
+        "monster": "Pisteus (Lv 233)",
+        "dye": "",
+        "map": "Ducia Coast: Depths"
+      }
+    ],
+    "id": 193,
+    "type": "Shield"
+  },
+  {
+    "title": "Ghoulfish Buckler [Shield]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "120"
+      },
+      {
+        "name": "DEX %",
+        "amount": "3"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "6"
+      },
+      {
+        "name": "ASPD",
+        "amount": "300"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 194,
+    "type": "Shield"
+  },
+  {
+    "title": "9th Anniv Shield VI [Shield]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "130"
+      },
+      {
+        "name": "VIT %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "42"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "17"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Heavy Armor only: Aggro %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 195,
+    "type": "Shield"
+  },
+  {
+    "title": "Gloomy Tree Shield [Shield]",
+    "props": {
+      "Sell": "275 Spina",
+      "Process": "137 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "130"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "31"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "31"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "31"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "40"
+      },
+      {
+        "name": "Knuckle only: CSPD %",
+        "amount": "-75"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Deformis (Lv 264)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 274)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 284)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 294)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 314)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      }
+    ],
+    "id": 196,
+    "type": "Shield"
+  },
+  {
+    "title": "Cuddle Shark Shield [Shield]",
+    "props": {
+      "Sell": "147 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "140"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [],
+    "id": 197,
+    "type": "Shield"
+  },
+  {
+    "title": "Eerie Bird Feather Shield [Shield]",
+    "props": {
+      "Sell": "295 Spina",
+      "Process": "147 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "150"
+      },
+      {
+        "name": "Stability %",
+        "amount": "10"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "50"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "33"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "33"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [],
+    "id": 198,
+    "type": "Shield"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 199,
+    "type": "Shield"
+  },
+  {
+    "title": "Rock Dragon Heavy Shield [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "152"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "30"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "32"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ferzen the Rock Dragon (Lv 211)",
+        "dye": "",
+        "map": "Guardian Forest: Giant Tree"
+      },
+      {
+        "monster": "Ferzen the Rock Dragon (Lv 221)",
+        "dye": "",
+        "map": "Guardian Forest: Giant Tree"
+      },
+      {
+        "monster": "Ferzen the Rock Dragon (Lv 231)",
+        "dye": "",
+        "map": "Guardian Forest: Giant Tree"
+      },
+      {
+        "monster": "Ferzen the Rock Dragon (Lv 251)",
+        "dye": "",
+        "map": "Guardian Forest: Giant Tree"
+      }
+    ],
+    "id": 200,
+    "type": "Shield"
+  },
+  {
+    "title": "Rock Dragon Heavy Shield [Shield]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "152"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "4"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "24"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "32"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "40"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 201,
+    "type": "Shield"
+  },
+  {
+    "title": "Maple\\'s Shield [Shield]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "1000 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "300"
+      },
+      {
+        "name": "VIT %",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "-100"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "-100"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "40"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "40"
+      },
+      {
+        "name": "Reduce Explosion %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [],
+    "id": 202,
+    "type": "Shield"
+  }
+]

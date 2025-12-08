@@ -161,9 +161,29 @@ class _BuildSimulatorScreenState extends State<BuildSimulatorScreen> {
   }
 
   void _recalculateAll() {
-    _summary = _calculateSummary();
-    _recommendations = _buildRecommendations();
-    setState(() {});
+    // Only recalculate if needed - avoid unnecessary computation
+    final newSummary = _calculateSummary();
+    final newRecommendations = _buildRecommendations();
+
+    // Check if values actually changed before calling setState
+    bool summaryChanged = false;
+    if (_summary.length != newSummary.length) {
+      summaryChanged = true;
+    } else {
+      for (final key in newSummary.keys) {
+        if (_summary[key] != newSummary[key]) {
+          summaryChanged = true;
+          break;
+        }
+      }
+    }
+
+    if (summaryChanged ||
+        _recommendations.length != newRecommendations.length) {
+      _summary = newSummary;
+      _recommendations = newRecommendations;
+      setState(() {});
+    }
   }
 
   // ---------------------------

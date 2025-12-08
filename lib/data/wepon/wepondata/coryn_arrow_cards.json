@@ -1,0 +1,3699 @@
+[
+  {
+    "title": "Caravan Arrow [Arrow]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "2"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "2"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [],
+    "id": 1,
+    "type": "Arrow"
+  },
+  {
+    "title": "Flash Volt [Arrow]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "10"
+      },
+      {
+        "name": "% stronger against Light",
+        "amount": "-50"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "15"
+      },
+      {
+        "name": "Bowgun only: Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 2,
+    "type": "Arrow"
+  },
+  {
+    "title": "Magic Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "30"
+      },
+      {
+        "name": "Bow only: Accuracy",
+        "amount": "100"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "-10"
+      },
+      {
+        "name": "% stronger against Neutral",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 2"
+      },
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 3"
+      },
+      {
+        "monster": "Dirty Antique",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 3,
+    "type": "Arrow"
+  },
+  {
+    "title": "Wooden Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "4"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 4,
+    "type": "Arrow"
+  },
+  {
+    "title": "Fire Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "5"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 5,
+    "type": "Arrow"
+  },
+  {
+    "title": "Hardwood Arrow [Arrow]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "6"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pomum (Lv 7)",
+        "dye": "",
+        "map": "Reug Salt Plains: Wanderers Camp"
+      },
+      {
+        "monster": "Pomum (Lv 7)",
+        "dye": "A 5 5",
+        "map": "Reug Salt Plains: Wanderers Camp"
+      }
+    ],
+    "id": 6,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 7,
+    "type": "Arrow"
+  },
+  {
+    "title": "Hardwood Arrow [Arrow]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "6"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 8,
+    "type": "Arrow"
+  },
+  {
+    "title": "Wind Slash Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "10"
+      },
+      {
+        "name": "DEX",
+        "amount": "1"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 9,
+    "type": "Arrow"
+  },
+  {
+    "title": "Thin Sharp Arrow [Arrow]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "12"
+      },
+      {
+        "name": "ASPD",
+        "amount": "30"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 10,
+    "type": "Arrow"
+  },
+  {
+    "title": "Hunter's Arrow [Arrow]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "13"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Beak (Lv 32)",
+        "dye": "",
+        "map": "Scaro Town: Area 1"
+      },
+      {
+        "monster": "Beak (Lv 33)",
+        "dye": "",
+        "map": "Scaro Town: Area 2"
+      }
+    ],
+    "id": 11,
+    "type": "Arrow"
+  },
+  {
+    "title": "Hunter's Arrow [Arrow]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "13"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "1"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 12,
+    "type": "Arrow"
+  },
+  {
+    "title": "Tempest Arrow [Arrow]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "15"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Forestia (Lv 49)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 39)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 59)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 69)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 89)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      }
+    ],
+    "id": 13,
+    "type": "Arrow"
+  },
+  {
+    "title": "Tempest Arrow [Arrow]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "15"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 14,
+    "type": "Arrow"
+  },
+  {
+    "title": "Ice Arrow [Arrow]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "17"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "2"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 15,
+    "type": "Arrow"
+  },
+  {
+    "title": "High-Quality Wood Arrow [Arrow]",
+    "props": {
+      "Sell": "40 Spina",
+      "Process": "20 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "18"
+      },
+      {
+        "name": "DEX",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "50"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "4"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Arborgon (Lv 39)",
+        "dye": "",
+        "map": "Harde Hill"
+      }
+    ],
+    "id": 16,
+    "type": "Arrow"
+  },
+  {
+    "title": "Mushroom Arrow [Arrow]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "2 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "20"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "-10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "5"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "2"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Kinote (Lv 27)",
+        "dye": "",
+        "map": "Nehelo Swamp"
+      }
+    ],
+    "id": 17,
+    "type": "Arrow"
+  },
+  {
+    "title": "Blade Arrow [Arrow]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "22"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 18,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 19,
+    "type": "Arrow"
+  },
+  {
+    "title": "Ceramic Arrow [Arrow]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "22"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 20,
+    "type": "Arrow"
+  },
+  {
+    "title": "Iron Arrow [Arrow]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "24"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 21,
+    "type": "Arrow"
+  },
+  {
+    "title": "Artisan Arrow [Arrow]",
+    "props": {
+      "Sell": "60 Spina",
+      "Process": "30 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "30"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "24"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 22,
+    "type": "Arrow"
+  },
+  {
+    "title": "Heavy Bolt [Arrow]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "32"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-25"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Bowgun only: Weapon ATK",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 23,
+    "type": "Arrow"
+  },
+  {
+    "title": "Mithril Arrow [Arrow]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "32"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "1"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Bow only: Critical Damage",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 24,
+    "type": "Arrow"
+  },
+  {
+    "title": "Flame Arrow [Arrow]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "34"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sunion (Lv 73)",
+        "dye": "",
+        "map": "Dark Mirror"
+      },
+      {
+        "monster": "Sunion (Lv 76)",
+        "dye": "",
+        "map": "Dark Mirror"
+      }
+    ],
+    "id": 25,
+    "type": "Arrow"
+  },
+  {
+    "title": "Aquamirror Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "37"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [],
+    "id": 26,
+    "type": "Arrow"
+  },
+  {
+    "title": "Sharp Wood Arrow [Arrow]",
+    "props": {
+      "Sell": "85 Spina",
+      "Process": "42 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "40"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "6"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Maple Fox (Lv 91)",
+        "dye": "",
+        "map": "Navida City: Crossroad (80-100)"
+      },
+      {
+        "monster": "Maple Fox (Lv 91)",
+        "dye": "",
+        "map": "Navida City: East (80-100)"
+      }
+    ],
+    "id": 27,
+    "type": "Arrow"
+  },
+  {
+    "title": "Split Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "40"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Bow only: Additional Melee %",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [],
+    "id": 28,
+    "type": "Arrow"
+  },
+  {
+    "title": "Twilight Arrow [Arrow]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "40"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-10"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Dark Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Twilight Dragon (Lv 100)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 90)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 110)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 120)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 140)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      }
+    ],
+    "id": 29,
+    "type": "Arrow"
+  },
+  {
+    "title": "Pointed Ore Arrow [Arrow]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "43"
+      },
+      {
+        "name": "DEF",
+        "amount": "50"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-1"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cavern Rat (Lv 99)",
+        "dye": "",
+        "map": "Singolare Ruins: 1st Floor"
+      }
+    ],
+    "id": 30,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 31,
+    "type": "Arrow"
+  },
+  {
+    "title": "Anniv Festive Arrow [Arrow]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "50"
+      },
+      {
+        "name": "ASPD",
+        "amount": "100"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box I",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 32,
+    "type": "Arrow"
+  },
+  {
+    "title": "Cacao Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "50"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "3"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-6"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 33,
+    "type": "Arrow"
+  },
+  {
+    "title": "Candy Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "56"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 34,
+    "type": "Arrow"
+  },
+  {
+    "title": "Shooting Star Arrow [Arrow]",
+    "props": {
+      "Sell": "60 Spina",
+      "Process": "30 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "58"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-50"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "25"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "1"
+      },
+      {
+        "name": "Bowgun only: ASPD",
+        "amount": "250"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Nurethoth (Lv 76)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 66)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 86)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 96)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 116)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      }
+    ],
+    "id": 35,
+    "type": "Arrow"
+  },
+  {
+    "title": "Arrow of Penetration [Arrow]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "64"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pond Snake (Lv 115)",
+        "dye": "",
+        "map": "Copia Reservoir"
+      }
+    ],
+    "id": 36,
+    "type": "Arrow"
+  },
+  {
+    "title": "Chimera Arrow [Arrow]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "62 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "67"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-9"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "6"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mozto Machina (Lv 114)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 124)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 134)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 144)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 164)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      }
+    ],
+    "id": 37,
+    "type": "Arrow"
+  },
+  {
+    "title": "Crystal Arrow [Arrow]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "70"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      },
+      {
+        "name": "Weapon ATK",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Aeternus (Lv 130)",
+        "dye": "",
+        "map": "Barbaros Corridor"
+      }
+    ],
+    "id": 38,
+    "type": "Arrow"
+  },
+  {
+    "title": "Love Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "71"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 39,
+    "type": "Arrow"
+  },
+  {
+    "title": "Treat Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "77"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "1"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zarth (Lv 175)",
+        "dye": "",
+        "map": "Zarth's Mansion: Back"
+      }
+    ],
+    "id": 40,
+    "type": "Arrow"
+  },
+  {
+    "title": "Spiky Arrow [Arrow]",
+    "props": {
+      "Sell": "140 Spina",
+      "Process": "70 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "79"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Dark Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Reduce Dmg (Floor) %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ivy (Lv 150)",
+        "dye": "",
+        "map": "Dark Dragon Shrine: Lower"
+      },
+      {
+        "monster": "Ivy (Lv 151)",
+        "dye": "",
+        "map": "Dark Dragon Shrine: Middle"
+      },
+      {
+        "monster": "Ivy (Lv 152)",
+        "dye": "",
+        "map": "Dark Dragon Shrine: Upper"
+      }
+    ],
+    "id": 41,
+    "type": "Arrow"
+  },
+  {
+    "title": "Lil Empress Arrow [Arrow]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "83"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "DEF %",
+        "amount": "-30"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Coenubia (Lv 140)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 150)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 160)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 170)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 190)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      }
+    ],
+    "id": 42,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 43,
+    "type": "Arrow"
+  },
+  {
+    "title": "Serein Arrow [Arrow]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "84"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Absolute Accuracy %",
+        "amount": "1"
+      },
+      {
+        "name": "Bowgun,Bow only: Water Element",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Floragonet (Lv 159)",
+        "dye": "",
+        "map": "Fractum Sector: Area 1"
+      },
+      {
+        "monster": "Floragonet (Lv 160)",
+        "dye": "",
+        "map": "Fractum Sector: Area 2"
+      }
+    ],
+    "id": 44,
+    "type": "Arrow"
+  },
+  {
+    "title": "Sakura Princess Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "88"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mimesia (Easy) (Lv 120)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      },
+      {
+        "monster": "Mimesia (Normal) (Lv 140)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      },
+      {
+        "monster": "Mimesia (Hard) (Lv 160)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      }
+    ],
+    "id": 45,
+    "type": "Arrow"
+  },
+  {
+    "title": "Apple Arrow [Arrow]",
+    "props": {
+      "Sell": "155 Spina",
+      "Process": "77 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "92"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coryn (Lv 154)",
+        "dye": "",
+        "map": "Dikkit Sector"
+      },
+      {
+        "monster": "Coryn (Lv 156)",
+        "dye": "",
+        "map": "Dikkit Sector"
+      }
+    ],
+    "id": 46,
+    "type": "Arrow"
+  },
+  {
+    "title": "Elven Arrow [Arrow]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "96"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "20"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Lazulligator (Lv 160)",
+        "dye": "",
+        "map": "Old Lufenas Mansion Ruins"
+      },
+      {
+        "monster": "Lazulligator (Lv 163)",
+        "dye": "",
+        "map": "Old Lufenas Mansion Ruins"
+      }
+    ],
+    "id": 47,
+    "type": "Arrow"
+  },
+  {
+    "title": "Evil Beast Arrow [Arrow]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Bow only: Attack MP Recovery",
+        "amount": "3"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Memecoleous (Lv 100)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      },
+      {
+        "monster": "Memecoleous (Lv 90)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      },
+      {
+        "monster": "Memecoleous (Lv 110)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      },
+      {
+        "monster": "Memecoleous (Lv 120)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      },
+      {
+        "monster": "Memecoleous (Lv 140)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      }
+    ],
+    "id": 48,
+    "type": "Arrow"
+  },
+  {
+    "title": "Holy Tree Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Santaby (Lv 159)",
+        "dye": "",
+        "map": "Tomte Pavillion (150-170)"
+      }
+    ],
+    "id": 49,
+    "type": "Arrow"
+  },
+  {
+    "title": "Joyful Arrow [Arrow]",
+    "props": {
+      "Sell": "250 Spina",
+      "Process": "125 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Crestollar (Lv 253)",
+        "dye": "",
+        "map": "Latum Wetlands"
+      },
+      {
+        "monster": "Crestollar (Lv 256)",
+        "dye": "",
+        "map": "Latum Wetlands"
+      }
+    ],
+    "id": 50,
+    "type": "Arrow"
+  },
+  {
+    "title": "Twilight Sakura Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Dark Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Amalgam (Lv 140)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      },
+      {
+        "monster": "Amalgam (Lv 160)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      },
+      {
+        "monster": "Amalgam (Lv 180)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      }
+    ],
+    "id": 51,
+    "type": "Arrow"
+  },
+  {
+    "title": "Anniv Festive Arrow II [Arrow]",
+    "props": {
+      "Sell": "165 Spina",
+      "Process": "82 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "101"
+      },
+      {
+        "name": "ASPD",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-12"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box III",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 52,
+    "type": "Arrow"
+  },
+  {
+    "title": "Kijimu's Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "106"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      },
+      {
+        "monster": "Kijimu (Lv 124)",
+        "dye": "",
+        "map": "Creme Cliff (Valentine's Day Event)"
+      }
+    ],
+    "id": 53,
+    "type": "Arrow"
+  },
+  {
+    "title": "Poison Needle [Arrow]",
+    "props": {
+      "Sell": "170 Spina",
+      "Process": "85 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "106"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "1-Handed Sword only: Critical Rate",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Weltacle (Lv 168)",
+        "dye": "",
+        "map": "Recetacula Sector: Area 1"
+      },
+      {
+        "monster": "Weltacle (Lv 170)",
+        "dye": "",
+        "map": "Recetacula Sector: Area 3"
+      }
+    ],
+    "id": 54,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 55,
+    "type": "Arrow"
+  },
+  {
+    "title": "Ocean Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "110"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 56,
+    "type": "Arrow"
+  },
+  {
+    "title": "Spiny Leaf Arrow [Arrow]",
+    "props": {
+      "Sell": "175 Spina",
+      "Process": "87 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "110"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ghilly (Lv 182)",
+        "dye": "",
+        "map": "Sable Plains"
+      }
+    ],
+    "id": 57,
+    "type": "Arrow"
+  },
+  {
+    "title": "Quartz Arrow [Arrow]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "115"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Rollitida (Lv 191)",
+        "dye": "",
+        "map": "Fugitive Lake Swamp: Area 2"
+      },
+      {
+        "monster": "Rollitida (Lv 193)",
+        "dye": "",
+        "map": "Fugitive Lake Swamp: Area 3"
+      }
+    ],
+    "id": 58,
+    "type": "Arrow"
+  },
+  {
+    "title": "Demon Empress Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "120"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-15"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Metacoenubia (Lv 185)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 195)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 205)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 215)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 235)",
+        "dye": "",
+        "map": "Neo Plastida"
+      }
+    ],
+    "id": 59,
+    "type": "Arrow"
+  },
+  {
+    "title": "Drill Bolt [Arrow]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "120"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "2"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mine Digger (Lv 113)",
+        "dye": "",
+        "map": "Ultimea Sewer: South"
+      }
+    ],
+    "id": 60,
+    "type": "Arrow"
+  },
+  {
+    "title": "Specter Arrow [Arrow]",
+    "props": {
+      "Sell": "185 Spina",
+      "Process": "92 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "120"
+      },
+      {
+        "name": "Dark Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "50"
+      },
+      {
+        "name": "Invincible Aid (sec)",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Manomare (Lv 169)",
+        "dye": "",
+        "map": "Phasma Forest: Area 1"
+      },
+      {
+        "monster": "Manomare (Lv 170)",
+        "dye": "",
+        "map": "Phasma Forest: Area 2"
+      },
+      {
+        "monster": "Manomare (Lv 171)",
+        "dye": "",
+        "map": "Phasma Forest: Area 3"
+      },
+      {
+        "monster": "Manomare (Lv 172)",
+        "dye": "",
+        "map": "Phasma Forest: Area 3"
+      }
+    ],
+    "id": 61,
+    "type": "Arrow"
+  },
+  {
+    "title": "Herb Arrow [Arrow]",
+    "props": {
+      "Sell": "190 Spina",
+      "Process": "90 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "125"
+      },
+      {
+        "name": "Dodge",
+        "amount": "40"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [],
+    "id": 62,
+    "type": "Arrow"
+  },
+  {
+    "title": "Devil's Arrow [Arrow]",
+    "props": {
+      "Sell": "195 Spina",
+      "Process": "97 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "130"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "8"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "2"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Skullpion (Lv 198)",
+        "dye": "",
+        "map": "Vulcani Underground Passage"
+      },
+      {
+        "monster": "Skullpion (Lv 200)",
+        "dye": "",
+        "map": "Vulcani Underground Passage"
+      }
+    ],
+    "id": 63,
+    "type": "Arrow"
+  },
+  {
+    "title": "Bat Fang Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "136"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "-20"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Kuffa (Lv 181)",
+        "dye": "",
+        "map": "Risus Valley: Area 2"
+      },
+      {
+        "monster": "Kuffa (Lv 180)",
+        "dye": "",
+        "map": "Risus Valley: Area 1"
+      },
+      {
+        "monster": "Kuffa (Lv 182)",
+        "dye": "",
+        "map": "Risus Valley: Area 3"
+      }
+    ],
+    "id": 64,
+    "type": "Arrow"
+  },
+  {
+    "title": "Dreamy Arrow [Arrow]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "136"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      },
+      {
+        "name": "% stronger against Neutral",
+        "amount": "5"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Dreamy Scarlet Sakura (Nightmare) (Lv 220)",
+        "dye": "",
+        "map": "Lush Falls : Upstream"
+      }
+    ],
+    "id": 65,
+    "type": "Arrow"
+  },
+  {
+    "title": "Lovely Autumn Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "142"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2000"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 66,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 67,
+    "type": "Arrow"
+  },
+  {
+    "title": "Anniv Festive Arrow III [Arrow]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "146"
+      },
+      {
+        "name": "ASPD",
+        "amount": "300"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-14"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box V",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 68,
+    "type": "Arrow"
+  },
+  {
+    "title": "Queen Bee Arrow [Arrow]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "150"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Wind Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 69,
+    "type": "Arrow"
+  },
+  {
+    "title": "Blazing Tail Arrow [Arrow]",
+    "props": {
+      "Sell": "215 Spina",
+      "Process": "107 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "152"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tailgon (Lv 213)",
+        "dye": "",
+        "map": "Tunnel of Trials"
+      },
+      {
+        "monster": "Tailgon (Lv 216)",
+        "dye": "",
+        "map": "Tunnel of Trials"
+      }
+    ],
+    "id": 70,
+    "type": "Arrow"
+  },
+  {
+    "title": "Maple Arrow [Arrow]",
+    "props": {
+      "Sell": "220 Spina",
+      "Process": "110 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "158"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Honey Insector (Lv 221)",
+        "dye": "",
+        "map": "Anglaise Forest"
+      }
+    ],
+    "id": 71,
+    "type": "Arrow"
+  },
+  {
+    "title": "Pearl Sakura Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "160"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Bow only: Long Range Damage %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 72,
+    "type": "Arrow"
+  },
+  {
+    "title": "Guardian Forest Arrow [Arrow]",
+    "props": {
+      "Sell": "225 Spina",
+      "Process": "112 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "163"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "50"
+      },
+      {
+        "name": "% stronger against Fire",
+        "amount": "-10"
+      },
+      {
+        "name": "% stronger against Light",
+        "amount": "-20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Arbogazella (Lv 236)",
+        "dye": "",
+        "map": "Guardian Forest: Lost Woods"
+      }
+    ],
+    "id": 73,
+    "type": "Arrow"
+  },
+  {
+    "title": "Spiral Shell Arrow [Arrow]",
+    "props": {
+      "Sell": "225 Spina",
+      "Process": "112 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "163"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Spirulida (Lv 243)",
+        "dye": "",
+        "map": "Deep Sea: Zone 1"
+      },
+      {
+        "monster": "Spirulida (Lv 244)",
+        "dye": "",
+        "map": "Deep Sea: Zone 2"
+      },
+      {
+        "monster": "Spirulida (Lv 245)",
+        "dye": "",
+        "map": "Deep Sea: Zone 3"
+      }
+    ],
+    "id": 74,
+    "type": "Arrow"
+  },
+  {
+    "title": "Moonlight Arrow [Arrow]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "120 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "181"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 75,
+    "type": "Arrow"
+  },
+  {
+    "title": "Sunny Spring Arrow [Arrow]",
+    "props": {
+      "Sell": "240 Spina",
+      "Process": "120 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "181"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 76,
+    "type": "Arrow"
+  },
+  {
+    "title": "Dragon Guard Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "187"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "-5"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Guard Golem (Megiston 2022) (Lv 250)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 77,
+    "type": "Arrow"
+  },
+  {
+    "title": "Starhammer Arrow [Arrow]",
+    "props": {
+      "Sell": "245 Spina",
+      "Process": "122 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "187"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      },
+      {
+        "name": "Light Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Spectern (Lv 226)",
+        "dye": "",
+        "map": "Deusania's Lab"
+      }
+    ],
+    "id": 78,
+    "type": "Arrow"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 79,
+    "type": "Arrow"
+  },
+  {
+    "title": "Evil Gaze Arrow [Arrow]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "190"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "30"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Dark Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corey (Lv 232)",
+        "dye": "",
+        "map": "Tower of Clamor: Area 1 (230-234)"
+      },
+      {
+        "monster": "Corey (Lv 233)",
+        "dye": "",
+        "map": "Tower of Clamor: Area 2 (230-234)"
+      },
+      {
+        "monster": "Corey (Lv 234)",
+        "dye": "",
+        "map": "Tower of Clamor: Area 3 (230-234)"
+      }
+    ],
+    "id": 80,
+    "type": "Arrow"
+  },
+  {
+    "title": "Anniv Festive Arrow IV [Arrow]",
+    "props": {
+      "Sell": "250 Spina",
+      "Process": "125 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "194"
+      },
+      {
+        "name": "ASPD",
+        "amount": "400"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-16"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box VII",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 81,
+    "type": "Arrow"
+  },
+  {
+    "title": "Dragon Palace Arrow [Arrow]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "200"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "25"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "25"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "% stronger against Neutral",
+        "amount": "-25"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Stun Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sea Ghost Wooden Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 82,
+    "type": "Arrow"
+  },
+  {
+    "title": "Driver Bolt [Arrow]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "200"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-75"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Inspector Golem (Lv 122)",
+        "dye": "",
+        "map": "Joulu House: Depot (Lv 100)"
+      }
+    ],
+    "id": 83,
+    "type": "Arrow"
+  },
+  {
+    "title": "Driver Bolt [Arrow]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "200"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-50"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "2"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Inspector Golem (Lv 143)",
+        "dye": "",
+        "map": "Joulu House: Depot (Lv 130)"
+      }
+    ],
+    "id": 84,
+    "type": "Arrow"
+  },
+  {
+    "title": "Driver Bolt [Arrow]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "200"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "-25"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Inspector Golem (Lv 164)",
+        "dye": "",
+        "map": "Joulu House: Depot (Lv 150)"
+      }
+    ],
+    "id": 85,
+    "type": "Arrow"
+  },
+  {
+    "title": "Dry Water Arrow [Arrow]",
+    "props": {
+      "Sell": "260 Spina",
+      "Process": "130 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "206"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coofer (Lv 255)",
+        "dye": "",
+        "map": "Umidus Valley: Area 1"
+      },
+      {
+        "monster": "Coofer (Lv 256)",
+        "dye": "",
+        "map": "Umidus Valley: Area 2"
+      },
+      {
+        "monster": "Coofer (Lv 257)",
+        "dye": "",
+        "map": "Umidus Valley: Cliff Path"
+      }
+    ],
+    "id": 86,
+    "type": "Arrow"
+  },
+  {
+    "title": "Reefy Coast Arrow [Arrow]",
+    "props": {
+      "Sell": "147 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "213"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "10"
+      },
+      {
+        "name": "Water Element",
+        "amount": "1"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [],
+    "id": 87,
+    "type": "Arrow"
+  },
+  {
+    "title": "Eumano Arrow [Arrow]",
+    "props": {
+      "Sell": "275 Spina",
+      "Process": "137 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "226"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Earth Element",
+        "amount": "1"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Deformis (Lv 264)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 274)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 284)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 294)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      },
+      {
+        "monster": "Deformis (Lv 314)",
+        "dye": "",
+        "map": "Eumano Village Ruins: Central"
+      }
+    ],
+    "id": 88,
+    "type": "Arrow"
+  },
+  {
+    "title": "Candle Arrow (Blue Flame) [Arrow]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "247"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Fire Element",
+        "amount": "1"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [],
+    "id": 89,
+    "type": "Arrow"
+  },
+  {
+    "title": "Eerie Bird Piercing Arrow [Arrow]",
+    "props": {
+      "Sell": "295 Spina",
+      "Process": "147 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "254"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "10"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 90,
+    "type": "Arrow"
+  }
+]

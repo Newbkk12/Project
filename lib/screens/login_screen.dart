@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import '../services/local_storage.dart';
+import '../services/auth_service.dart';
 import 'build_simulator_screen.dart';
 import 'register_screen.dart';
 
@@ -15,6 +16,7 @@ class _LoginScreenState extends State<LoginScreen>
     with SingleTickerProviderStateMixin {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  final AuthService _authService = AuthService();
   bool _rememberMe = false;
   bool _passwordVisible = false;
   bool _isLoading = false;
@@ -78,7 +80,7 @@ class _LoginScreenState extends State<LoginScreen>
     });
   }
 
-  void _handleEmailLogin() {
+  void _handleEmailLogin() async {
     if (_emailController.text.isEmpty || _passwordController.text.isEmpty) {
       _showSnackBar('กรุณากรอกอีเมลและรหัสผ่าน', Colors.red);
       return;
@@ -86,44 +88,39 @@ class _LoginScreenState extends State<LoginScreen>
 
     setState(() => _isLoading = true);
 
-    Future.delayed(const Duration(seconds: 2), () {
-      final loginData = {
-        'email': _emailController.text,
-        'loginTime': DateTime.now().toIso8601String(),
-        'rememberMe': _rememberMe,
-        'userType': 'registered',
-      };
+    final result = await _authService.loginWithEmail(
+      email: _emailController.text,
+      password: _passwordController.text,
+      rememberMe: _rememberMe,
+    );
 
-      setLocalStorageItem('toramLogin', jsonEncode(loginData));
+    setState(() => _isLoading = false);
 
-      setState(() => _isLoading = false);
-      _showSnackBar('เข้าสู่ระบบสำเร็จ!', const Color(0xFF10A37F));
-
+    if (result['success']) {
+      _showSnackBar(result['message'], const Color(0xFF10A37F));
       Future.delayed(const Duration(milliseconds: 1500), () {
         _navigateToApp();
       });
-    });
+    } else {
+      _showSnackBar(result['message'], Colors.red);
+    }
   }
 
-  void _handleGuestLogin() {
+  void _handleGuestLogin() async {
     setState(() => _isLoading = true);
 
-    Future.delayed(const Duration(seconds: 1), () {
-      final guestData = {
-        'userType': 'guest',
-        'loginTime': DateTime.now().toIso8601String(),
-        'sessionId': 'guest_${DateTime.now().millisecondsSinceEpoch}',
-      };
+    final result = await _authService.loginAsGuest();
 
-      setLocalStorageItem('toramLogin', jsonEncode(guestData));
+    setState(() => _isLoading = false);
 
-      setState(() => _isLoading = false);
-      _showSnackBar('เข้าใช้แบบเกสสำเร็จ!', const Color(0xFF10A37F));
-
+    if (result['success']) {
+      _showSnackBar(result['message'], const Color(0xFF10A37F));
       Future.delayed(const Duration(milliseconds: 1500), () {
         _navigateToApp();
       });
-    });
+    } else {
+      _showSnackBar(result['message'], Colors.red);
+    }
   }
 
   void _navigateToApp() {

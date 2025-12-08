@@ -1,10 +1,31 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'screens/build_simulator_screen.dart';
+import 'package:toram_build_simulator/screens/build_simulator_screen.dart';
 import 'providers/theme_provider.dart';
+import 'services/weapon_data_service.dart';
+import 'services/auth_service.dart';
+import 'services/build_service.dart';
+import 'models/equipment_data.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize services
+  final weaponService = WeaponDataService();
+  await weaponService.initialize();
+
+  // Initialize auth service
+  final authService = AuthService();
+  await authService.initialize();
+
+  // Initialize build service
+  final buildService = BuildService();
+  await buildService.initialize();
+
+  // Populate EquipmentData with weapon service data
+  EquipmentData.loadFromWeaponService(weaponService);
+
   runApp(
     ChangeNotifierProvider(
       create: (context) => ThemeProvider(),

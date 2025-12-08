@@ -1,5 +1,214 @@
-
 import 'dart:convert';
+import '../services/weapon_data_service.dart';
+
+// -----------------------------------------------------------------------------
+// Weapon Model Classes
+// - Represents weapon/equipment data from Coryn Club JSON files
+// - Handles parsing and stat extraction
+// -----------------------------------------------------------------------------
+
+class WeaponStat {
+  final String name;
+  final String amount;
+
+  WeaponStat({
+    required this.name,
+    required this.amount,
+  });
+
+  factory WeaponStat.fromJson(Map<String, dynamic> json) {
+    return WeaponStat(
+      name: json['name'] ?? '',
+      amount: json['amount']?.toString() ?? '0',
+    );
+  }
+
+  // Parse amount as integer (handles both string and int)
+  int get intValue {
+    try {
+      return int.parse(amount.replaceAll(RegExp(r'[^0-9-]'), ''));
+    } catch (_) {
+      return 0;
+    }
+  }
+
+  // Parse amount as double (for percentage values)
+  double get doubleValue {
+    try {
+      return double.parse(amount.replaceAll(RegExp(r'[^0-9.-]'), ''));
+    } catch (_) {
+      return 0.0;
+    }
+  }
+}
+
+class DropLocation {
+  final String monster;
+  final String dye;
+  final String map;
+
+  DropLocation({
+    required this.monster,
+    required this.dye,
+    required this.map,
+  });
+
+  factory DropLocation.fromJson(Map<String, dynamic> json) {
+    return DropLocation(
+      monster: json['monster'] ?? '',
+      dye: json['dye'] ?? '',
+      map: json['map'] ?? '',
+    );
+  }
+}
+
+class Weapon {
+  final int id;
+  final String title;
+  final String type;
+  final Map<String, String> props;
+  final List<String> statHeader;
+  final List<WeaponStat> stats;
+  final List<DropLocation> obtainedFrom;
+
+  Weapon({
+    required this.id,
+    required this.title,
+    required this.type,
+    required this.props,
+    required this.statHeader,
+    required this.stats,
+    required this.obtainedFrom,
+  });
+
+  factory Weapon.fromJson(Map<String, dynamic> json) {
+    return Weapon(
+      id: json['id'] ?? 0,
+      title: json['title'] ?? '',
+      type: json['type'] ?? '',
+      props: Map<String, String>.from(json['props'] ?? {}),
+      statHeader: List<String>.from(json['stat_header'] ?? []),
+      stats: (json['stats'] as List<dynamic>?)
+              ?.map((s) => WeaponStat.fromJson(s))
+              .toList() ??
+          [],
+      obtainedFrom: (json['obtained_from'] as List<dynamic>?)
+              ?.map((o) => DropLocation.fromJson(o))
+              .toList() ??
+          [],
+    );
+  }
+
+  // Helper methods to get specific stats
+  int get baseAtk => _getStatInt('Base ATK');
+  int get baseMatk => _getStatInt('Base MATK');
+  int get baseDef => _getStatInt('DEF');
+  double get baseStability => _getStatDouble('Base Stability %');
+  int get attackRange => _getStatInt('Attack Range');
+  int get aggro => _getStatInt('Aggro %');
+  int get attackMpRecovery => _getStatInt('Attack MP Recovery');
+  int get str => _getStatInt('STR');
+  int get intStat => _getStatInt('INT');
+  int get vit => _getStatInt('VIT');
+  int get agi => _getStatInt('AGI');
+  int get dex => _getStatInt('DEX');
+  double get criticalRate => _getStatDouble('Critical Rate %');
+  double get accuracy => _getStatDouble('Accuracy %');
+  int get dodge => _getStatInt('Dodge %');
+  int get physicalResistance => _getStatInt('Physical Resistance %');
+  int get magicalResistance => _getStatInt('Magical Resistance %');
+  int get maxHp => _getStatInt('MaxHP');
+  int get maxMp => _getStatInt('MaxMP');
+  int get hpRegen => _getStatInt('HP Regen');
+  int get mpRegen => _getStatInt('MP Regen');
+  double get physicalPierce => _getStatDouble('Physical Pierce %');
+  double get magicalPierce => _getStatDouble('Magical Pierce %');
+  int get aspd => _getStatInt('ASPD');
+  int get cspd => _getStatInt('CSPD');
+
+  int _getStatInt(String statName) {
+    final stat = stats.firstWhere(
+      (s) => s.name == statName,
+      orElse: () => WeaponStat(name: '', amount: '0'),
+    );
+    return stat.intValue;
+  }
+
+  double _getStatDouble(String statName) {
+    final stat = stats.firstWhere(
+      (s) => s.name == statName,
+      orElse: () => WeaponStat(name: '', amount: '0'),
+    );
+    return stat.doubleValue;
+  }
+
+  // Get normalized weapon type (for filtering)
+  String get normalizedType {
+    final lower = type.toLowerCase();
+    if (lower.contains('sword') && lower.contains('1'))
+      return 'one_handed_sword';
+    if (lower.contains('sword') && lower.contains('2'))
+      return 'two_handed_sword';
+    if (lower.contains('bow') && !lower.contains('gun')) return 'bow';
+    if (lower.contains('bowgun')) return 'bowgun';
+    if (lower.contains('dagger')) return 'dagger';
+    if (lower.contains('halberd')) return 'halberd';
+    if (lower.contains('katana')) return 'katana';
+    if (lower.contains('knuckle')) return 'knuckles';
+    if (lower.contains('magic')) return 'magic_device';
+    if (lower.contains('ninjutsu')) return 'ninjutsu_scroll';
+    if (lower.contains('shield')) return 'shield';
+    if (lower.contains('staff')) return 'staff';
+    if (lower.contains('arrow')) return 'arrow';
+    if (lower.contains('armor')) return 'armor';
+    if (lower.contains('additional')) return 'additional';
+    if (lower.contains('special')) return 'special';
+    return 'unknown';
+  }
+
+  // Get weapon category for database screen
+  String get category {
+    final norm = normalizedType;
+    if (norm == 'armor') return 'Body Armor';
+    if (norm == 'additional') return 'Additional Gear';
+    if (norm == 'special') return 'Special Gear';
+    if (norm == 'shield' || norm == 'arrow') return 'Sub Weapon';
+    return 'Weapon';
+  }
+
+  // Get clean display name (remove type suffix)
+  String get displayName {
+    final pattern = RegExp(r'\s*\[.*?\]\s*$');
+    return title.replaceAll(pattern, '').trim();
+  }
+
+  // Check if weapon has any stats
+  bool get hasStats => stats.isNotEmpty;
+
+  // Get sell price as integer
+  int get sellPrice {
+    final sellStr = props['Sell'] ?? '0';
+    try {
+      return int.parse(sellStr.replaceAll(RegExp(r'[^0-9]'), ''));
+    } catch (_) {
+      return 0;
+    }
+  }
+
+  // Get process amount as integer
+  int get processAmount {
+    final processStr = props['Process'] ?? '0';
+    try {
+      return int.parse(processStr.replaceAll(RegExp(r'[^0-9]'), ''));
+    } catch (_) {
+      return 0;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Equipment Types and Items
+// -----------------------------------------------------------------------------
 
 enum EquipmentType {
   mainWeapon,
@@ -13,6 +222,8 @@ class EquipmentItem {
   final String id;
   final String name;
   final EquipmentType type;
+  final String?
+      weaponType; // Original weapon type from JSON (e.g., "1H Sword", "Bow")
 
   final int atk;
   final int matk;
@@ -36,6 +247,7 @@ class EquipmentItem {
     required this.id,
     required this.name,
     required this.type,
+    this.weaponType,
     this.atk = 0,
     this.matk = 0,
     this.def = 0,
@@ -171,379 +383,98 @@ class GachaStatBonus {
   }
 }
 
-// Equipment lists (ported from HTML / JS)
+// Equipment lists and data management
 class EquipmentData {
-  static final List<EquipmentItem> items = <EquipmentItem>[
-    // Main weapon
-    EquipmentItem(
-      id: 'legendary_katana',
-      name: 'Legendary Katana',
-      type: EquipmentType.mainWeapon,
-      atk: 200,
-      str: 15,
-      dex: 8,
-      aspd: 500,
-    ),
-    EquipmentItem(
-      id: 'master_bow',
-      name: 'Master Bow',
-      type: EquipmentType.mainWeapon,
-      atk: 180,
-      dex: 20,
-      agi: 10,
-      aspd: 300,
-    ),
-    EquipmentItem(
-      id: 'arcane_staff',
-      name: 'Arcane Staff',
-      type: EquipmentType.mainWeapon,
-      matk: 220,
-      intStat: 25,
-      mdef: 15,
-      mp: 400,
-    ),
-    EquipmentItem(
-      id: 'fury_knuckles',
-      name: 'Fury Knuckles',
-      type: EquipmentType.mainWeapon,
-      atk: 160,
-      str: 12,
-      agi: 15,
-      aspd: 600,
-    ),
-
-    // Sub weapon
-    EquipmentItem(
-      id: 'guardian_shield',
-      name: 'Guardian Shield',
-      type: EquipmentType.subWeapon,
-      def: 60,
-      vit: 12,
-      hp: 400,
-    ),
-    EquipmentItem(
-      id: 'shadow_dagger',
-      name: 'Shadow Dagger',
-      type: EquipmentType.subWeapon,
-      atk: 80,
-      agi: 15,
-      aspd: 200,
-      critRate: 8,
-    ),
-    EquipmentItem(
-      id: 'magic_quiver',
-      name: 'Magic Quiver',
-      type: EquipmentType.subWeapon,
-      dex: 18,
-      accuracy: 15,
-      aspd: 150,
-      mp: 200,
-    ),
-    EquipmentItem(
-      id: 'wisdom_tome',
-      name: 'Wisdom Tome',
-      type: EquipmentType.subWeapon,
-      matk: 100,
-      intStat: 20,
-      mp: 500,
-      mdef: 25,
-    ),
-
-    // Armor
-    EquipmentItem(
-      id: 'dragon_plate',
-      name: 'Dragon Plate',
-      type: EquipmentType.armor,
-      def: 120,
-      vit: 20,
-      str: 8,
-      hp: 800,
-    ),
-    EquipmentItem(
-      id: 'archmage_robe',
-      name: 'Archmage Robe',
-      type: EquipmentType.armor,
-      mdef: 100,
-      intStat: 18,
-      mp: 600,
-    ),
-    EquipmentItem(
-      id: 'assassin_leather',
-      name: 'Assassin Leather',
-      type: EquipmentType.armor,
-      def: 80,
-      agi: 25,
-      dex: 12,
-      aspd: 200,
-    ),
-    EquipmentItem(
-      id: 'knight_mail',
-      name: 'Knight Mail',
-      type: EquipmentType.armor,
-      def: 140,
-      vit: 25,
-      str: 10,
-      hp: 1000,
-    ),
-
-    // Helmet
-    EquipmentItem(
-      id: 'crown_wisdom',
-      name: 'Crown of Wisdom',
-      type: EquipmentType.helmet,
-      mdef: 30,
-      intStat: 20,
-      mp: 300,
-    ),
-    EquipmentItem(
-      id: 'warrior_helm',
-      name: 'Warrior Helm',
-      type: EquipmentType.helmet,
-      def: 40,
-      str: 15,
-      atk: 20,
-    ),
-    EquipmentItem(
-      id: 'ranger_cap',
-      name: 'Ranger Cap',
-      type: EquipmentType.helmet,
-      def: 25,
-      dex: 18,
-      agi: 12,
-      aspd: 150,
-    ),
-    EquipmentItem(
-      id: 'mage_circlet',
-      name: 'Mage Circlet',
-      type: EquipmentType.helmet,
-      mdef: 35,
-      intStat: 22,
-      matk: 30,
-    ),
-
-    // Ring
-    EquipmentItem(
-      id: 'power_ring',
-      name: 'Ring of Power',
-      type: EquipmentType.ring,
-      atk: 25,
-      str: 10,
-      critRate: 5,
-    ),
-    EquipmentItem(
-      id: 'magic_ring',
-      name: 'Ring of Magic',
-      type: EquipmentType.ring,
-      matk: 30,
-      intStat: 12,
-      mp: 200,
-    ),
-    EquipmentItem(
-      id: 'protection_ring',
-      name: 'Ring of Protection',
-      type: EquipmentType.ring,
-      def: 30,
-      mdef: 25,
-      vit: 8,
-      hp: 300,
-    ),
-    EquipmentItem(
-      id: 'speed_ring',
-      name: 'Ring of Speed',
-      type: EquipmentType.ring,
-      aspd: 400,
-      agi: 15,
-      dex: 10,
-    ),
-  ];
+  static final List<EquipmentItem> items = <EquipmentItem>[];
 
   static final List<CrystalBonus> crystalBonuses = <CrystalBonus>[
-    CrystalBonus(id: 'atk_boost', stats: {'atk': 20, 'str': 5}),
-    CrystalBonus(id: 'crit_rate', stats: {'crit_rate': 8, 'dex': 6}),
-    CrystalBonus(id: 'accuracy', stats: {'accuracy': 10, 'dex': 4}),
-    CrystalBonus(id: 'piercing', stats: {'physical_pierce': 5, 'atk': 10}),
-    CrystalBonus(id: 'aspd', stats: {'aspd': 200, 'agi': 8}),
-    CrystalBonus(id: 'stability', stats: {'stability': 8, 'atk': 5}),
-    CrystalBonus(id: 'def_boost', stats: {'def': 25, 'vit': 6}),
-    CrystalBonus(id: 'hp_boost', stats: {'hp': 400, 'vit': 8}),
-    CrystalBonus(id: 'vit_boost', stats: {'vit': 10, 'hp': 200}),
-    CrystalBonus(id: 'mdef_boost', stats: {'mdef': 20, 'intStat': 5}),
-    CrystalBonus(id: 'dodge', stats: {'agi': 8}),
-    CrystalBonus(id: 'guard_rate', stats: {'def': 10}),
-    CrystalBonus(id: 'str_boost', stats: {'str': 8, 'atk': 15}),
-    CrystalBonus(id: 'int_boost', stats: {'intStat': 8, 'matk': 20}),
-    CrystalBonus(id: 'dex_boost', stats: {'dex': 8, 'accuracy': 5}),
-    CrystalBonus(id: 'agi_boost', stats: {'agi': 8, 'aspd': 150}),
-    CrystalBonus(id: 'all_stats', stats: {'str': 5, 'dex': 5, 'intStat': 5, 'agi': 5, 'vit': 5}),
-    CrystalBonus(id: 'crit_special', stats: {'crit_rate': 12}),
-    CrystalBonus(id: 'exp_boost', stats: {}),
+    CrystalBonus(id: 'DEF +10', stats: {'def': 10}),
+    CrystalBonus(id: 'ATK +5', stats: {'atk': 5}),
+    CrystalBonus(id: 'MATK +5', stats: {'matk': 5}),
+    CrystalBonus(id: 'HP +100', stats: {'hp': 100}),
+    CrystalBonus(id: 'MP +50', stats: {'mp': 50}),
+    CrystalBonus(id: 'STR +3', stats: {'str': 3}),
+    CrystalBonus(id: 'DEX +3', stats: {'dex': 3}),
+    CrystalBonus(id: 'INT +3', stats: {'intStat': 3}),
+    CrystalBonus(id: 'AGI +3', stats: {'agi': 3}),
+    CrystalBonus(id: 'VIT +3', stats: {'vit': 3}),
   ];
 
   static final List<GachaStatBonus> gachaBonuses = <GachaStatBonus>[
     GachaStatBonus(
-      id: 'atk_percent',
-      type: 'percent',
-      stat: 'atk',
-      value: 10,
-      display: 'ATK +10%',
-    ),
+        id: 'atk_3',
+        type: 'percent',
+        stat: 'atk',
+        value: 3,
+        display: 'ATK +3%'),
     GachaStatBonus(
-      id: 'matk_percent',
-      type: 'percent',
-      stat: 'matk',
-      value: 8,
-      display: 'MATK +8%',
-    ),
+        id: 'atk_5',
+        type: 'percent',
+        stat: 'atk',
+        value: 5,
+        display: 'ATK +5%'),
     GachaStatBonus(
-      id: 'crit_rate_boost',
-      type: 'flat',
-      stat: 'crit_rate',
-      value: 15,
-      display: 'Critical Rate +15%',
-    ),
+        id: 'matk_3',
+        type: 'percent',
+        stat: 'matk',
+        value: 3,
+        display: 'MATK +3%'),
     GachaStatBonus(
-      id: 'hp_flat',
-      type: 'flat',
-      stat: 'hp',
-      value: 500,
-      display: 'HP +500',
-    ),
+        id: 'matk_5',
+        type: 'percent',
+        stat: 'matk',
+        value: 5,
+        display: 'MATK +5%'),
     GachaStatBonus(
-      id: 'mp_flat',
-      type: 'flat',
-      stat: 'mp',
-      value: 300,
-      display: 'MP +300',
-    ),
+        id: 'def_3',
+        type: 'percent',
+        stat: 'def',
+        value: 3,
+        display: 'DEF +3%'),
     GachaStatBonus(
-      id: 'def_flat',
-      type: 'flat',
-      stat: 'def',
-      value: 50,
-      display: 'DEF +50',
-    ),
+        id: 'aspd_100',
+        type: 'flat',
+        stat: 'aspd',
+        value: 100,
+        display: 'ASPD +100'),
     GachaStatBonus(
-      id: 'stability_boost',
-      type: 'flat',
-      stat: 'stability',
-      value: 5,
-      display: 'Stability +5%',
-    ),
+        id: 'crit_rate_5',
+        type: 'flat',
+        stat: 'crit_rate',
+        value: 5,
+        display: 'Critical Rate +5%'),
     GachaStatBonus(
-      id: 'aspd_flat',
-      type: 'flat',
-      stat: 'aspd',
-      value: 200,
-      display: 'ASPD +200',
-    ),
+        id: 'physical_pierce_3',
+        type: 'flat',
+        stat: 'physical_pierce',
+        value: 3,
+        display: 'Physical Pierce +3%'),
     GachaStatBonus(
-      id: 'str_flat',
-      type: 'flat',
-      stat: 'str',
-      value: 12,
-      display: 'STR +12',
-    ),
+        id: 'str_5', type: 'flat', stat: 'str', value: 5, display: 'STR +5'),
     GachaStatBonus(
-      id: 'dex_flat',
-      type: 'flat',
-      stat: 'dex',
-      value: 12,
-      display: 'DEX +12',
-    ),
+        id: 'dex_5', type: 'flat', stat: 'dex', value: 5, display: 'DEX +5'),
     GachaStatBonus(
-      id: 'int_flat',
-      type: 'flat',
-      stat: 'intStat',
-      value: 12,
-      display: 'INT +12',
-    ),
+        id: 'int_5',
+        type: 'flat',
+        stat: 'intStat',
+        value: 5,
+        display: 'INT +5'),
     GachaStatBonus(
-      id: 'agi_flat',
-      type: 'flat',
-      stat: 'agi',
-      value: 12,
-      display: 'AGI +12',
-    ),
+        id: 'agi_5', type: 'flat', stat: 'agi', value: 5, display: 'AGI +5'),
     GachaStatBonus(
-      id: 'vit_flat',
-      type: 'flat',
-      stat: 'vit',
-      value: 12,
-      display: 'VIT +12',
-    ),
-    GachaStatBonus(
-      id: 'accuracy_boost',
-      type: 'flat',
-      stat: 'accuracy',
-      value: 8,
-      display: 'Accuracy +8%',
-    ),
-    GachaStatBonus(
-      id: 'pierce_flat',
-      type: 'flat',
-      stat: 'physical_pierce',
-      value: 8,
-      display: 'Physical Pierce +8',
-    ),
-    GachaStatBonus(
-      id: 'mdef_flat',
-      type: 'flat',
-      stat: 'mdef',
-      value: 40,
-      display: 'MDEF +40',
-    ),
-    GachaStatBonus(
-      id: 'element_pierce',
-      type: 'flat',
-      stat: 'element_pierce',
-      value: 6,
-      display: 'Element Pierce +6',
-    ),
-    GachaStatBonus(
-      id: 'crit_dmg',
-      type: 'flat',
-      stat: 'crit_rate',
-      value: 0,
-      display: 'Critical Damage +20%',
-    ),
-    GachaStatBonus(
-      id: 'magic_pierce',
-      type: 'flat',
-      stat: 'matk',
-      value: 0,
-      display: 'Magic Pierce +5',
-    ),
-    GachaStatBonus(
-      id: 'natural_hp',
-      type: 'flat',
-      stat: 'hp',
-      value: 0,
-      display: 'Natural HP Regen +15',
-    ),
-    GachaStatBonus(
-      id: 'natural_mp',
-      type: 'flat',
-      stat: 'mp',
-      value: 0,
-      display: 'Natural MP Regen +10',
-    ),
-    GachaStatBonus(
-      id: 'exp_rate',
-      type: 'flat',
-      stat: 'atk',
-      value: 0,
-      display: 'EXP Rate +25%',
-    ),
+        id: 'vit_5', type: 'flat', stat: 'vit', value: 5, display: 'VIT +5'),
   ];
 
-  static CrystalBonus? findCrystal(String id) {
+  static CrystalBonus? findCrystal(String? id) {
+    if (id == null || id.isEmpty) return null;
     for (int i = 0; i < crystalBonuses.length; i++) {
       if (crystalBonuses[i].id == id) return crystalBonuses[i];
     }
     return null;
   }
 
-  static GachaStatBonus? findGacha(String id) {
+  static GachaStatBonus? findGacha(String? id) {
+    if (id == null || id.isEmpty) return null;
     for (int i = 0; i < gachaBonuses.length; i++) {
       if (gachaBonuses[i].id == id) return gachaBonuses[i];
     }
@@ -558,14 +489,29 @@ class EquipmentData {
     return null;
   }
 
+  // Cache for itemsByType to avoid repeated filtering
+  static final Map<EquipmentType, List<EquipmentItem>> _itemsByTypeCache = {};
+
   static List<EquipmentItem> itemsByType(EquipmentType type) {
+    // Return cached list if available
+    if (_itemsByTypeCache.containsKey(type)) {
+      return _itemsByTypeCache[type]!;
+    }
+
+    // Build and cache the filtered list
     final result = <EquipmentItem>[];
     for (int i = 0; i < items.length; i++) {
       if (items[i].type == type) {
         result.add(items[i]);
       }
     }
+    _itemsByTypeCache[type] = result;
     return result;
+  }
+
+  // Clear cache when items list changes
+  static void clearCache() {
+    _itemsByTypeCache.clear();
   }
 
   static String encodeBuild(Map<String, dynamic> data) {
@@ -574,5 +520,63 @@ class EquipmentData {
 
   static Map<String, dynamic> decodeBuild(String raw) {
     return jsonDecode(raw) as Map<String, dynamic>;
+  }
+
+  // Convert Weapon to EquipmentItem
+  static EquipmentItem weaponToEquipmentItem(Weapon weapon) {
+    EquipmentType type;
+    switch (weapon.category) {
+      case 'Weapon':
+        type = EquipmentType.mainWeapon;
+        break;
+      case 'Sub Weapon':
+        type = EquipmentType.subWeapon;
+        break;
+      case 'Body Armor':
+        type = EquipmentType.armor;
+        break;
+      case 'Additional Gear':
+        type = EquipmentType.helmet;
+        break;
+      case 'Special Gear':
+        type = EquipmentType.ring;
+        break;
+      default:
+        type = EquipmentType.mainWeapon;
+    }
+
+    return EquipmentItem(
+      id: 'weapon_${weapon.id}',
+      name: weapon.displayName,
+      type: type,
+      weaponType: weapon.type,
+      atk: weapon.baseAtk,
+      matk: weapon.baseMatk,
+      def: weapon.baseDef,
+      str: weapon.str,
+      dex: weapon.dex,
+      intStat: weapon.intStat,
+      agi: weapon.agi,
+      vit: weapon.vit,
+      aspd: weapon.aspd,
+      critRate: weapon.criticalRate.toInt(),
+      accuracy: weapon.accuracy.toInt(),
+      stability: weapon.baseStability.toInt(),
+      physicalPierce: weapon.physicalPierce.toInt(),
+      hp: weapon.maxHp,
+      mp: weapon.maxMp,
+    );
+  }
+
+  // Populate items from WeaponDataService
+  static void loadFromWeaponService(WeaponDataService service) {
+    final allWeapons = service.search(onlyWithStats: true);
+    final convertedItems =
+        allWeapons.map((w) => weaponToEquipmentItem(w)).toList();
+    items.clear();
+    items.addAll(convertedItems);
+
+    // Clear cache when items are reloaded
+    clearCache();
   }
 }

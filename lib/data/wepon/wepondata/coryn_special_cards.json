@@ -1,0 +1,7671 @@
+[
+  {
+    "title": "Adamantite Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "5000"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 1,
+    "type": "Special"
+  },
+  {
+    "title": "Additional Magic Book [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "3"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [],
+    "id": 2,
+    "type": "Special"
+  },
+  {
+    "title": "Additional Melee Book [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "3"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [],
+    "id": 3,
+    "type": "Special"
+  },
+  {
+    "title": "Adroit Mage's Bangle [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "3"
+      },
+      {
+        "name": "DEX",
+        "amount": "3"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 4,
+    "type": "Special"
+  },
+  {
+    "title": "Adroit Warrior's Bangle [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "3"
+      },
+      {
+        "name": "DEX",
+        "amount": "3"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "ASPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 5,
+    "type": "Special"
+  },
+  {
+    "title": "Ancient Shell Necklace [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      },
+      {
+        "name": "Flinch Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 6,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 7,
+    "type": "Special"
+  },
+  {
+    "title": "Ankh of Resurrection [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "3"
+      },
+      {
+        "name": "Invincible Aid (sec)",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Golden Casket",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 8,
+    "type": "Special"
+  },
+  {
+    "title": "Anti Melee System [Special]",
+    "props": {
+      "Sell": "55 Spina",
+      "Process": "27 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Magic Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "2000"
+      }
+    ],
+    "obtained_from": [],
+    "id": 9,
+    "type": "Special"
+  },
+  {
+    "title": "Aristocrat Ring [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-10"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 10,
+    "type": "Special"
+  },
+  {
+    "title": "Aromatic Bangle [Special]",
+    "props": {
+      "Sell": "22 Spina",
+      "Process": "11 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Natural HP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "Natural MP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Berry Pomum (Lv 38)",
+        "dye": "",
+        "map": "Harde Hill"
+      },
+      {
+        "monster": "Berry Pomum (Lv 40)",
+        "dye": "",
+        "map": "Harde Hill"
+      }
+    ],
+    "id": 11,
+    "type": "Special"
+  },
+  {
+    "title": "Astral Lamp [Special]",
+    "props": {
+      "Sell": "87 Spina",
+      "Process": "43 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Natural MP Regen %",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Galamp (Lv 121)",
+        "dye": "",
+        "map": "Phantom Wisp's Hideout"
+      },
+      {
+        "monster": "Galamp (Lv 124)",
+        "dye": "",
+        "map": "Phantom Wisp's Hideout"
+      }
+    ],
+    "id": 12,
+    "type": "Special"
+  },
+  {
+    "title": "Bear Warrior Obi [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "15"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "2"
+      },
+      {
+        "name": "Knuckle only: Motion Speed %",
+        "amount": "5"
+      },
+      {
+        "name": "2-Handed Sword only: Critical Rate",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [],
+    "id": 13,
+    "type": "Special"
+  },
+  {
+    "title": "Beast Fang Talisman [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mech Little Boar (Lv 97)",
+        "dye": "",
+        "map": "Sykea Deep Valley"
+      },
+      {
+        "monster": "Mech Little Boar (Lv 99)",
+        "dye": "",
+        "map": "Sykea Deep Valley"
+      }
+    ],
+    "id": 14,
+    "type": "Special"
+  },
+  {
+    "title": "Beastlord Ring [Special]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Dodge",
+        "amount": "50"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "-50"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 15,
+    "type": "Special"
+  },
+  {
+    "title": "Bitter Pumpkin Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "3"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "3"
+      },
+      {
+        "name": "1-Handed Sword only: Unsheathe Attack %",
+        "amount": "-3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Calabari (Lv 180)",
+        "dye": "",
+        "map": "Risus Valley: Area 3"
+      },
+      {
+        "monster": "Calabari (Lv 178)",
+        "dye": "",
+        "map": "Risus Valley: Area 1"
+      }
+    ],
+    "id": 16,
+    "type": "Special"
+  },
+  {
+    "title": "Booster Cast [Special]",
+    "props": {
+      "Sell": "61 Spina",
+      "Process": "122 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "-10"
+      },
+      {
+        "name": "EXP Gain %",
+        "amount": "10"
+      },
+      {
+        "name": "Heavy Armor only: Motion Speed %",
+        "amount": "-10"
+      },
+      {
+        "name": "EXP Gain %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Momia (Lv 225)",
+        "dye": "",
+        "map": "Deusania's Lab"
+      }
+    ],
+    "id": 17,
+    "type": "Special"
+  },
+  {
+    "title": "Bow Thimble [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "30"
+      },
+      {
+        "name": "Bow only: ATK %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 18,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 19,
+    "type": "Special"
+  },
+  {
+    "title": "Bow Thimble ZC [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "20 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "15"
+      },
+      {
+        "name": "Bow only: ATK %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 20,
+    "type": "Special"
+  },
+  {
+    "title": "Broken Watch [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-6"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-6"
+      },
+      {
+        "name": "ASPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 2"
+      },
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 3"
+      },
+      {
+        "monster": "Dirty Antique",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 21,
+    "type": "Special"
+  },
+  {
+    "title": "Buzz Ring [Special]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Attack MP Recovery",
+        "amount": "10"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "-5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Honeybee (Lv 128)",
+        "dye": "",
+        "map": "Cookie Road"
+      }
+    ],
+    "id": 22,
+    "type": "Special"
+  },
+  {
+    "title": "Caravan Cord [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Katana only: Weapon ATK",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 23,
+    "type": "Special"
+  },
+  {
+    "title": "Caravan Talisman [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Knuckle only: Dodge",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [],
+    "id": 24,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Charm [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 25,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Charm II [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 26,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Charm III [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 27,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Leaf Talisman [Special]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "1200"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Shell Mask (Lv 75)",
+        "dye": "",
+        "map": "Sweet Hades"
+      }
+    ],
+    "id": 28,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Ring [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "350"
+      },
+      {
+        "name": "ATK",
+        "amount": "10"
+      },
+      {
+        "name": "ASPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 29,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Ring II [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "450"
+      },
+      {
+        "name": "ATK",
+        "amount": "20"
+      },
+      {
+        "name": "ASPD",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 30,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 31,
+    "type": "Special"
+  },
+  {
+    "title": "Chocolate Ring III [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "550"
+      },
+      {
+        "name": "ATK",
+        "amount": "40"
+      },
+      {
+        "name": "ASPD",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 32,
+    "type": "Special"
+  },
+  {
+    "title": "Cookie Ring [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "350"
+      },
+      {
+        "name": "MATK",
+        "amount": "10"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 33,
+    "type": "Special"
+  },
+  {
+    "title": "Cookie Ring II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "450"
+      },
+      {
+        "name": "MATK",
+        "amount": "20"
+      },
+      {
+        "name": "CSPD",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 34,
+    "type": "Special"
+  },
+  {
+    "title": "Cookie Talisman [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 35,
+    "type": "Special"
+  },
+  {
+    "title": "Cookie Talisman II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "1800"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 36,
+    "type": "Special"
+  },
+  {
+    "title": "Coral Peach Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Atoble (Lv 226)",
+        "dye": "",
+        "map": "Labrum Atoll"
+      },
+      {
+        "monster": "Atoble (Lv 228)",
+        "dye": "",
+        "map": "Labrum Atoll"
+      }
+    ],
+    "id": 37,
+    "type": "Special"
+  },
+  {
+    "title": "Cursed Gold Coin [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Drop Rate %",
+        "amount": "-100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sea Ghost Wooden Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 38,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Fighter Bangle [Special]",
+    "props": {
+      "Sell": "47 Spina",
+      "Process": "23 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "3"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Controlled Fighter (Lv 95)",
+        "dye": "",
+        "map": "Dark Castle: Area 1"
+      },
+      {
+        "monster": "Controlled Fighter (Lv 95)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      }
+    ],
+    "id": 39,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Knight Amulet [Special]",
+    "props": {
+      "Sell": "47 Spina",
+      "Process": "23 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Dodge",
+        "amount": "3"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Controlled Knight (Lv 93)",
+        "dye": "",
+        "map": "Dark Castle: Area 1"
+      },
+      {
+        "monster": "Controlled Knight (Lv 93)",
+        "dye": "",
+        "map": "Dark Castle: Area 2"
+      }
+    ],
+    "id": 40,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Shaman Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "800"
+      },
+      {
+        "name": "CSPD",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sibylares (Very Hard) (Lv 250)",
+        "dye": "",
+        "map": "Phasma Forest: Area 3"
+      }
+    ],
+    "id": 41,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Talisman (Flash) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "900"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Suspicious Old Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 42,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 43,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Talisman (Magic) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "900"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "MATK %",
+        "amount": "3"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Suspicious Old Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 44,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Talisman (Power) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "900"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ATK %",
+        "amount": "3"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Suspicious Old Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 45,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Talisman (Resist) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "900"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Suspicious Old Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 46,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Talisman (Unknown) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "900"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ASPD",
+        "amount": "-1000"
+      },
+      {
+        "name": "CSPD",
+        "amount": "-1000"
+      },
+      {
+        "name": "Item Cooldown",
+        "amount": "-1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Suspicious Old Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 47,
+    "type": "Special"
+  },
+  {
+    "title": "Day Sakura Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "ASPD",
+        "amount": "750"
+      },
+      {
+        "name": "CSPD",
+        "amount": "250"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-4"
+      }
+    ],
+    "obtained_from": [],
+    "id": 48,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman [Special]",
+    "props": {
+      "Sell": "5 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 49,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman II [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "4"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 50,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman III [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 51,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman IV [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "8"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 52,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman V [Special]",
+    "props": {
+      "Sell": "104 Spina",
+      "Process": "54 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 53,
+    "type": "Special"
+  },
+  {
+    "title": "Dexterity Talisman VI [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "100 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "DEX",
+        "amount": "12"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 54,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 55,
+    "type": "Special"
+  },
+  {
+    "title": "Dragonfly Ring [Special]",
+    "props": {
+      "Sell": "127 Spina",
+      "Process": "63 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "AGI",
+        "amount": "10"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "30"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venofly (Lv 246)",
+        "dye": "",
+        "map": "Perdida Wasteland"
+      }
+    ],
+    "id": 56,
+    "type": "Special"
+  },
+  {
+    "title": "Duo Additional Book [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "15"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [],
+    "id": 57,
+    "type": "Special"
+  },
+  {
+    "title": "Falling Star Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mesoside (Lv 247)",
+        "dye": "",
+        "map": "Menabra Plains"
+      },
+      {
+        "monster": "Mesoside (Lv 245)",
+        "dye": "",
+        "map": "Menabra Plains"
+      }
+    ],
+    "id": 58,
+    "type": "Special"
+  },
+  {
+    "title": "Fragrant Fox Furnace [Special]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "% stronger against Wind",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Maple Fox (Lv 201)",
+        "dye": "",
+        "map": "Madeleine Plains"
+      }
+    ],
+    "id": 59,
+    "type": "Special"
+  },
+  {
+    "title": "Full Blossom Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "ASPD",
+        "amount": "750"
+      },
+      {
+        "name": "CSPD",
+        "amount": "750"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-8"
+      }
+    ],
+    "obtained_from": [],
+    "id": 60,
+    "type": "Special"
+  },
+  {
+    "title": "Gapapa! [Special]",
+    "props": {
+      "Sell": "10000 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "588"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "588"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "588"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "588"
+      }
+    ],
+    "obtained_from": [],
+    "id": 61,
+    "type": "Special"
+  },
+  {
+    "title": "Ghilly Sheet [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Cloth"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Dodge",
+        "amount": "8"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "-20"
+      },
+      {
+        "name": "CSPD",
+        "amount": "-20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-40"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ghilly (Lv 53)",
+        "dye": "",
+        "map": "Maia Diela"
+      }
+    ],
+    "id": 62,
+    "type": "Special"
+  },
+  {
+    "title": "Ghost Telescope [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "5"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "-15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sea Ghost Wooden Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 63,
+    "type": "Special"
+  },
+  {
+    "title": "Gleeful Vine Bangle [Special]",
+    "props": {
+      "Sell": "82 Spina",
+      "Process": "41 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-20"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-20"
+      },
+      {
+        "name": "Stability %",
+        "amount": "10"
+      },
+      {
+        "name": "Pet EXP %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tulin (Lv 160)",
+        "dye": "",
+        "map": "Sugar Plain"
+      },
+      {
+        "monster": "Tulin (Lv 164)",
+        "dye": "",
+        "map": "Sugar Plain"
+      }
+    ],
+    "id": 64,
+    "type": "Special"
+  },
+  {
+    "title": "Glory Ring (Indirect) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[Orb Shop] Glory Ring Case",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      }
+    ],
+    "id": 65,
+    "type": "Special"
+  },
+  {
+    "title": "Glory Ring (Magic Sword) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "ATK %",
+        "amount": "3"
+      },
+      {
+        "name": "MATK %",
+        "amount": "3"
+      },
+      {
+        "name": "Magic Device only: ASPD %",
+        "amount": "25"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[Orb Shop] Glory Ring Case",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      }
+    ],
+    "id": 66,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 67,
+    "type": "Special"
+  },
+  {
+    "title": "Glory Ring (Melee) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[Orb Shop] Glory Ring Case",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      }
+    ],
+    "id": 68,
+    "type": "Special"
+  },
+  {
+    "title": "Glory Ring (Memory) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "EXP Gain %",
+        "amount": "10"
+      },
+      {
+        "name": "Pet EXP %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[Orb Shop] Glory Ring Case",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      }
+    ],
+    "id": 69,
+    "type": "Special"
+  },
+  {
+    "title": "Glory Ring (Restore) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "10"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[Orb Shop] Glory Ring Case",
+        "dye": "",
+        "map": "Sofya City: Government Office"
+      }
+    ],
+    "id": 70,
+    "type": "Special"
+  },
+  {
+    "title": "Glowing Sea Talisman [Special]",
+    "props": {
+      "Sell": "87 Spina",
+      "Process": "43 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Stability %",
+        "amount": "10"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Pet EXP %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Amiya (Lv 171)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 1"
+      },
+      {
+        "monster": "Amiya (Lv 172)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 2"
+      },
+      {
+        "monster": "Amiya (Lv 173)",
+        "dye": "",
+        "map": "Underwater Canyon: Area 3"
+      }
+    ],
+    "id": 71,
+    "type": "Special"
+  },
+  {
+    "title": "Gorilla Talisman [Special]",
+    "props": {
+      "Sell": "147 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "3500"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-2"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [],
+    "id": 72,
+    "type": "Special"
+  },
+  {
+    "title": "Great Nature Talisman [Special]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "2000"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Revive Time %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Treemit (Lv 191)",
+        "dye": "",
+        "map": "Flumen Plains"
+      }
+    ],
+    "id": 73,
+    "type": "Special"
+  },
+  {
+    "title": "Guidance Lantern [Special]",
+    "props": {
+      "Sell": "65 Spina",
+      "Process": "32 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "-10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Light Angler (Lv 131)",
+        "dye": "",
+        "map": "Turnus Mine: Area 1"
+      },
+      {
+        "monster": "Light Angler (Lv 132)",
+        "dye": "",
+        "map": "Turnus Mine: Area 3"
+      }
+    ],
+    "id": 74,
+    "type": "Special"
+  },
+  {
+    "title": "Hallucination Spore [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "32 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Solopy (Lv 169)",
+        "dye": "",
+        "map": "Turnus Mine: Area 3"
+      }
+    ],
+    "id": 75,
+    "type": "Special"
+  },
+  {
+    "title": "Handless Watch [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "ASPD",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 2"
+      },
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 3"
+      },
+      {
+        "monster": "Dirty Antique",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 76,
+    "type": "Special"
+  },
+  {
+    "title": "Happiness Talisman [Special]",
+    "props": {
+      "Sell": "62 Spina",
+      "Process": "31 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Pet EXP %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tylul (Lv 123)",
+        "dye": "",
+        "map": "Mt. Mithurna: Entrance"
+      }
+    ],
+    "id": 77,
+    "type": "Special"
+  },
+  {
+    "title": "Hard Arm Guard [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "400"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 78,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 79,
+    "type": "Special"
+  },
+  {
+    "title": "Ice Bird Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Glafur (Lv 222)",
+        "dye": "",
+        "map": "Algid Passage"
+      },
+      {
+        "monster": "Glafur (Lv 225)",
+        "dye": "",
+        "map": "Algid Passage"
+      }
+    ],
+    "id": 80,
+    "type": "Special"
+  },
+  {
+    "title": "Ice Crystal Ring [Special]",
+    "props": {
+      "Sell": "22 Spina",
+      "Process": "11 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "% stronger against Fire",
+        "amount": "5"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "-5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Flying Quartz (Lv 44)",
+        "dye": "",
+        "map": "Ethos Fortress"
+      }
+    ],
+    "id": 81,
+    "type": "Special"
+  },
+  {
+    "title": "Inverted Tree Crest [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "62 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-15"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "2"
+      },
+      {
+        "name": "Shield only: Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Gegner (Lv 210)",
+        "dye": "",
+        "map": "Tower of Clamor: Rooftop"
+      }
+    ],
+    "id": 82,
+    "type": "Special"
+  },
+  {
+    "title": "Inverted Tree Crest [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "62 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      },
+      {
+        "name": "Shield only: Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Gegner (Lv 230)",
+        "dye": "",
+        "map": "Tower of Clamor: Rooftop"
+      }
+    ],
+    "id": 83,
+    "type": "Special"
+  },
+  {
+    "title": "Inverted Tree Crest [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "62 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-25"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "4"
+      },
+      {
+        "name": "Shield only: Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Gegner (Lv 250)",
+        "dye": "",
+        "map": "Tower of Clamor: Rooftop"
+      },
+      {
+        "monster": "Gegner (Lv 400)",
+        "dye": "",
+        "map": "Tower of Clamor: Rooftop"
+      }
+    ],
+    "id": 84,
+    "type": "Special"
+  },
+  {
+    "title": "Knight's Talisman [Special]",
+    "props": {
+      "Sell": "15 Spina",
+      "Process": "16 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "250"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 85,
+    "type": "Special"
+  },
+  {
+    "title": "Lost Ring [Special]",
+    "props": {
+      "Sell": "45 Spina",
+      "Process": "22 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "-15"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "5"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Duston (Lv 88)",
+        "dye": "",
+        "map": "Klaspe Slum"
+      },
+      {
+        "monster": "Duston (Lv 91)",
+        "dye": "",
+        "map": "Klaspe Slum"
+      }
+    ],
+    "id": 86,
+    "type": "Special"
+  },
+  {
+    "title": "Lovely Ocean Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Maringer (Lv 233)",
+        "dye": "",
+        "map": "Seabed"
+      },
+      {
+        "monster": "Maringer (Lv 235)",
+        "dye": "",
+        "map": "Seabed"
+      }
+    ],
+    "id": 87,
+    "type": "Special"
+  },
+  {
+    "title": "Machina Ring [Special]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ultimate Machina (Lv 129)",
+        "dye": "",
+        "map": "Droma Square"
+      },
+      {
+        "monster": "Ultimate Machina (Lv 139)",
+        "dye": "",
+        "map": "Droma Square"
+      },
+      {
+        "monster": "Ultimate Machina (Lv 149)",
+        "dye": "",
+        "map": "Droma Square"
+      },
+      {
+        "monster": "Ultimate Machina (Lv 159)",
+        "dye": "",
+        "map": "Droma Square"
+      },
+      {
+        "monster": "Ultimate Machina (Lv 179)",
+        "dye": "",
+        "map": "Droma Square"
+      },
+      {
+        "monster": "Ultimate Machina (Megiston 2018) (Lv 160)",
+        "dye": "",
+        "map": "Event"
+      },
+      {
+        "monster": "Zahhak Machina (Megiston 2019) (Lv 165)",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 88,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Swordsman's Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "ATK %",
+        "amount": "-25"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-25"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 89,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman [Special]",
+    "props": {
+      "Sell": "5 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 90,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 91,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman II [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "4"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 92,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman III [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 93,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman IV [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "8"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 94,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman V [Special]",
+    "props": {
+      "Sell": "101 Spina",
+      "Process": "51 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 95,
+    "type": "Special"
+  },
+  {
+    "title": "Magic Talisman VI [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "100 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT",
+        "amount": "12"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 96,
+    "type": "Special"
+  },
+  {
+    "title": "Magician's Bangle [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 97,
+    "type": "Special"
+  },
+  {
+    "title": "Magician's Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "1000"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-25"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 98,
+    "type": "Special"
+  },
+  {
+    "title": "Misanga [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 99,
+    "type": "Special"
+  },
+  {
+    "title": "Mischievous Pocket Watch [Special]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-90"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-90"
+      },
+      {
+        "name": "ASPD",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Manshadow (Lv 160)",
+        "dye": "",
+        "map": "Manor of Surprises"
+      }
+    ],
+    "id": 100,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman [Special]",
+    "props": {
+      "Sell": "5 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 101,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman II [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "4"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 102,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 103,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman III [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 104,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman IV [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "8"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 105,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman V [Special]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 106,
+    "type": "Special"
+  },
+  {
+    "title": "Muscle Talisman VI [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "100 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "12"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 107,
+    "type": "Special"
+  },
+  {
+    "title": "Navida Talisman [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "30 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "2"
+      },
+      {
+        "name": "INT",
+        "amount": "2"
+      },
+      {
+        "name": "AGI",
+        "amount": "2"
+      },
+      {
+        "name": "DEX",
+        "amount": "2"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "-2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Snowman (Lv 139)",
+        "dye": "",
+        "map": "Noeliel Castle 2F (120-140)"
+      },
+      {
+        "monster": "Snowman (Lv 99)",
+        "dye": "",
+        "map": "Noeliel Castle: 2F (80-100)"
+      },
+      {
+        "monster": "Snowman (Lv 119)",
+        "dye": "",
+        "map": "Noeliel Castle: 2F (100-120)"
+      }
+    ],
+    "id": 108,
+    "type": "Special"
+  },
+  {
+    "title": "Night Sakura Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "CSPD",
+        "amount": "750"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-4"
+      }
+    ],
+    "obtained_from": [],
+    "id": 109,
+    "type": "Special"
+  },
+  {
+    "title": "Noeliel Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "1000"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "-1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 110,
+    "type": "Special"
+  },
+  {
+    "title": "Nymon's Presence [Special]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "% stronger against Earth",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [],
+    "id": 111,
+    "type": "Special"
+  },
+  {
+    "title": "Painless Left Arm [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "50 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coofer (Lv 178)",
+        "dye": "",
+        "map": "Nezim Wetlands"
+      }
+    ],
+    "id": 112,
+    "type": "Special"
+  },
+  {
+    "title": "Pendulum [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 113,
+    "type": "Special"
+  },
+  {
+    "title": "Philosopher's Ring [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "INT %",
+        "amount": "3"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Owl (Lv 53)",
+        "dye": "",
+        "map": "Land Under Cultivation: Area 1"
+      },
+      {
+        "monster": "Owl (Lv 54)",
+        "dye": "",
+        "map": "Land Under Cultivation: Area 3"
+      }
+    ],
+    "id": 114,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 115,
+    "type": "Special"
+  },
+  {
+    "title": "Pico Cream Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pico (Lv 125)",
+        "dye": "",
+        "map": "Creme Cliff (Valentine's Day Event)"
+      }
+    ],
+    "id": 116,
+    "type": "Special"
+  },
+  {
+    "title": "Potum Talisman [Special]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "12"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "-6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ghost Potum (Lv 66)",
+        "dye": "",
+        "map": "Calle mort"
+      }
+    ],
+    "id": 117,
+    "type": "Special"
+  },
+  {
+    "title": "Powered Gear [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "DEF %",
+        "amount": "-3"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "-3"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "-3"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Unsheathe Attack %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 118,
+    "type": "Special"
+  },
+  {
+    "title": "Prajna Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "INT %",
+        "amount": "3"
+      },
+      {
+        "name": "MATK %",
+        "amount": "4"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 119,
+    "type": "Special"
+  },
+  {
+    "title": "Proof of Resistance [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [],
+    "id": 120,
+    "type": "Special"
+  },
+  {
+    "title": "Proof of Victory [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 121,
+    "type": "Special"
+  },
+  {
+    "title": "Pumpkin Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "CSPD",
+        "amount": "300"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 122,
+    "type": "Special"
+  },
+  {
+    "title": "Pyroxene Nugget [Special]",
+    "props": {
+      "Sell": "127 Spina",
+      "Process": "63 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "% stronger against Dark",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pojo (Lv 249)",
+        "dye": "",
+        "map": "Siccus Plains"
+      }
+    ],
+    "id": 123,
+    "type": "Special"
+  },
+  {
+    "title": "Ring of Greed [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-25"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-25"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 124,
+    "type": "Special"
+  },
+  {
+    "title": "Ring of Universe [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR",
+        "amount": "1"
+      },
+      {
+        "name": "INT",
+        "amount": "1"
+      },
+      {
+        "name": "VIT",
+        "amount": "1"
+      },
+      {
+        "name": "AGI",
+        "amount": "1"
+      },
+      {
+        "name": "DEX",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [],
+    "id": 125,
+    "type": "Special"
+  },
+  {
+    "title": "Robust Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "ATK %",
+        "amount": "4"
+      },
+      {
+        "name": "Stability %",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 126,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 127,
+    "type": "Special"
+  },
+  {
+    "title": "Rock Horn Beast Bangle [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "5"
+      },
+      {
+        "name": "Heavy Armor only: Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Petraceras (Lv 217)",
+        "dye": "",
+        "map": "Kabla Jabali"
+      },
+      {
+        "monster": "Petraceras (Lv 219)",
+        "dye": "",
+        "map": "Kabla Jabali"
+      }
+    ],
+    "id": 128,
+    "type": "Special"
+  },
+  {
+    "title": "Rosetta Shard [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Physical Resistance %",
+        "amount": "-2"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-2"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Golden Casket",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 129,
+    "type": "Special"
+  },
+  {
+    "title": "Rosetta Stone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Physical Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "CSPD",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Golden Casket",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 130,
+    "type": "Special"
+  },
+  {
+    "title": "Sable Bracelet [Special]",
+    "props": {
+      "Sell": "92 Spina",
+      "Process": "46 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "DEF %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Flying Egg (Lv 181)",
+        "dye": "",
+        "map": "Sable Plains"
+      }
+    ],
+    "id": 131,
+    "type": "Special"
+  },
+  {
+    "title": "Sacred Bell Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "500"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sentreast (Lv 180)",
+        "dye": "",
+        "map": "Tomte Pavillion (170-190)"
+      }
+    ],
+    "id": 132,
+    "type": "Special"
+  },
+  {
+    "title": "Sailor's Talisman [Special]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "500"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "250"
+      },
+      {
+        "name": "% stronger against Water",
+        "amount": "2"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [],
+    "id": 133,
+    "type": "Special"
+  },
+  {
+    "title": "Sakura Bear Charmstone [Special]",
+    "props": {
+      "Sell": "112 Spina",
+      "Process": "56 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "DEF %",
+        "amount": "10"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "10"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 134,
+    "type": "Special"
+  },
+  {
+    "title": "Sakura Charmstone [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "CSPD",
+        "amount": "250"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-2"
+      }
+    ],
+    "obtained_from": [],
+    "id": 135,
+    "type": "Special"
+  },
+  {
+    "title": "Salmon Jerky Talisman [Special]",
+    "props": {
+      "Sell": "117 Spina",
+      "Process": "58 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Stability %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 136,
+    "type": "Special"
+  },
+  {
+    "title": "Sand Veil Ring [Special]",
+    "props": {
+      "Sell": "22 Spina",
+      "Process": "11 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Earth resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "1"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sand Frosch (Lv 46)",
+        "dye": "",
+        "map": "Centerio Highlands"
+      },
+      {
+        "monster": "Sand Frosch (Lv 47)",
+        "dye": "",
+        "map": "Centerio Highlands"
+      }
+    ],
+    "id": 137,
+    "type": "Special"
+  },
+  {
+    "title": "Scarecrow Marker [Special]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "15"
+      },
+      {
+        "name": "Shield only: Critical Rate",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Crow Killer (Lv 130)",
+        "dye": "",
+        "map": "Cookie Road"
+      }
+    ],
+    "id": 138,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 139,
+    "type": "Special"
+  },
+  {
+    "title": "Scary Face Talisman [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Fangs (Lv 236)",
+        "dye": "",
+        "map": "Path to the Deep Sea"
+      }
+    ],
+    "id": 140,
+    "type": "Special"
+  },
+  {
+    "title": "Sea Fog Compass [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "10000"
+      },
+      {
+        "name": "CSPD",
+        "amount": "1000"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-50"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sea Ghost Wooden Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 141,
+    "type": "Special"
+  },
+  {
+    "title": "Seahorse Bangle [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Famarin (Lv 239)",
+        "dye": "",
+        "map": "Espuma Dome: Area 1"
+      },
+      {
+        "monster": "Famarin (Lv 240)",
+        "dye": "",
+        "map": "Espuma Dome: Area 2"
+      },
+      {
+        "monster": "Famarin (Lv 241)",
+        "dye": "",
+        "map": "Espuma Dome: Area 3"
+      },
+      {
+        "monster": "Bangrudom (Coffee) (Lv 290)",
+        "dye": "",
+        "map": "El Scaro: Back Alley"
+      }
+    ],
+    "id": 142,
+    "type": "Special"
+  },
+  {
+    "title": "Sealing Bandage [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR %",
+        "amount": "-50"
+      },
+      {
+        "name": "INT %",
+        "amount": "-50"
+      },
+      {
+        "name": "VIT %",
+        "amount": "-50"
+      },
+      {
+        "name": "AGI %",
+        "amount": "-50"
+      },
+      {
+        "name": "DEX %",
+        "amount": "-50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Golden Casket",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 143,
+    "type": "Special"
+  },
+  {
+    "title": "Seashell Choco Talisman [Special]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "CSPD",
+        "amount": "300"
+      },
+      {
+        "name": "Flinch Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Shell Kraken (Lv 74)",
+        "dye": "",
+        "map": "Sweet Hades"
+      }
+    ],
+    "id": 144,
+    "type": "Special"
+  },
+  {
+    "title": "Shield Plus [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Guard Power %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 145,
+    "type": "Special"
+  },
+  {
+    "title": "Snow Potum Doll [Special]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "300"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "12"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "-6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Milk Potum (Lv 67)",
+        "dye": "",
+        "map": "Polde Ice Valley"
+      }
+    ],
+    "id": 146,
+    "type": "Special"
+  },
+  {
+    "title": "Sofys Talisman [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [],
+    "id": 147,
+    "type": "Special"
+  },
+  {
+    "title": "Sofys Talisman II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [],
+    "id": 148,
+    "type": "Special"
+  },
+  {
+    "title": "Solar Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Rainy Season Event",
+        "dye": "",
+        "map": "Event"
+      }
+    ],
+    "id": 149,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman [Special]",
+    "props": {
+      "Sell": "5 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 150,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 151,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman II [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "4"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 152,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman III [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 153,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman IV [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "8"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 154,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman V [Special]",
+    "props": {
+      "Sell": "103 Spina",
+      "Process": "53 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 155,
+    "type": "Special"
+  },
+  {
+    "title": "Speed Talisman VI [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "100 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "12"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 156,
+    "type": "Special"
+  },
+  {
+    "title": "Spirit Tree Bangle [Special]",
+    "props": {
+      "Sell": "42 Spina",
+      "Process": "21 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Attack MP Recovery",
+        "amount": "5"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Kodama (Lv 85)",
+        "dye": "",
+        "map": "Garden of Sublimation: Area 1"
+      },
+      {
+        "monster": "Kodama (Lv 85)",
+        "dye": "",
+        "map": "Garden of Sublimation: Area 2"
+      },
+      {
+        "monster": "Kodama (Lv 88)",
+        "dye": "",
+        "map": "Garden of Sublimation: Area 3"
+      }
+    ],
+    "id": 157,
+    "type": "Special"
+  },
+  {
+    "title": "Spy's Talisman [Special]",
+    "props": {
+      "Sell": "15 Spina",
+      "Process": "16 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Wooly (Lv 22)",
+        "dye": "",
+        "map": "Douce Hamlet"
+      }
+    ],
+    "id": 158,
+    "type": "Special"
+  },
+  {
+    "title": "Spy's Talisman [Special]",
+    "props": {
+      "Sell": "15 Spina",
+      "Process": "16 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "250"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 159,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman [Special]",
+    "props": {
+      "Sell": "5 Spina",
+      "Process": "5 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 160,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman II [Special]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "25 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "4"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 161,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman III [Special]",
+    "props": {
+      "Sell": "50 Spina",
+      "Process": "50 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "6"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 162,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 163,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman IV [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "8"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 164,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman V [Special]",
+    "props": {
+      "Sell": "102 Spina",
+      "Process": "52 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 165,
+    "type": "Special"
+  },
+  {
+    "title": "Stamina Talisman VI [Special]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "100 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "12"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "700"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 166,
+    "type": "Special"
+  },
+  {
+    "title": "Starfish Shuriken [Special]",
+    "props": {
+      "Sell": "122 Spina",
+      "Process": "61 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      },
+      {
+        "name": "Ninjutsu Scroll only: Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Unsheathe Attack %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coraxic (Lv 225)",
+        "dye": "",
+        "map": "Labrum Atoll"
+      },
+      {
+        "monster": "Coraxic (Lv 227)",
+        "dye": "",
+        "map": "Labrum Atoll"
+      }
+    ],
+    "id": 167,
+    "type": "Special"
+  },
+  {
+    "title": "Steeplejack Talisman [Special]",
+    "props": {
+      "Sell": "32 Spina",
+      "Process": "16 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "VIT",
+        "amount": "1"
+      },
+      {
+        "name": "AGI",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 168,
+    "type": "Special"
+  },
+  {
+    "title": "Stoodie's Ring I [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Gem Dust Drop Amount %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 169,
+    "type": "Special"
+  },
+  {
+    "title": "Stoodie's Ring II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-10"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-10"
+      },
+      {
+        "name": "Gem Dust Drop Amount %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 170,
+    "type": "Special"
+  },
+  {
+    "title": "Stoodie's Ring III [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-20"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-20"
+      },
+      {
+        "name": "Gem Dust Drop Amount %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 171,
+    "type": "Special"
+  },
+  {
+    "title": "Supple Ring [Special]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "5"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Strange Tentacle (Lv 166)",
+        "dye": "",
+        "map": "Avant Plastida: Area 1"
+      },
+      {
+        "monster": "Strange Tentacle (Lv 167)",
+        "dye": "",
+        "map": "Avant Plastida: Area 2"
+      },
+      {
+        "monster": "Strange Tentacle (Lv 168)",
+        "dye": "",
+        "map": "Avant Plastida: Area 3"
+      }
+    ],
+    "id": 172,
+    "type": "Special"
+  },
+  {
+    "title": "Talisman [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] General Store: Mutoto",
+        "dye": "",
+        "map": "El Scaro"
+      },
+      {
+        "monster": "[NPC] General Store: Adala",
+        "dye": "",
+        "map": "Hora Diomedea"
+      },
+      {
+        "monster": "[NPC] General Store: Litoa",
+        "dye": "",
+        "map": "Nov Saterica"
+      },
+      {
+        "monster": "[NPC] General Store: Kifa",
+        "dye": "",
+        "map": "Draco Town"
+      }
+    ],
+    "id": 173,
+    "type": "Special"
+  },
+  {
+    "title": "Talisman of Deep Silence [Special]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Doridi (Lv 244)",
+        "dye": "",
+        "map": "Carretera Mar"
+      }
+    ],
+    "id": 174,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 175,
+    "type": "Special"
+  },
+  {
+    "title": "Terrestrial Talisman [Special]",
+    "props": {
+      "Sell": "132 Spina",
+      "Process": "66 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "3000"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "20"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Invincible Aid (sec)",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [],
+    "id": 176,
+    "type": "Special"
+  },
+  {
+    "title": "Time Warp Watch [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Physical Resistance %",
+        "amount": "-9"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-9"
+      },
+      {
+        "name": "ASPD",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Dirty Antique",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 177,
+    "type": "Special"
+  },
+  {
+    "title": "Toe Beans Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Pet EXP %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pond Snake (Lv 171)",
+        "dye": "",
+        "map": "Chocolate Reservoir"
+      }
+    ],
+    "id": 178,
+    "type": "Special"
+  },
+  {
+    "title": "Toughness Bangle [Special]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP %",
+        "amount": "20"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "-5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corroded Fighter (Lv 81)",
+        "dye": "",
+        "map": "Spring of Rebirth: Lower"
+      },
+      {
+        "monster": "Corroded Fighter (Lv 81)",
+        "dye": "",
+        "map": "Spring of Rebirth: Middle"
+      },
+      {
+        "monster": "Corroded Fighter (Lv 85)",
+        "dye": "",
+        "map": "Spring of Rebirth: Upper"
+      }
+    ],
+    "id": 179,
+    "type": "Special"
+  },
+  {
+    "title": "Unsheathe Bangle [Special]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "AGI",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "3"
+      },
+      {
+        "name": "Unsheathe Attack",
+        "amount": "30"
+      },
+      {
+        "name": "Unsheathe Attack %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 180,
+    "type": "Special"
+  },
+  {
+    "title": "Valley Guardian Stone [Special]",
+    "props": {
+      "Sell": "102 Spina",
+      "Process": "51 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "7"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "6"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Acamia (Lv 195)",
+        "dye": "",
+        "map": "Vulcani Crater Base"
+      }
+    ],
+    "id": 181,
+    "type": "Special"
+  },
+  {
+    "title": "Warm Talisman [Special]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "0"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cream Alpoca (Lv 222)",
+        "dye": "",
+        "map": "Anglaise Forest"
+      }
+    ],
+    "id": 182,
+    "type": "Special"
+  },
+  {
+    "title": "Warrior's Bangle [Special]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "11 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "100"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Calron (Lv 16)",
+        "dye": "",
+        "map": "Witeka Scorched Plains"
+      },
+      {
+        "monster": "Calron (Lv 17)",
+        "dye": "",
+        "map": "Witeka Scorched Plains"
+      }
+    ],
+    "id": 183,
+    "type": "Special"
+  },
+  {
+    "title": "Warrior's Bangle [Special]",
+    "props": {
+      "Sell": "10 Spina",
+      "Process": "11 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP",
+        "amount": "200"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 184,
+    "type": "Special"
+  },
+  {
+    "title": "Weaken Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "STR %",
+        "amount": "-100"
+      },
+      {
+        "name": "INT %",
+        "amount": "-100"
+      },
+      {
+        "name": "VIT %",
+        "amount": "-100"
+      },
+      {
+        "name": "AGI %",
+        "amount": "-100"
+      },
+      {
+        "name": "DEX %",
+        "amount": "-100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 185,
+    "type": "Special"
+  },
+  {
+    "title": "Yozakura Bangle [Special]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Physical Barrier",
+        "amount": "1000"
+      },
+      {
+        "name": "Magic Barrier",
+        "amount": "1000"
+      },
+      {
+        "name": "Barrier Cooldown %",
+        "amount": "-150"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cerabes (Hanami 2017) (Lv 60)",
+        "dye": "",
+        "map": "Hanami Venue: Summit"
+      },
+      {
+        "monster": "Cerabes (Hanami 2017) (Lv 80)",
+        "dye": "",
+        "map": "Hanami Venue: Summit"
+      },
+      {
+        "monster": "Cerabes (Hanami 2017) (Lv 100)",
+        "dye": "",
+        "map": "Hanami Venue: Summit"
+      }
+    ],
+    "id": 186,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 187,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Bangle [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box II",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 188,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Ring [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box II",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 189,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Bangle II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box IV",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 190,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Ring II [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box IV",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 191,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Bangle III [Special]",
+    "props": {
+      "Sell": "112 Spina",
+      "Process": "56 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "3"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box VI",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 192,
+    "type": "Special"
+  },
+  {
+    "title": "Anniv Festive Ring III [Special]",
+    "props": {
+      "Sell": "112 Spina",
+      "Process": "56 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "3"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "600"
+      },
+      {
+        "name": "EXP Gain %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box VI",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 193,
+    "type": "Special"
+  },
+  {
+    "title": "Mistletoe Talisman [Special]",
+    "props": {
+      "Sell": "17 Spina",
+      "Process": "17 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "6"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "6"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "4"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "4"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Pova (Lv 32)",
+        "dye": "",
+        "map": "Lonogo Canyon"
+      }
+    ],
+    "id": 194,
+    "type": "Special"
+  },
+  {
+    "title": "Beast Talisman [Special]",
+    "props": {
+      "Sell": "55 Spina",
+      "Process": "27 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "20"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "4"
+      },
+      {
+        "name": "ATK UP (VIT %)",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Proto Leon (Lv 115)",
+        "dye": "",
+        "map": "Singolare Ruins: 3rd Floor"
+      },
+      {
+        "monster": "Proto Leon (Lv 105)",
+        "dye": "",
+        "map": "Singolare Ruins: 3rd Floor"
+      },
+      {
+        "monster": "Proto Leon (Lv 125)",
+        "dye": "",
+        "map": "Singolare Ruins: 3rd Floor"
+      },
+      {
+        "monster": "Proto Leon (Lv 135)",
+        "dye": "",
+        "map": "Singolare Ruins: 3rd Floor"
+      },
+      {
+        "monster": "Proto Leon (Lv 155)",
+        "dye": "",
+        "map": "Singolare Ruins: 3rd Floor"
+      }
+    ],
+    "id": 195,
+    "type": "Special"
+  },
+  {
+    "title": "Road Sheep Talisman [Special]",
+    "props": {
+      "Sell": "92 Spina",
+      "Process": "46 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "Natural MP Regen %",
+        "amount": "5"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bo Peep (Lv 187)",
+        "dye": "",
+        "map": "Country Road"
+      },
+      {
+        "monster": "Bo Peep (Lv 185)",
+        "dye": "",
+        "map": "Country Road"
+      }
+    ],
+    "id": 196,
+    "type": "Special"
+  },
+  {
+    "title": "Stump Drum [Special]",
+    "props": {
+      "Sell": "102 Spina",
+      "Process": "51 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "25"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "25"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bombor (Lv 205)",
+        "dye": "",
+        "map": "Nebula Plain"
+      },
+      {
+        "monster": "Bombor (Lv 208)",
+        "dye": "",
+        "map": "Nebula Plain"
+      }
+    ],
+    "id": 197,
+    "type": "Special"
+  },
+  {
+    "title": "Twin-Head Dragon Talisman [Special]",
+    "props": {
+      "Sell": "65 Spina",
+      "Process": "32 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "ATK %",
+        "amount": "-3"
+      },
+      {
+        "name": "MATK %",
+        "amount": "-3"
+      },
+      {
+        "name": "Flinch Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Stun Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zahhak Machina (Lv 130)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 140)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 150)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      },
+      {
+        "monster": "Zahhak Machina (Lv 170)",
+        "dye": "",
+        "map": "Lufenas Mansion: Hall"
+      }
+    ],
+    "id": 198,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 199,
+    "type": "Special"
+  },
+  {
+    "title": "Smart Puppy Talisman [Special]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "11"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "30"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "20"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Malum (Lv 220)",
+        "dye": "",
+        "map": "Day Sakura Garden: Mountains"
+      }
+    ],
+    "id": 200,
+    "type": "Special"
+  },
+  {
+    "title": "Specistida [Special]",
+    "props": {
+      "Sell": "95 Spina",
+      "Process": "47 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "15"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "5"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Juvestida (Lv 186)",
+        "dye": "",
+        "map": "Nov Diela Area 1"
+      },
+      {
+        "monster": "Juvestida (Lv 187)",
+        "dye": "",
+        "map": "Nov Diela Area 2"
+      },
+      {
+        "monster": "Juvestida (Lv 188)",
+        "dye": "",
+        "map": "Nov Diela Area 3"
+      }
+    ],
+    "id": 201,
+    "type": "Special"
+  },
+  {
+    "title": "Dark Night Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Earustica (Lv 158)",
+        "dye": "",
+        "map": "Pupalov Sector"
+      }
+    ],
+    "id": 202,
+    "type": "Special"
+  },
+  {
+    "title": "Dragon Ring [Special]",
+    "props": {
+      "Sell": "105 Spina",
+      "Process": "52 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "3000"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Plodocus (Lv 211)",
+        "dye": "",
+        "map": "Stairway to Vital Point"
+      },
+      {
+        "monster": "Plodocus (Lv 213)",
+        "dye": "",
+        "map": "Stairway to Vital Point"
+      }
+    ],
+    "id": 203,
+    "type": "Special"
+  },
+  {
+    "title": "Scorching Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bombermeow (Lv 149)",
+        "dye": "",
+        "map": "Fabriska Sector"
+      },
+      {
+        "monster": "Bombermeow (Lv 151)",
+        "dye": "",
+        "map": "Fabriska Sector"
+      }
+    ],
+    "id": 204,
+    "type": "Special"
+  },
+  {
+    "title": "Snowland Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Acernix (Lv 135)",
+        "dye": "",
+        "map": "Garden of Ice & Snow"
+      },
+      {
+        "monster": "Acernix (Lv 138)",
+        "dye": "",
+        "map": "Garden of Ice & Snow"
+      }
+    ],
+    "id": 205,
+    "type": "Special"
+  },
+  {
+    "title": "Spring Breeze Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ovinymon (Lv 169)",
+        "dye": "",
+        "map": "Celarra Plateau"
+      },
+      {
+        "monster": "Ovinymon (Lv 172)",
+        "dye": "",
+        "map": "Celarra Plateau"
+      }
+    ],
+    "id": 206,
+    "type": "Special"
+  },
+  {
+    "title": "Sunshine Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Climber Potum (Lv 166)",
+        "dye": "",
+        "map": "Inje Village"
+      },
+      {
+        "monster": "Climber Potum (Lv 169)",
+        "dye": "",
+        "map": "Inje Village"
+      }
+    ],
+    "id": 207,
+    "type": "Special"
+  },
+  {
+    "title": "Tree Talisman [Special]",
+    "props": {
+      "Sell": "75 Spina",
+      "Process": "37 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "20"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Monstletoe (Lv 152)",
+        "dye": "",
+        "map": "Altoale Sector"
+      }
+    ],
+    "id": 208,
+    "type": "Special"
+  },
+  {
+    "title": "Hard Shell Talisman [Special]",
+    "props": {
+      "Sell": "57 Spina",
+      "Process": "28 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "21"
+      },
+      {
+        "name": "DEF %",
+        "amount": "10"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "-30"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Barrier",
+        "amount": "1000"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Squnail (Lv 111)",
+        "dye": "",
+        "map": "Ultimea Sewer: South"
+      },
+      {
+        "monster": "Squnail (Lv 115)",
+        "dye": "",
+        "map": "Ultimea Sewer: South"
+      }
+    ],
+    "id": 209,
+    "type": "Special"
+  },
+  {
+    "title": "Big Tree Talisman [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 210,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 211,
+    "type": "Special"
+  },
+  {
+    "title": "Blue Pearl Talisman [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water City Jewel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 212,
+    "type": "Special"
+  },
+  {
+    "title": "Enlightened Bangle [Special]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "3"
+      },
+      {
+        "name": "INT %",
+        "amount": "3"
+      },
+      {
+        "name": "VIT %",
+        "amount": "3"
+      },
+      {
+        "name": "AGI %",
+        "amount": "3"
+      },
+      {
+        "name": "DEX %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Meditating Potum (Lv 132)",
+        "dye": "",
+        "map": "Heresy Corridor"
+      }
+    ],
+    "id": 213,
+    "type": "Special"
+  },
+  {
+    "title": "Green Pearl Talisman [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Weapon ATK %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water City Jewel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 214,
+    "type": "Special"
+  },
+  {
+    "title": "Moxiz Strap [Special]",
+    "props": {
+      "Sell": "45 Spina",
+      "Process": "22 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "-3"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "-3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Moxiz (Lv 91)",
+        "dye": "",
+        "map": "Cradle of Soldier: Inside"
+      }
+    ],
+    "id": 215,
+    "type": "Special"
+  },
+  {
+    "title": "Pearl Talisman [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water City Jewel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 216,
+    "type": "Special"
+  },
+  {
+    "title": "Purple Pearl Talisman [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water City Jewel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 217,
+    "type": "Special"
+  },
+  {
+    "title": "Red Pearl Talisman [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "30"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "INT %",
+        "amount": "1"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "500"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Water City Jewel Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 218,
+    "type": "Special"
+  },
+  {
+    "title": "Broker's Insignia [Special]",
+    "props": {
+      "Sell": "135 Spina",
+      "Process": "67 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-20"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "-20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "10"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bangrudom (Coffee) (Lv 290)",
+        "dye": "",
+        "map": "El Scaro: Back Alley"
+      }
+    ],
+    "id": 219,
+    "type": "Special"
+  },
+  {
+    "title": "Steel Ring (Flash) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1500"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "60"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Vintage Iron Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 220,
+    "type": "Special"
+  },
+  {
+    "title": "Steel Ring (Magic) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1500"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "MATK %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Vintage Iron Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 221,
+    "type": "Special"
+  },
+  {
+    "title": "Steel Ring (Power) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1500"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "ATK %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Vintage Iron Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 222,
+    "type": "Special"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 223,
+    "type": "Special"
+  },
+  {
+    "title": "Steel Ring (Resist) [Special]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base DEF",
+        "amount": "100"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1500"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Vintage Iron Box",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 224,
+    "type": "Special"
+  }
+]

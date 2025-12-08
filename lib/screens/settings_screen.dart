@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:provider/provider.dart';
-import 'package:toram_build_simulator/screens/build_simulator_screen.dart';
 import '../services/local_storage.dart';
+import '../services/auth_service.dart';
 import '../widgets/navigation/navigation_rail.dart';
 import '../widgets/navigation/bottom_navigation_bar.dart';
 import '../providers/theme_provider.dart';
@@ -18,6 +18,7 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   final GlobalKey<CustomNavigationRailState> _navRailKey =
       GlobalKey<CustomNavigationRailState>();
+  final AuthService _authService = AuthService();
 
   bool _notifications = true;
   bool _darkMode = true;
@@ -77,7 +78,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     setLocalStorageItem('toramSettings', jsonEncode(settings));
   }
 
-  void _logout() {
+  void _logout() async {
     final theme = Theme.of(context);
     final customColors = theme.extension<CustomColors>();
 
@@ -105,26 +106,27 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ),
           ElevatedButton(
-            onPressed: () {
-              setLocalStorageItem('toramLogin', '');
-              Navigator.pop(context);
-              Navigator.of(context).pushReplacement(
-                PageRouteBuilder(
-                  pageBuilder: (context, animation, secondaryAnimation) =>
-                      const BuildSimulatorScreen(),
-                  transitionsBuilder:
-                      (context, animation, secondaryAnimation, child) {
-                    return FadeTransition(opacity: animation, child: child);
-                  },
-                  transitionDuration: const Duration(milliseconds: 200),
-                ),
-              );
+            onPressed: () async {
+              await _authService.logout();
+              if (mounted) {
+                Navigator.pop(context);
+                Navigator.of(context).pushAndRemoveUntil(
+                  PageRouteBuilder(
+                    pageBuilder: (context, animation, secondaryAnimation) =>
+                        const SettingsScreen(),
+                    transitionsBuilder:
+                        (context, animation, secondaryAnimation, child) {
+                      return FadeTransition(opacity: animation, child: child);
+                    },
+                    transitionDuration: const Duration(milliseconds: 200),
+                  ),
+                  (route) => false,
+                );
+              }
             },
-            style: ElevatedButton.styleFrom(
-              backgroundColor: theme.primaryColor,
-              foregroundColor: Colors.white,
+            child: const Text(
+              'ออกจากระบบ',
             ),
-            child: const Text('ออกจากระบบ'),
           ),
         ],
       ),
@@ -167,7 +169,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color(0xFFef4444),
-              foregroundColor: Colors.white,
             ),
             child: const Text('ล้างข้อมูล'),
           ),

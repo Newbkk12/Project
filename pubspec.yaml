@@ -27,3 +27,4 @@ flutter:
   assets:
     - assets/fonts/
     - assets/icon/
+    - lib/data/wepon/wepondata/

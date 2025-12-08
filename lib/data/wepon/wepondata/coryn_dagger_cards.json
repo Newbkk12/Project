@@ -1,0 +1,3214 @@
+[
+  {
+    "title": "Goddess's Dagger [Dagger]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "1"
+      },
+      {
+        "name": "INT",
+        "amount": "5"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Imitacia (Lv 109)",
+        "dye": "",
+        "map": "Dark Castle: Grand Hall"
+      },
+      {
+        "monster": "Imitacia (Lv 99)",
+        "dye": "",
+        "map": "Dark Castle: Grand Hall"
+      },
+      {
+        "monster": "Imitacia (Lv 119)",
+        "dye": "",
+        "map": "Dark Castle: Grand Hall"
+      },
+      {
+        "monster": "Imitacia (Lv 129)",
+        "dye": "",
+        "map": "Dark Castle: Grand Hall"
+      },
+      {
+        "monster": "Imitacia (Lv 149)",
+        "dye": "",
+        "map": "Dark Castle: Grand Hall"
+      }
+    ],
+    "id": 1,
+    "type": "Dagger"
+  },
+  {
+    "title": "Throwing Knife [Dagger]",
+    "props": {
+      "Sell": "0 Spina",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "1"
+      },
+      {
+        "name": "INT",
+        "amount": "1"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 2,
+    "type": "Dagger"
+  },
+  {
+    "title": "Caravan Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "4"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 3,
+    "type": "Dagger"
+  },
+  {
+    "title": "Power Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "8"
+      },
+      {
+        "name": "STR",
+        "amount": "2"
+      },
+      {
+        "name": "Weapon ATK",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 4,
+    "type": "Dagger"
+  },
+  {
+    "title": "Twilight Dagger [Dagger]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "10"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "10"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Twilight Dragon (Lv 100)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 90)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 110)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 120)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      },
+      {
+        "monster": "Twilight Dragon (Lv 140)",
+        "dye": "",
+        "map": "Fort Solfini: Roof"
+      }
+    ],
+    "id": 5,
+    "type": "Dagger"
+  },
+  {
+    "title": "Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "12"
+      },
+      {
+        "name": "Dodge",
+        "amount": "3"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 6,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 7,
+    "type": "Dagger"
+  },
+  {
+    "title": "Thorny Twig [Dagger]",
+    "props": {
+      "Sell": "25 Spina",
+      "Process": "12 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "14"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "1"
+      },
+      {
+        "name": "Bowgun only: Stability %",
+        "amount": "7"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Shell Mask (Lv 23)",
+        "dye": "",
+        "map": "Nisel Mountain"
+      },
+      {
+        "monster": "Shell Mask (Lv 27)",
+        "dye": "",
+        "map": "Nisel Mountain: Mountainside"
+      }
+    ],
+    "id": 8,
+    "type": "Dagger"
+  },
+  {
+    "title": "Flower Bud Dagger [Dagger]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "15"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "CSPD",
+        "amount": "300"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Floragonet (Lv 129)",
+        "dye": "",
+        "map": "Cookie Road"
+      }
+    ],
+    "id": 9,
+    "type": "Dagger"
+  },
+  {
+    "title": "Magic Dagger [Dagger]",
+    "props": {
+      "Sell": "30 Spina",
+      "Process": "15 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "15"
+      },
+      {
+        "name": "CSPD",
+        "amount": "50"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "5"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 10,
+    "type": "Dagger"
+  },
+  {
+    "title": "Heavy Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "17"
+      },
+      {
+        "name": "STR",
+        "amount": "3"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "-3"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 11,
+    "type": "Dagger"
+  },
+  {
+    "title": "Knife Shaft [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "20"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "1"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      },
+      {
+        "name": "Bowgun only: Weapon ATK",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [],
+    "id": 12,
+    "type": "Dagger"
+  },
+  {
+    "title": "Storm Dagger [Dagger]",
+    "props": {
+      "Sell": "35 Spina",
+      "Process": "17 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "20"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "7"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "7"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "7"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Forestia (Lv 49)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 39)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 59)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 69)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      },
+      {
+        "monster": "Forestia (Lv 89)",
+        "dye": "",
+        "map": "Land Of Chaos"
+      }
+    ],
+    "id": 13,
+    "type": "Dagger"
+  },
+  {
+    "title": "Parrying Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "22"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 14,
+    "type": "Dagger"
+  },
+  {
+    "title": "Parrying Dagger ZC [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "22"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "20"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "20"
+      },
+      {
+        "name": "Bowgun only: Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 15,
+    "type": "Dagger"
+  },
+  {
+    "title": "Army Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "27"
+      },
+      {
+        "name": "DEX",
+        "amount": "2"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 16,
+    "type": "Dagger"
+  },
+  {
+    "title": "Magical Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "30"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "300"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "70"
+      }
+    ],
+    "obtained_from": [],
+    "id": 17,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sailor's Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "30"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "-3"
+      }
+    ],
+    "obtained_from": [],
+    "id": 18,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 19,
+    "type": "Dagger"
+  },
+  {
+    "title": "Lightweight Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "33"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "ASPD",
+        "amount": "100"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "15"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 20,
+    "type": "Dagger"
+  },
+  {
+    "title": "Blood Drain Knife [Dagger]",
+    "props": {
+      "Sell": "70 Spina",
+      "Process": "35 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "40"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "5"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-10"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 21,
+    "type": "Dagger"
+  },
+  {
+    "title": "Marshmallow Knife [Dagger]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "45"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "10"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Bowgun only: Stability %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 22,
+    "type": "Dagger"
+  },
+  {
+    "title": "Fin Knife [Dagger]",
+    "props": {
+      "Sell": "80 Spina",
+      "Process": "40 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "47"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-10"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "5"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "-20"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Finpen (Lv 83)",
+        "dye": "",
+        "map": "Spring of Rebirth: Lower"
+      },
+      {
+        "monster": "Finpen (Lv 83)",
+        "dye": "",
+        "map": "Spring of Rebirth: Middle"
+      },
+      {
+        "monster": "Finpen (Lv 85)",
+        "dye": "",
+        "map": "Spring of Rebirth: Upper"
+      }
+    ],
+    "id": 23,
+    "type": "Dagger"
+  },
+  {
+    "title": "Kukri [Dagger]",
+    "props": {
+      "Sell": "85 Spina",
+      "Process": "42 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "50"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "7"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corroded Knight (Lv 78)",
+        "dye": "",
+        "map": "Trace of Dark River"
+      }
+    ],
+    "id": 24,
+    "type": "Dagger"
+  },
+  {
+    "title": "Kukri [Dagger]",
+    "props": {
+      "Sell": "85 Spina",
+      "Process": "42 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "50"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "10"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 25,
+    "type": "Dagger"
+  },
+  {
+    "title": "Bush Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "N/A"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "54"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "6"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "-2"
+      },
+      {
+        "name": "Weapon ATK",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 26,
+    "type": "Dagger"
+  },
+  {
+    "title": "Demi Knife [Dagger]",
+    "props": {
+      "Sell": "90 Spina",
+      "Process": "45 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "54"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "150"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "-30"
+      },
+      {
+        "name": "Flinch Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Demi Machina (Lv 86)",
+        "dye": "",
+        "map": "Artillery Defense Line"
+      },
+      {
+        "monster": "Demi Marchina (Lv 87)",
+        "dye": "",
+        "map": "Artillery Defense Line"
+      }
+    ],
+    "id": 27,
+    "type": "Dagger"
+  },
+  {
+    "title": "Dully Glowing Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "54"
+      },
+      {
+        "name": "AGI",
+        "amount": "2"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [],
+    "id": 28,
+    "type": "Dagger"
+  },
+  {
+    "title": "Chocolate Knife [Dagger]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "15"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "5"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 29,
+    "type": "Dagger"
+  },
+  {
+    "title": "Cursed Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "-200"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "-5"
+      },
+      {
+        "name": "Weapon ATK",
+        "amount": "13"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Death Zombeast (Lv 42)",
+        "dye": "",
+        "map": "Ethos Fortress"
+      },
+      {
+        "monster": "Death Zombeast (Lv 45)",
+        "dye": "",
+        "map": "Ethos Fortress"
+      }
+    ],
+    "id": 30,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 31,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sorting Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "-5"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sorter Golem (Lv 125)",
+        "dye": "",
+        "map": "Joulu House: Gift Room (Lv 100)"
+      }
+    ],
+    "id": 32,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sorting Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "-10"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "2"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sorter Golem (Lv 146)",
+        "dye": "",
+        "map": "Joulu House: Gift Room (Lv 130)"
+      }
+    ],
+    "id": 33,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sorting Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "15"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "-15"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Sorter Golem (Lv 167)",
+        "dye": "",
+        "map": "Joulu House: Gift Room (Lv 150)"
+      }
+    ],
+    "id": 34,
+    "type": "Dagger"
+  },
+  {
+    "title": "Trench Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "60"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "DEF",
+        "amount": "15"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coronella (Lv 162)",
+        "dye": "",
+        "map": "Inanis Wilderness"
+      },
+      {
+        "monster": "Coronella (Lv 166)",
+        "dye": "",
+        "map": "Inanis Wilderness"
+      }
+    ],
+    "id": 35,
+    "type": "Dagger"
+  },
+  {
+    "title": "Anniv Festive Dagger [Dagger]",
+    "props": {
+      "Sell": "100 Spina",
+      "Process": "50 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "62"
+      },
+      {
+        "name": "CSPD",
+        "amount": "100"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box I",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 36,
+    "type": "Dagger"
+  },
+  {
+    "title": "Biscuit Knife [Dagger]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "70"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 37,
+    "type": "Dagger"
+  },
+  {
+    "title": "Dive Knife [Dagger]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "70"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "12"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "-9"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 38,
+    "type": "Dagger"
+  },
+  {
+    "title": "Rat Knife [Dagger]",
+    "props": {
+      "Sell": "110 Spina",
+      "Process": "55 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "71"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Soldier Rat (Lv 107)",
+        "dye": "",
+        "map": "Ultimea Sewer: East"
+      }
+    ],
+    "id": 39,
+    "type": "Dagger"
+  },
+  {
+    "title": "Odd-Shaped Knife [Dagger]",
+    "props": {
+      "Sell": "60 Spina",
+      "Process": "30 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "72"
+      },
+      {
+        "name": "MDEF %",
+        "amount": "-33"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "3"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Nurethoth (Lv 76)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 66)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 86)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 96)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      },
+      {
+        "monster": "Nurethoth (Lv 116)",
+        "dye": "",
+        "map": "Gate to Another World: Front"
+      }
+    ],
+    "id": 40,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sealing Talisman [Dagger]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "72"
+      },
+      {
+        "name": "MATK %",
+        "amount": "3"
+      },
+      {
+        "name": "CSPD %",
+        "amount": "10"
+      },
+      {
+        "name": "Light resistance %",
+        "amount": "-30"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      },
+      {
+        "name": "Staff only: Light Resistance",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Besy (Lv 182)",
+        "dye": "",
+        "map": "Arche Valley: Area 1"
+      },
+      {
+        "monster": "Besy (Lv 183)",
+        "dye": "",
+        "map": "Arche Valley: Area 2"
+      },
+      {
+        "monster": "Besy (Lv 184)",
+        "dye": "",
+        "map": "Arche Valley: Area 3"
+      }
+    ],
+    "id": 41,
+    "type": "Dagger"
+  },
+  {
+    "title": "Guardian Dagger [Dagger]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "80"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Galdon (Lv 129)",
+        "dye": "",
+        "map": "Buried Tower: Collapsed Top"
+      },
+      {
+        "monster": "Galdon (Lv 131)",
+        "dye": "",
+        "map": "Buried Tower: Inside"
+      }
+    ],
+    "id": 42,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 43,
+    "type": "Dagger"
+  },
+  {
+    "title": "Wood Choco Dagger [Dagger]",
+    "props": {
+      "Sell": "120 Spina",
+      "Process": "60 Medicine"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "82"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "400"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "4"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Gramp (Lv 76)",
+        "dye": "",
+        "map": "Sweet Hades"
+      }
+    ],
+    "id": 44,
+    "type": "Dagger"
+  },
+  {
+    "title": "Chaos Knife [Dagger]",
+    "props": {
+      "Sell": "125 Spina",
+      "Process": "62 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "84"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "-100"
+      },
+      {
+        "name": "Neutral Resistance %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mozto Machina (Lv 114)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 124)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 134)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 144)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      },
+      {
+        "monster": "Mozto Machina (Lv 164)",
+        "dye": "",
+        "map": "Large Demi Machina Factory: Deepest Part"
+      }
+    ],
+    "id": 45,
+    "type": "Dagger"
+  },
+  {
+    "title": "Antique Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 2"
+      },
+      {
+        "monster": "Cursed Clock (Lv 71)",
+        "dye": "",
+        "map": "Magic Waste Site: Area 3"
+      },
+      {
+        "monster": "Dirty Antique",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 46,
+    "type": "Dagger"
+  },
+  {
+    "title": "Holy Knife [Dagger]",
+    "props": {
+      "Sell": "140 Spina",
+      "Process": "70 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "100"
+      },
+      {
+        "name": "MATK %",
+        "amount": "2"
+      },
+      {
+        "name": "Dark resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Destiny Cube (Lv 146)",
+        "dye": "",
+        "map": "Hall of Special Gods"
+      },
+      {
+        "monster": "Destiny Cube (Lv 147)",
+        "dye": "",
+        "map": "Hall of Construction Gods"
+      }
+    ],
+    "id": 47,
+    "type": "Dagger"
+  },
+  {
+    "title": "Lil Empress Dagger [Dagger]",
+    "props": {
+      "Sell": "145 Spina",
+      "Process": "72 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "104"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "-15"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Coenubia (Lv 140)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 150)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 160)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 170)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      },
+      {
+        "monster": "Venena Coenubia (YK Wifey) (Lv 190)",
+        "dye": "",
+        "map": "Ultimea Palace: Throne"
+      }
+    ],
+    "id": 48,
+    "type": "Dagger"
+  },
+  {
+    "title": "Icy Dagger [Dagger]",
+    "props": {
+      "Sell": "150 Spina",
+      "Process": "75 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "110"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      },
+      {
+        "name": "1-Handed Sword only: % stronger against Fire",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Acernix (Lv 141)",
+        "dye": "",
+        "map": "Tomte Pavillion (130-150)"
+      }
+    ],
+    "id": 49,
+    "type": "Dagger"
+  },
+  {
+    "title": "Insect Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "110"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "30"
+      },
+      {
+        "name": "ASPD",
+        "amount": "200"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Insector (Lv 162)",
+        "dye": "",
+        "map": "Labilans Sector: Area 1"
+      },
+      {
+        "monster": "Insector (Lv 163)",
+        "dye": "",
+        "map": "Labilans Sector: Area 2"
+      },
+      {
+        "monster": "Insector (Lv 164)",
+        "dye": "",
+        "map": "Labilans Sector: Area 3"
+      }
+    ],
+    "id": 50,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sakura Princess Dagger [Dagger]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "110"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "100"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Power %",
+        "amount": "25"
+      },
+      {
+        "name": "Guard Recharge %",
+        "amount": "25"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Mimesia (Easy) (Lv 120)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      },
+      {
+        "monster": "Mimesia (Normal) (Lv 140)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      },
+      {
+        "monster": "Mimesia (Hard) (Lv 160)",
+        "dye": "",
+        "map": "Sakura Castle Donjon: Top"
+      }
+    ],
+    "id": 51,
+    "type": "Dagger"
+  },
+  {
+    "title": "Trick Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "121"
+      },
+      {
+        "name": "CSPD",
+        "amount": "150"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "75"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zarth (Lv 175)",
+        "dye": "",
+        "map": "Zarth's Mansion: Back"
+      }
+    ],
+    "id": 52,
+    "type": "Dagger"
+  },
+  {
+    "title": "Anniv Festive Dagger II [Dagger]",
+    "props": {
+      "Sell": "165 Spina",
+      "Process": "82 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "126"
+      },
+      {
+        "name": "CSPD",
+        "amount": "200"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "12"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box III",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 53,
+    "type": "Dagger"
+  },
+  {
+    "title": "Apple Branch Dagger [Dagger]",
+    "props": {
+      "Sell": "165 Spina",
+      "Process": "82 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "126"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "5"
+      },
+      {
+        "name": "% stronger against Wind",
+        "amount": "5"
+      },
+      {
+        "name": "Wind resistance %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Coryn (Lv 161)",
+        "dye": "",
+        "map": "Sugar Plain"
+      }
+    ],
+    "id": 54,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 55,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sashimi Knife [Dagger]",
+    "props": {
+      "Sell": "160 Spina",
+      "Process": "80 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "130"
+      },
+      {
+        "name": "% stronger against Water",
+        "amount": "5"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Porgy (Lv 163)",
+        "dye": "",
+        "map": "Lunagent Cliff Base"
+      }
+    ],
+    "id": 56,
+    "type": "Dagger"
+  },
+  {
+    "title": "Twilight Sakura Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "130"
+      },
+      {
+        "name": "ASPD",
+        "amount": "400"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "6"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Amalgam (Lv 140)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      },
+      {
+        "monster": "Amalgam (Lv 160)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      },
+      {
+        "monster": "Amalgam (Lv 180)",
+        "dye": "",
+        "map": "Twilight Sakura Castle: Top"
+      }
+    ],
+    "id": 57,
+    "type": "Dagger"
+  },
+  {
+    "title": "Hefty Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "138"
+      },
+      {
+        "name": "STR",
+        "amount": "4"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "4"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "4"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Hunky Chocogato (Lv 172)",
+        "dye": "",
+        "map": "Chocolate Reservoir"
+      }
+    ],
+    "id": 58,
+    "type": "Dagger"
+  },
+  {
+    "title": "Demon Empress Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "150"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Venena Metacoenubia (Lv 185)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 195)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 205)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 215)",
+        "dye": "",
+        "map": "Neo Plastida"
+      },
+      {
+        "monster": "Venena Metacoenubia (Lv 235)",
+        "dye": "",
+        "map": "Neo Plastida"
+      }
+    ],
+    "id": 59,
+    "type": "Dagger"
+  },
+  {
+    "title": "Fallen Angel Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "150"
+      },
+      {
+        "name": "ATK %",
+        "amount": "3"
+      },
+      {
+        "name": "Critical Damage",
+        "amount": "3"
+      },
+      {
+        "name": "Recoil %",
+        "amount": "0.01"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bubble Bogey (Lv 177)",
+        "dye": "",
+        "map": "Barbaros Corridor"
+      }
+    ],
+    "id": 60,
+    "type": "Dagger"
+  },
+  {
+    "title": "Kitchen Knife [Dagger]",
+    "props": {
+      "Sell": "185 Spina",
+      "Process": "92 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "150"
+      },
+      {
+        "name": "% stronger against Earth",
+        "amount": "5"
+      },
+      {
+        "name": "Earth resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-15"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Tomaton (Lv 170)",
+        "dye": "",
+        "map": "Phasma Forest: Area 1"
+      },
+      {
+        "monster": "Tomaton (Lv 171)",
+        "dye": "",
+        "map": "Phasma Forest: Area 2"
+      }
+    ],
+    "id": 61,
+    "type": "Dagger"
+  },
+  {
+    "title": "Life Branch Dagger [Dagger]",
+    "props": {
+      "Sell": "185 Spina",
+      "Process": "92 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "150"
+      },
+      {
+        "name": "Natural HP Regen %",
+        "amount": "10"
+      },
+      {
+        "name": "MaxHP %",
+        "amount": "20"
+      },
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Arigazella (Lv 180)",
+        "dye": "",
+        "map": "Movere Specula"
+      },
+      {
+        "monster": "Arigazella (Lv 183)",
+        "dye": "",
+        "map": "Movere Specula"
+      }
+    ],
+    "id": 62,
+    "type": "Dagger"
+  },
+  {
+    "title": "Beak Knife [Dagger]",
+    "props": {
+      "Sell": "190 Spina",
+      "Process": "95 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "157"
+      },
+      {
+        "name": "STR %",
+        "amount": "1"
+      },
+      {
+        "name": "ATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Stability %",
+        "amount": "-3"
+      },
+      {
+        "name": "Unsheathe Attack %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Dodos (Lv 192)",
+        "dye": "",
+        "map": "Vulcani Foothills"
+      },
+      {
+        "monster": "Dodos (Lv 195)",
+        "dye": "",
+        "map": "Vulcani Foothills"
+      }
+    ],
+    "id": 63,
+    "type": "Dagger"
+  },
+  {
+    "title": "Scarlet Sakura Dagger [Dagger]",
+    "props": {
+      "Sell": "180 Spina",
+      "Process": "90 Mana"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "170"
+      },
+      {
+        "name": "Accuracy",
+        "amount": "7"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "14"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Dreamy Scarlet Sakura (Nightmare) (Lv 220)",
+        "dye": "",
+        "map": "Lush Falls : Upstream"
+      }
+    ],
+    "id": 64,
+    "type": "Dagger"
+  },
+  {
+    "title": "Scratch Knife [Dagger]",
+    "props": {
+      "Sell": "200 Spina",
+      "Process": "100 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "170"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "8"
+      },
+      {
+        "name": "ASPD %",
+        "amount": "20"
+      },
+      {
+        "name": "Additional Melee %",
+        "amount": "50"
+      },
+      {
+        "name": "Additional Magic %",
+        "amount": "50"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Nix (Lv 200)",
+        "dye": "",
+        "map": "Illuminare City: Route 1 (190-210)"
+      },
+      {
+        "monster": "Nix (Lv 200)",
+        "dye": "",
+        "map": "Illuminare City: Route 2 (190-210)"
+      },
+      {
+        "monster": "Nix (Lv 200)",
+        "dye": "",
+        "map": "Illuminare City: Route 3 (190-210)"
+      },
+      {
+        "monster": "Nix (Lv 202)",
+        "dye": "",
+        "map": "Illuminare City: Route 3 (190-210)"
+      }
+    ],
+    "id": 65,
+    "type": "Dagger"
+  },
+  {
+    "title": "Steel Leaf Knife [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "unknown"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "178"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Fire resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Long Range Damage %",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 66,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 67,
+    "type": "Dagger"
+  },
+  {
+    "title": "Rock Fang Dagger [Dagger]",
+    "props": {
+      "Sell": "130 Spina",
+      "Process": "65 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "179"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Stone (Lv 139)",
+        "dye": "",
+        "map": "Forgotten Cave"
+      }
+    ],
+    "id": 68,
+    "type": "Dagger"
+  },
+  {
+    "title": "Anniv Festive Dagger III [Dagger]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "183"
+      },
+      {
+        "name": "CSPD",
+        "amount": "300"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "14"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box V",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 69,
+    "type": "Dagger"
+  },
+  {
+    "title": "Corroded Dragon Claw Sword [Dagger]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "183"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "20"
+      },
+      {
+        "name": "Attack MP Recovery",
+        "amount": "10"
+      },
+      {
+        "name": "Reduce Dmg (Floor) %",
+        "amount": "30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Corroded Dragist (Lv 212)",
+        "dye": "",
+        "map": "Stairway to Vital Point"
+      },
+      {
+        "monster": "Corroded Dragist (Lv 214)",
+        "dye": "",
+        "map": "Stairway to Vital Point"
+      }
+    ],
+    "id": 70,
+    "type": "Dagger"
+  },
+  {
+    "title": "Honeybee Sting Dagger [Dagger]",
+    "props": {
+      "Sell": "210 Spina",
+      "Process": "105 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "183"
+      },
+      {
+        "name": "AGI %",
+        "amount": "1"
+      },
+      {
+        "name": "Dodge %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Floral Bee (Lv 200)",
+        "dye": "",
+        "map": "Madeleine Plains"
+      }
+    ],
+    "id": 71,
+    "type": "Dagger"
+  },
+  {
+    "title": "Pearl Sakura Dagger [Dagger]",
+    "props": {
+      "Sell": "Unknown",
+      "Process": "Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "200"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "250"
+      },
+      {
+        "name": "Physical Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Magic Resistance %",
+        "amount": "15"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "[NPC] Blacksmith : Zaldo",
+        "dye": "",
+        "map": "Sofya City: Blacksmith"
+      }
+    ],
+    "id": 72,
+    "type": "Dagger"
+  },
+  {
+    "title": "Anger Knife [Dagger]",
+    "props": {
+      "Sell": "235 Spina",
+      "Process": "117 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "219"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "80"
+      },
+      {
+        "name": "Anticipate %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anchorsea (Lv 232)",
+        "dye": "",
+        "map": "Seabed"
+      },
+      {
+        "monster": "Anchorsea (Lv 234)",
+        "dye": "",
+        "map": "Seabed"
+      }
+    ],
+    "id": 73,
+    "type": "Dagger"
+  },
+  {
+    "title": "Tuning Knife [Dagger]",
+    "props": {
+      "Sell": "240 Spina",
+      "Process": "120 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "222"
+      },
+      {
+        "name": "Stability %",
+        "amount": "10"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "10"
+      },
+      {
+        "name": "Reduce Dmg (Bowling) %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 74,
+    "type": "Dagger"
+  },
+  {
+    "title": "Melting Knife [Dagger]",
+    "props": {
+      "Sell": "245 Spina",
+      "Process": "122 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "234"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "5"
+      },
+      {
+        "name": "Water resistance %",
+        "amount": "-15"
+      },
+      {
+        "name": "% stronger against Neutral",
+        "amount": "5"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Magmanus (Lv 248)",
+        "dye": "",
+        "map": "Perdida Wasteland"
+      },
+      {
+        "monster": "Magmanus (Lv 250)",
+        "dye": "",
+        "map": "Perdida Wasteland"
+      }
+    ],
+    "id": 75,
+    "type": "Dagger"
+  },
+  {
+    "title": "Dewclaw Dagger [Dagger]",
+    "props": {
+      "Sell": "190 Spina",
+      "Process": "95 Beast"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "236"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "15"
+      },
+      {
+        "name": "Critical Damage %",
+        "amount": "-1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ragus (Lv 158)",
+        "dye": "",
+        "map": "Manor of Surprises"
+      }
+    ],
+    "id": 76,
+    "type": "Dagger"
+  },
+  {
+    "title": "Anniv Festive Dagger IV [Dagger]",
+    "props": {
+      "Sell": "250 Spina",
+      "Process": "125 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "242"
+      },
+      {
+        "name": "CSPD",
+        "amount": "400"
+      },
+      {
+        "name": "Evasion Recharge %",
+        "amount": "16"
+      },
+      {
+        "name": "Tumble Unavailable",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Anniv Equipment Box VII",
+        "dye": "",
+        "map": "-"
+      }
+    ],
+    "id": 77,
+    "type": "Dagger"
+  },
+  {
+    "title": "Dagger of Grace [Dagger]",
+    "props": {
+      "Sell": "250 Spina",
+      "Process": "125 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "242"
+      },
+      {
+        "name": "MaxHP",
+        "amount": "1000"
+      },
+      {
+        "name": "MaxMP",
+        "amount": "200"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-30"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Apapat (Lv 246)",
+        "dye": "",
+        "map": "Little Shrine of Grace: Area 1"
+      },
+      {
+        "monster": "Apapat (Lv 247)",
+        "dye": "",
+        "map": "Little Shrine of Grace: Area 2"
+      },
+      {
+        "monster": "Apapat (Lv 248)",
+        "dye": "",
+        "map": "Little Shrine of Grace: Area 3"
+      }
+    ],
+    "id": 78,
+    "type": "Dagger"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 79,
+    "type": "Dagger"
+  },
+  {
+    "title": "Frog Warrior Dagger [Dagger]",
+    "props": {
+      "Sell": "255 Spina",
+      "Process": "127 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "250"
+      },
+      {
+        "name": "Accuracy %",
+        "amount": "5"
+      },
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      },
+      {
+        "name": "Short Range Damage %",
+        "amount": "1"
+      },
+      {
+        "name": "Motion Speed %",
+        "amount": "3"
+      },
+      {
+        "name": "Bowgun only: CSPD %",
+        "amount": "20"
+      },
+      {
+        "name": "1-Handed Sword only: Critical Rate %",
+        "amount": "20"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Zapo (Lv 246)",
+        "dye": "",
+        "map": "Puerta Islands: Adit"
+      },
+      {
+        "monster": "Zapo (Lv 256)",
+        "dye": "",
+        "map": "Puerta Islands: Adit"
+      },
+      {
+        "monster": "Zapo (Lv 266)",
+        "dye": "",
+        "map": "Puerta Islands: Adit"
+      },
+      {
+        "monster": "Zapo (Lv 276)",
+        "dye": "",
+        "map": "Puerta Islands: Adit"
+      },
+      {
+        "monster": "Zapo (Lv 296)",
+        "dye": "",
+        "map": "Puerta Islands: Adit"
+      }
+    ],
+    "id": 80,
+    "type": "Dagger"
+  },
+  {
+    "title": "Medical Messer [Dagger]",
+    "props": {
+      "Sell": "285 Spina",
+      "Process": "142 Metal"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "295"
+      },
+      {
+        "name": "Critical Rate",
+        "amount": "20"
+      },
+      {
+        "name": "Critical Rate %",
+        "amount": "20"
+      },
+      {
+        "name": "Ailment Resistance %",
+        "amount": "10"
+      },
+      {
+        "name": "Base Stability %",
+        "amount": "0"
+      },
+      {
+        "name": "Guard Break %",
+        "amount": "10"
+      },
+      {
+        "name": "Invincible Aid (sec)",
+        "amount": "1"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Bemoz (Lv 300)",
+        "dye": "",
+        "map": "Deusania's Lab Innermost Chambers"
+      }
+    ],
+    "id": 81,
+    "type": "Dagger"
+  },
+  {
+    "title": "Sakura Branch Dagger [Dagger]",
+    "props": {
+      "Sell": "240 Spina",
+      "Process": "120 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Base ATK",
+        "amount": "300"
+      },
+      {
+        "name": "DEX %",
+        "amount": "1"
+      },
+      {
+        "name": "Physical Pierce %",
+        "amount": "2"
+      },
+      {
+        "name": "Magic Pierce %",
+        "amount": "3"
+      }
+    ],
+    "obtained_from": [
+      {
+        "monster": "Ivy (Lv 222)",
+        "dye": "",
+        "map": "Day Sakura Garden: Mountains"
+      }
+    ],
+    "id": 82,
+    "type": "Dagger"
+  }
+]

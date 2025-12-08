@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Metal Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 1,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Fire Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MATK %",
+        "amount": "1"
+      },
+      {
+        "name": "Staff only: Magic Pierce %",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 2,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Lightning Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Stability %",
+        "amount": "5"
+      },
+      {
+        "name": "Katana only: Accuracy %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 3,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Water Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Ailment Resistance %",
+        "amount": "5"
+      },
+      {
+        "name": "Magic Device only: Aggro %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 4,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Earth Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "MaxHP %",
+        "amount": "10"
+      },
+      {
+        "name": "1-Handed Sword only: Fractional Barrier %",
+        "amount": "10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 5,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Wind Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "ASPD",
+        "amount": "250"
+      },
+      {
+        "name": "Katana only: Critical Rate",
+        "amount": "5"
+      }
+    ],
+    "obtained_from": [],
+    "id": 6,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "",
+    "props": {},
+    "stat_header": [],
+    "stats": [],
+    "obtained_from": [],
+    "id": 7,
+    "type": "Ninjutsu Scroll"
+  },
+  {
+    "title": "Dark Ninjutsu Scroll [Ninjutsu Scroll]",
+    "props": {
+      "Sell": "1 Spina",
+      "Process": "2 Wood"
+    },
+    "stat_header": [
+      "Stat/Effect",
+      "Amount"
+    ],
+    "stats": [
+      {
+        "name": "Aggro %",
+        "amount": "-10"
+      }
+    ],
+    "obtained_from": [],
+    "id": 8,
+    "type": "Ninjutsu Scroll"
+  }
+]
